@@ -1,0 +1,10 @@
+auto: true
+server: true
+exclude: README.md, .gitignore
+permalink: '/:year/:month/:title' 
+description: 'Online Presence of Adrian Rossouw'
+baseurl: http://daemon-co-za.github.com/
+siteName: 'Daemon.co.za'
+github_login: 'Vertice'
+github_repo: 'daemon-co-za'
+github_language: 'JavaScript'

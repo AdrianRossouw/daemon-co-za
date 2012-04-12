@@ -1,0 +1,9 @@
+---
+title: Portfolio 
+layout: default
+---
+<section class='posts span8'>
+  {% for job in site.posts %}
+    {% include job.html %}
+  {% endfor %}
+</section>
