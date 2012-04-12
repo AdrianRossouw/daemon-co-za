@@ -1,9 +1,17 @@
 ---
-title: Portfolio 
+title: Blog
 layout: default
 ---
 <section class='posts span8'>
-  {% for job in site.posts %}
-    {% include job.html %}
+  {% for article in site.categories.post limit 2 %}
+    {% include article.html %}
   {% endfor %}
 </section>
+<nav class='sidebar span4'>
+  <h2>Articles</h2>
+<ul class='nav nav-list'>
+  {% for article in site.categories.post limit 2 %}
+  <li><a href='{{article.url}}'>{{article.title}}</a></li>
+  {% endfor %}
+</ul>
+</nav>

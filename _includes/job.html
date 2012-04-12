@@ -1,14 +1,15 @@
 <article class='job'>
   <header>
-    <h3>{{job.title}}</h3>
-    <strong>
+  <h3>{{job.title}}
+    <small>
+
     {{job.date | date:"%B %Y"}} -
     {% if job.end_date %}
       {{job.end_date | date:"%B %Y"}}
     {% else %}
       Present
       {% endif %}
-    </strong>
+  </small></h3>
   </header>
 
   {{job.content}}
