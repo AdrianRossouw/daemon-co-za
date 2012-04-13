@@ -2,11 +2,15 @@
 layout: default
 title: Portfolio
 ---
-<section class='jobs span8'>
+<section class='projects span6'>
+  <h2>Projects</h2>
+  {% for project in site.categories.project %}
+    {% include project.html %}
+  {% endfor %}
+</section>
+<section class='jobs span6'>
+  <h2>Employment History</h2>
   {% for job in site.categories.job %}
     {% include job.html %}
   {% endfor %}
 </section>
-<section class='projects span4'>
-</section>
-

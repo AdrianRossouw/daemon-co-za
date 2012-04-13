@@ -1,6 +1,6 @@
 <article class='job'>
   <header>
-  <h3>{{job.title}}
+  <h4>{{job.title}}
     <small>
 
     {{job.date | date:"%B %Y"}} -
@@ -9,7 +9,7 @@
     {% else %}
       Present
       {% endif %}
-  </small></h3>
+  </small></h4>
   </header>
 
   {{job.content}}

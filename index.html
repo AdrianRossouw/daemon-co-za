@@ -1,17 +1,25 @@
 ---
-title: Blog
+title: The Musings of Adrian Rossouw
 layout: default
 ---
 <section class='posts span8'>
-  {% for article in site.categories.post limit 2 %}
+  {% for article in site.categories.post %}
     {% include article.html %}
   {% endfor %}
 </section>
 <nav class='sidebar span4'>
-  <h2>Articles</h2>
-<ul class='nav nav-list'>
-  {% for article in site.categories.post limit 2 %}
-  <li><a href='{{article.url}}'>{{article.title}}</a></li>
-  {% endfor %}
-</ul>
+<div class='alert alert-info'>
+  <h4>About this site</h4> This is only slightly classier than an animated under construction gif, but I just wanted to point out that this site is very new. I'm still putting all the parts of it online.
+</div>
+
+  <h4>About the Author</h4>
+    {% include about.md %} 
+  <h4>Other Articles</h4>
+  <ul class='nav nav-list'>
+    {% for article in site.categories.post %}
+    <li><a href='{{article.url}}'>{{article.title}}</a></li>
+    {% endfor %}
+  </ul>
+
 </nav>
+

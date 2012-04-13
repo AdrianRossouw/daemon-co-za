@@ -1,0 +1,24 @@
+<article class='project'>
+<header>
+  <h3>
+  {% if project.link %}
+    <a href='{{project.link}}'>{{project.title}}</a>
+  {% else %}
+    {{project.title}}
+  {% endif %}
+    <small>{{project.date | date:"%B %Y"}} -
+      {% if project.end_date %}{{project.end_date | date:"%B %Y"}}
+      {% else %}Present{% endif %}
+  </small></h3>
+  
+  </header>
+
+  {% if project.images %}
+    <ul class='thumbnails'>
+      {% for img in project.images %}
+        {%include thumbnails.html %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {{project.content}}
+</article>

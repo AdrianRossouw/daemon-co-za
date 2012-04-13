@@ -2,25 +2,36 @@
 ---
 
 {% include css/bootstrap.min.css %}
-
-/** css here **/
+{% include css/pygments.css %}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase 
 }
+body, p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.jobs h2, .projects h2 { border-bottom: 1px solid #eee; }
+
+h1 { font-size: 34px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; line-height: 30px; }
+h4 { font-size: 14px; line-height: 28px; }
 
 img { max-width: 620px }
-article { margin-bottom: 2em; border-bottom: 1px solid #eee; }
-body { 
-   background: url('/img/pattern8-pattern-61a.png');
-   background-color: #ccc;
-}
-div.container { 
-  margin-top: 10px;
-  margin-bottom: 10px;
+body { background: url('/img/pattern8-pattern-geo-1a.png'); }
 
-  background: #FDFDFD;
+div.container { 
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background: #FDFDFD;
    padding: 0 10px; 
    box-shadow: 0 1px 5px #444;
    border-radius: 4px;
+ }
+
+ div.container footer { 
+    margin-bottom: 10px;
  }
