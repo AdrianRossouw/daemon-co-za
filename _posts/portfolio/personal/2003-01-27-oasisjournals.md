@@ -7,7 +7,7 @@ images:
   - 
    span: 6
    href: http://oasisjournals.com
-   src: /img/portfolio/oasismag.png
+   src: img/portfolio/oasismag.png
 tech:
  - drupal
  - php

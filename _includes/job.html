@@ -10,7 +10,15 @@
       Present
       {% endif %}
   </small></h4>
-  </header>
 
+  {% if job.tech %}
+  <footer>
+    {% for tech in job.tech %}
+      <span class='label label-inverse'>{{ tech }}</span>
+    {% endfor %}
+    </footer>
+  {% endif %}
+
+  </header>
   {{job.content}}
 </article>

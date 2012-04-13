@@ -11,8 +11,14 @@
       {% else %}Present{% endif %}
   </small></h3>
   
-  </header>
+  {% if project.tech %}
+    {% for tech in project.tech %}
+      <span class='label label-inverse'>{{ tech }}</span>
+    {% endfor %}
+  {% endif %}
 
+
+  </header>
   {% if project.images %}
     <ul class='thumbnails'>
       {% for img in project.images %}
@@ -21,4 +27,5 @@
     </ul>
   {% endif %}
   {{project.content}}
-</article>
+
+  </article>

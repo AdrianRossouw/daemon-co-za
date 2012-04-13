@@ -6,17 +6,27 @@ link: http://aegirproject.org
 images:
   - 
     span: 4 
-    src: /img/portfolio/aegir.demosite.png
+    src: img/portfolio/aegir.demosite.png
     href: http://aegirproject.org
   - 
     span: 2
-    src: /img/portfolio/aegir.sites.png
+    src: img/portfolio/aegir.sites.png
     href: http://aegirproject.org
   - 
     span: 2
-    src: /img/portfolio/community.aegirproject.png
+    src: img/portfolio/community.aegirproject.png
     href: http://community.aegirproject.org
-
+tech:
+  - php
+  - mysql
+  - unix
+  - drupal
+  - bash
+  - openssl
+  - bind
+  - apache
+  - nginx
+  - javascript
 ---
 In early 2004, I left my job to help found Bryght, one of the first Drupal service companies, with the ambition of building a hosted service with Drupal. I had a dream, and that dream was called "hostmaster". Over the next several years, the system I developed to accomplish this dream evolved into Aegir.
 
