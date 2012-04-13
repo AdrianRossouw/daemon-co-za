@@ -1,3 +1,5 @@
+{% assign base = site.baseurl %}
+
 <article class='project'>
 <header>
   <h3>
@@ -20,11 +22,16 @@
 
   </header>
   {% if project.images %}
-    <ul class='thumbnails'>
+    <div class='carousel-wrapper'>
+    <div class='carousel'>
       {% for img in project.images %}
-        {%include thumbnails.html %}
+        {% if (forloop.first) %}
+          <img class='active item' src='{{base}}{{img.src}}' />
+        {% else %}
+          <img class='item' src='{{base}}{{img.src}}' />
+        {% endif %}
       {% endfor %}
-    </ul>
+  </div></div>
   {% endif %}
   {{project.content}}
 

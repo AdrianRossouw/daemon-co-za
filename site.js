@@ -5,4 +5,5 @@
 {% include js/backbone-min.js %}
 {% include js/bootstrap.min.js %}
 
+$('.carousel').carousel();
 // js here
