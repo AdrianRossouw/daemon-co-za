@@ -1,6 +1,7 @@
 ---
 title: Returning to the fold
 category: post
+layout: post
 ---
 This post marks the first time I have blogged in any personal capacity in many many years. It's not that I had nothing to say mind you. I actually found myself writing a lot of blog posts, either for my employer [DevelopmentSeed](http://developmentseed.org), or in my role as the lead developer of the [Aegir Hosting System](http://aegirproject.org) or even as a [Drupal](http://drupal.org) core developer.
 

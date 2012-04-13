@@ -2,6 +2,8 @@
 title: The Musings of Adrian Rossouw
 layout: default
 ---
+{% assign base = site.baseurl %}
+
 <section class='posts span8'>
   {% for article in site.categories.post %}
     {% include article.html %}
@@ -17,7 +19,7 @@ layout: default
   <h4>Other Articles</h4>
   <ul class='nav nav-list'>
     {% for article in site.categories.post %}
-    <li><a href='{{article.url}}'>{{article.title}}</a></li>
+    <li><a href='{{base}}{{article.url}}'>{{article.title}}</a></li>
     {% endfor %}
   </ul>
 
