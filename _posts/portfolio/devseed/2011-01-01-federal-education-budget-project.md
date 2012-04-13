@@ -5,13 +5,10 @@ category: project
 link: http://febp.newamerica.net
 images:
   - 
-    span: 4 
     src: img/portfolio/febp.front.png
   - 
-    span: 2
     src: img/portfolio/febp.map.png
   - 
-    span: 2
     src: img/portfolio/febp.comparison.png
 tech:
   - node-js
