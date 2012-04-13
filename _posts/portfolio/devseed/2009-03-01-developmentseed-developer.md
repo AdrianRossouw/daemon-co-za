@@ -8,6 +8,8 @@ tech:
   - couchdb
   - backbone-js
   - geo
+  - elasticsearch
+  - jekyll
   - drupal
   - php
   - mysql
