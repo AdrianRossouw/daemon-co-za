@@ -1,5 +1,5 @@
 ---
-title: OasisMagazine
+title: Oasis Magazine
 category: project
 link: http://www.oasisjournals.com/
 description: One of the longest running community websites for Queer and Questioning teens.
