@@ -3,6 +3,7 @@ title: The Musings of Adrian Rossouw
 layout: default
 ---
 {% assign base = site.baseurl %}
+{% capture aboutText %}{% include about.md %}{% endcapture %}
 
 <section class='posts span8'>
   {% for article in site.categories.post %}
@@ -15,7 +16,8 @@ layout: default
 </div>
 
   <h4>About the Author</h4>
-    {% include about.md %} 
+  {{aboutText | markdownify }}
+
   <h4>Other Articles</h4>
   <ul class='nav nav-list'>
     {% for article in site.categories.post %}

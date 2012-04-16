@@ -1,16 +1,65 @@
 ---
-layout: default
 title: Portfolio
+layout: default
+details:
+  - {field: 'Full Name', value: 'Frederik Jacobus Adrian Rossouw'}
+  - {field: 'Nationality', value: 'South African'}
+  - {field: 'Birth Date', value: '28 June 1981'}
+contact:
+  - {field: 'Email', value: 'adrian@daemon.co.za', link:'mailto:adrian@daemon.co.za'}
+  - {field: 'Gtalk', value: 'adrian@daemon.co.za'}
+  - {field: 'Twitter', value: 'AdrianRossouw', link: 'http://twitter.com/AdrianRossouw'}
+  - {field: 'Skype', value: 'Vertice123'}
+  - {field: 'Telephone', value: '+27 83 379 1716'}
+links:
+  - {field: 'Personal Website', value: 'http://daemon.co.za'}
+  - {field: 'Github', value: 'http://github.com/Vertice'}
+  - {field: 'LinkedIn', value: 'http://www.linkedin.com/profile/view?id=27444'}
+  - {field: 'Drupal.org', value: 'http://drupal.org/user/1337'}
+  - {field: 'Drupal Community Spotlight', value: 'https://drupal.org/node/956624'}
 ---
-<section class='projects span7'>
-  <h2>Projects</h2>
-  {% for project in site.categories.project %}
-    {% include project.html %}
-  {% endfor %}
-</section>
-<section class='jobs span5'>
-  <h2>Employment History</h2>
-  {% for job in site.categories.job %}
-    {% include job.html %}
-  {% endfor %}
+
+{% capture aboutText %}{% include about.md %}{% endcapture %}
+<section class='portfolio span12'>
+
+<section class='about row'>
+        <div class='span3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
+        <div class='span4'>{{aboutText | markdownify}}
+          <ul>
+            {% for d in page.links %}
+              <li><a href='{{d.value}}'>{{d.field}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      <div class='span5'>
+          <table class='table table-condensed'>
+            <tbody>
+              {% for d in page.details %}
+                <tr><th>{{d.field}}</th><td>{{d.value}}</td></tr>
+              {% endfor %}
+              {% for d in page.contact %}
+                <tr><th>{{d.field}}</th><td>
+                  {% if d.link %}<a href='{{d.link}}'>{{d.value}}</a>{% else %}{{d.value}}{% endif %}
+                </td></tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+    </section>
+
+  <div class='row'>
+    <section class='span7 projects'>
+      <h2>Projects</h2>
+      {% for project in site.categories.project %}
+        {% include project.html %}
+      {% endfor %}
+    </section>
+    <section class='jobs span5'>
+      <h2>Employment History</h2>
+      {% for job in site.categories.job %}
+        {% include job.html %}
+      {% endfor %}
+    </section>
+  </div>
 </section>

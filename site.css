@@ -11,10 +11,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 body, p { font-size: 14px; line-height: 18px; }
 
-.jobs h2, .projects h2 { border-bottom: 1px solid #eee; }
-.jobs header, .projects header { margin-bottom: 1em; }
-.jobs .label, .projects .label { text-transform: uppercase; }
-.jobs small, .projects small { white-space: nowrap; }
+.portfolio h2 { border-bottom: 1px solid #eee; margin-bottom: 0.5em; }
+.portfolio header, .portfolio section { margin-bottom: 1em; }
+.portfolio .label { text-transform: uppercase; }
+.portfolio small { white-space: nowrap; }
+
+img.avatar {
+  box-shadow: 0 0 2px #444;
+  border-radius: 4px;
+
+}
 
 .carousel-wrapper {
   overflow: hidden;
