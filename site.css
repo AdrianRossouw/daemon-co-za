@@ -14,8 +14,9 @@ h1, h2, h3, h4, h5, h6 {
 body, p {
   font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
-line-height: 22px; 
-color:#444; }
+  line-height: 22px; 
+  color:#444;
+}
 
 .portfolio h2 { border-bottom: 1px solid #eee; margin-bottom: 0.5em; }
 .portfolio header, .portfolio section { margin-bottom: 1em; }
@@ -36,9 +37,9 @@ img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }
   border-radius: 4px;
 }
   
-h1 { font-size: 36px; }
-h2 { font-size: 26px; }
-h3 { font-size: 20px; line-height: 32px; }
+h1 { font-size: 38px; }
+h2 { font-size: 28px; }
+h3 { font-size: 18px; line-height: 26px; }
 h4 { font-size: 16px; line-height: 30px; }
 
 img { max-width: 620px }
@@ -70,6 +71,17 @@ div.container {
 header.logo { margin: 1.5em 0; }
 header.logo h1 { line-height: 1; }
 
+
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  margin: 26px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
 
 header .about {
   background: #333;

@@ -7,8 +7,10 @@ layout: default
 {% include profile.html %}
 
 <section class='posts span8'>
-  {% for article in site.categories.post %}
+{% for article in site.categories.post %}
+    {% if forloop.index > 1 %}<hr class='soften' />{% endif %}
     {% include article.html %}
+
   {% endfor %}
 </section>
 <nav class='sidebar span4'>
