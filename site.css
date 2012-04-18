@@ -6,25 +6,26 @@
 {% include css/pygments.css %}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase 
+  font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #444;
 }
-body, p { font-size: 14px; line-height: 18px; }
+body, p {
+  font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+line-height: 22px; 
+color:#444; }
 
 .portfolio h2 { border-bottom: 1px solid #eee; margin-bottom: 0.5em; }
 .portfolio header, .portfolio section { margin-bottom: 1em; }
 .portfolio .label { text-transform: uppercase; }
 .portfolio small { white-space: nowrap; }
 
-img.avatar {
-  box-shadow: 0 0 2px #444;
-  border-radius: 4px;
+img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }
 
-}
-
-.carousel {
-  margin-bottom: 0;
-}
+.carousel { margin-bottom: 0; }
 
 .carousel-wrapper {
   overflow: hidden;
@@ -36,10 +37,10 @@ img.avatar {
   border-radius: 4px;
 }
   
-h1 { font-size: 34px; }
-h2 { font-size: 24px; }
-h3 { font-size: 18px; line-height: 30px; }
-h4 { font-size: 14px; line-height: 28px; }
+h1 { font-size: 36px; }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; line-height: 32px; }
+h4 { font-size: 16px; line-height: 30px; }
 
 img { max-width: 620px }
 body { background: url('{{base}}img/pattern8-pattern-geo-1a.png'); }
@@ -48,7 +49,7 @@ div.container {
    margin-top: 10px;
    margin-bottom: 10px;
    background: #FDFDFD;
-   padding: 0 10px; 
+   padding: 0 20px; 
    box-shadow: 0 1px 5px #444;
    border-radius: 4px;
  }
@@ -56,3 +57,22 @@ div.container {
  div.container footer { 
     margin-bottom: 10px;
  }
+ 
+header .about {
+  background: #333;
+  color: #ddd;
+  padding: 1em 0;
+  width: 980px;
+  margin-left: -20px;
+  margin-bottom: 1em;
+}
+.about-inner {
+  margin-left: 0;
+}
+
+header .about img.avatar {
+  margin-right: 20px;
+  max-height: 120px;
+}
+header .about p { color: #ddd }
+

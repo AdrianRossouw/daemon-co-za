@@ -3,7 +3,8 @@ title: The Musings of Adrian Rossouw
 layout: default
 ---
 {% assign base = site.baseurl %}
-{% capture aboutText %}{% include about.md %}{% endcapture %}
+
+{% include profile.html %}
 
 <section class='posts span8'>
   {% for article in site.categories.post %}
@@ -11,12 +12,12 @@ layout: default
   {% endfor %}
 </section>
 <nav class='sidebar span4'>
+    
+
 <div class='alert alert-info'>
   <h4>About this site</h4> This is only slightly classier than an animated under construction gif, but I just wanted to point out that this site is very new. I'm still putting all the parts of it online.
 </div>
 
-  <h4>About the Author</h4>
-  {{aboutText | markdownify }}
 
   <h4>Other Articles</h4>
   <ul class='nav nav-list'>
