@@ -7,11 +7,28 @@ layout: default
 {% include profile.html %}
 
 <section class='posts span8'>
-{% for article in site.categories.post %}
+{% for article in paginator.posts %}
     {% if forloop.index > 1 %}<hr class='soften' />{% endif %}
-    {% include article.html %}
+      {% include article.html %}
 
-  {% endfor %}
+    {% endfor %}
+
+    <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+        {% if paginator.previous_page == 1 %}
+          <a href="{{base}}page{{paginator.previous_page}}">&larr; Newer</a>
+        {% else %}
+          <a href="{{base}}">&larr; Newer</a>
+        {%endif%}
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+        <a href="{{base}}page{{paginator.next_page}}">Older &rarr;</a>
+      </li>
+      {% endif %}
+    </ul>
 </section>
 <nav class='sidebar span4'>
     
