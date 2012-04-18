@@ -8,13 +8,12 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
   color: #444;
 }
 body, p {
   font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
-  letter-spacing: 0.05em;
 line-height: 22px; 
 color:#444; }
 
