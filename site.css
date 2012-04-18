@@ -4,19 +4,22 @@
 
 {% include css/bootstrap.min.css %}
 {% include css/pygments.css %}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #444;
 }
+
 body, p {
   font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px; 
   color:#444;
 }
+
+.alert p { color: inherit; margin: 0; }
+.alert a { font-weight: bold;color: #16759E; }
 
 .portfolio h2 { border-bottom: 1px solid #eee; margin-bottom: 0.5em; }
 .portfolio header, .portfolio section { margin-bottom: 1em; }

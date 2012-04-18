@@ -3,7 +3,7 @@
     This article was originally published on <strong>{{page.original_date | date:"%d %B %Y"}}</strong> on our company intranet site.<br />
   {% endif %}
   {% if page.alert %}
-    {{page.alert}}
+    {{page.alert || markdownify}}
   {% else %}
     I have taken the time to revise and double check the information contained within it.
   {% endif %}
