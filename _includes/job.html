@@ -1,7 +1,7 @@
 {% if forloop.index > 1 %}<hr class='soften' />{% endif %}
 <article class='job'>
   <header>
-  <h4>{{job.title}}
+  <h3>{{job.title}}
     <small>
 
     {{job.date | date:"%B %Y"}} -
@@ -10,7 +10,7 @@
     {% else %}
       Present
       {% endif %}
-  </small></h4>
+  </small></h3>
 
   {% if job.tech %}
   <footer>
