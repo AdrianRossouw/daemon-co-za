@@ -4,6 +4,7 @@
 
 {% include css/bootstrap.min.css %}
 {% include css/pygments.css %}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -47,7 +48,7 @@ h3 { font-size: 18px; line-height: 26px; }
 h4 { font-size: 16px; line-height: 30px; }
 
 img { max-width: 620px }
-body { background: url('{{base}}img/pattern8-pattern-geo-1a.png'); }
+body { background: url('{{base}}img/pattern8-pattern-geo-1a.png');}
 
 div.container { 
    margin-top: 10px;
