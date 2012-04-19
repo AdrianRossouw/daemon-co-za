@@ -24,7 +24,7 @@ layout: default
       </header>
       {{with_break}}
       {% if with_break != article.content %}
-        <a href='{{article.url}}' class='btn'>Read more →</a>
+        <a href='{{base}}{{article.url}}' class='btn'>Read more →</a>
       {%endif%}
   </article>
   {% endfor %}
