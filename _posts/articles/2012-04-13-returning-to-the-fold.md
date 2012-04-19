@@ -5,9 +5,11 @@ layout: post
 ---
 This post marks the first time I have blogged in any personal capacity in many many years. It's not that I had nothing to say mind you. I actually found myself writing a lot of blog posts, either for my employer [DevelopmentSeed](http://developmentseed.org), or in my role as the lead developer of the [Aegir Hosting System](http://aegirproject.org) or even as a [Drupal](http://drupal.org) core developer.
 
-### Everything changes
-
 Something interesting happened near the end of 2010 though: I reached the limits of what I had ever hoped to accomplish with my work on Aegir, and had less of a use for Drupal itself too. I also felt that I had reached the limits of where PHP could take me as a programmer. It was time for a change, and I was not the only person who felt so.
+
+<!--more-->
+
+### Everything changes
 
 The entire DevSeed pivoted at this point, passing on our interests in [OpenAtrium](http://openatrium.org) to [Phase2](http://www.phase2technology.com). For my part, I passed on the maintainership of Aegir to my trusty co-maintainers, and embarked on what has probably been the most exciting and enriching phase of my professional life since discovering the internet and open source as a teenager.
 

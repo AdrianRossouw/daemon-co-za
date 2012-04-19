@@ -11,7 +11,7 @@ At [DevelopmentSeed](http://developmentseed.org), we have mostly standardized on
 
 While doing the import work for a client project i ran into the common use case of having to import files in a certain order and then make process the results into a  record to import. I came across the following pattern with underscore which seems to have fit the situation very well.
 
-### Some code
+<!--more-->
 
 {% highlight javascript %}
 // generate a callback
