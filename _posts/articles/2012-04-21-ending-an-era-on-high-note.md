@@ -20,7 +20,7 @@ They didn't need Aegir when I joined them, but they understood it's value and be
 
 I was also incredibly grateful and fortunate to be part of the company as we pivoted from being a [Drupal](http://drupal.org) oriented services company, to a [pretty amazing node.js oriented product company](http://mapbox.com). I could not have wished for a more stimulating and enriching environment on this journey. We were all on this journey together, and it made all the difference in the world.
 
-Looking back at all the amazing projects I have helped them build over the last 18 months, and knowing that I wasn't even involved in all or most of them, has only increased my respect and admiration for the team at Development Seed. A lot of people are just getting over the hump of getting their first or second node-based sites into production, but they have accomplished so much more.
+Looking back at all the amazing projects I have helped them build over the last 18 months (since we pivoted), and knowing that I wasn't even involved in all or most of them, has only increased my respect and admiration for the team at Development Seed. A lot of people are just getting over the hump of getting their first or second node-based sites into production, but they have accomplished so much more.
 
 ### In with the new!
 
