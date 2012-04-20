@@ -4,7 +4,7 @@ paginate: 4
 exclude: README.md, .gitignore
 permalink: '/:year/:month/:title' 
 description: 'Online Presence of Adrian Rossouw'
-baseurl: http://daemon.co.za
+baseurl: http://daemon.co.za/
 siteName: 'Daemon.co.za'
 github_login: 'Vertice'
 github_repo: 'daemon-co-za'
