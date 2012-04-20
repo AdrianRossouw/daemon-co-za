@@ -10,7 +10,7 @@ alert: "I don't recommend this approach much anymore, because I have come to the
 
 At [DevelopmentSeed](http://developmentseed.org), we have mostly standardized on [Step](https://github.com/creationix/step) to handle our asynchronous function call requirements. It does sometimes feel like like bringing a sledgehammer to a game of croquet though. 
 
-While doing the import work for a client project i ran into the common use case of having to import files in a certain order and then make process the results into a  record to import. I came across the following pattern with underscore which seems to have fit the situation very well.
+While doing the import work for a client project i ran into the common use case of having to import files in a certain order and then process the results into a  record to import. I came across the following pattern with underscore which seems to have fit the situation very well.
 
 <!--more-->
 
