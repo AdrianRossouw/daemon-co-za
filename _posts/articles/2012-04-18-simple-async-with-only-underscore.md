@@ -2,7 +2,7 @@
 title: Simple async control flow, using only underscore.js
 category: post
 layout: post
-breakWords: 130
+breakWords: 131
 original_date: "2011-08-25"
 alert: "I don't recommend this approach much anymore, because I have come to the conclusion that the [async.js module](http://github.com/caolan/async) is by far the best tool for the job"
 ---
