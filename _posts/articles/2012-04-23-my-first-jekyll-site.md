@@ -3,6 +3,7 @@ title: Building my first Jekyll site.
 category: post
 layout: post
 original_date: "2011-10-20"
+breakWords: 155
 ---
 {% include dateDisclaimer.html %}
 
