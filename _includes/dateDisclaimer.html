@@ -1,6 +1,6 @@
 <div class="alert alert-info">
   {% if page.original_date %}
-    This article was originally published on <strong>{{page.original_date | date:"%d %B %Y"}}</strong> on our company intranet site.<br />
+  This article was originally published on <strong>{{page.original_date | date:"%d %B %Y"}}</strong> on the <a href='http://developmentseed.org'>DevelopmentSeed</a> intranet.<br />
   {% endif %}
   {% if page.alert %}
     {{page.alert || markdownify}}

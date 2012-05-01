@@ -32,6 +32,7 @@ img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }
 
 .carousel { margin-bottom: 0; }
 
+.img-wrapper, 
 .carousel-wrapper {
   overflow: hidden;
   border: 1px solid #444;
@@ -41,7 +42,11 @@ img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }
   box-shadow: 0 0 2px #444;
   border-radius: 4px;
 }
-  
+.img-wrapper {
+  display: block;
+  width: 600px;
+}
+
 h1 { font-size: 38px; }
 h2 { font-size: 28px; }
 h3 { font-size: 18px; line-height: 26px; }
