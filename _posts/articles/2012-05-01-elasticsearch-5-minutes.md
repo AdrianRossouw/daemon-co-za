@@ -4,6 +4,7 @@ category: post
 layout: post
 original_date: "2011-03-15"
 alert: "I have refactored the [example code](http://github.com/Vertice/elasticsearch-example) and made it less client specfic, and supporting the latest versions of node and ES."
+breakWords: 155
 ---
 {% include dateDisclaimer.html %}
 
