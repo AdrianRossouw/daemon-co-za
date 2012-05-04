@@ -66,7 +66,7 @@ curl 'http://localhost:9200/febp_documents/_search?q=about&pretty=true&size=1'
     }
 }{% endhighlight %}
 
-1. Less than 100 lines of express + jade later, you have basic search functionality. [see the code](http://gihub.com/Vertice/elasticsearch-example/)
+1. Less than 100 lines of express + jade later, you have basic search functionality. [see the code](http://github.com/Vertice/elasticsearch-example/)
 
     <a href='/img/elasticsearch.png' target='_blank' class="img-wrapper"><img src='/img/elasticsearch.min.png' /></a>
 
