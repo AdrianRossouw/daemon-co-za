@@ -18,7 +18,7 @@ layout: default
     {% endif %}
 
     {% if article.breakWords %}
-      {%capture with_break %}{{article.content | truncatewords: article.breakWords }}{%endcapture%}
+      {%capture with_break %}{{article.content | truncatewords: article.breakWords | replace '...','' }}{%endcapture%}
     {% else %}
       {%capture with_break %}{{article.content | split:'<!--more-->'| first}}{%endcapture%}
     {% endif %}
