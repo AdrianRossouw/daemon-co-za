@@ -87,4 +87,4 @@ In order to allow us to have a usable site while imports are taking place, we ch
 What is happening in that slow view, is that it is having to iterate over each of the records, over each of their properties and then emit'ing a record indexed by the data version, the property name and the value for that property. In the case of yearly indicators, it also has to go and find the most recent value of that indicator to emit. With a single version of the k12_district data, that amounts to 579059 items in the byIndicator view,
 which multiplies with each additional version, taking longer and longer and longer to build every time.
 
-I've decided to split this post here, to not bury the lead. Check out my next devlog to see what i used to solve this.
+<strong>I've decided to split this post here, to not bury the lead. Check out my next devlog to see what i used to solve this.</strong>
