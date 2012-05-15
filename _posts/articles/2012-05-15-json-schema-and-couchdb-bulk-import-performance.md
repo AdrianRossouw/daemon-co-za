@@ -1,6 +1,7 @@
 ---
 title: JSON Schema and CouchDB bulk import performance
 category: post
+layout: post
 original_date: "2011-04-05"
 alert: "This project launched successfully, check out the [release announcement](http://developmentseed.org/blog/2011/jun/16/open-data-site-compares-schools-65-different-indicators/) for more info.<br />I have revised and double checked this article before publishing, but I am able to re-run the benchmarks."
 breakWords: 200
@@ -13,7 +14,7 @@ During the last week I have been responsible for fixing a number of critical iss
 
 On the FEBP site, the administrator is able to upload a CSV file describing the data for each of the data sets, which then changes how we interpret and display this data, and they can upload new versions of the data itself. Each dataset and schema is versioned,  and the site has the concept of an "active version". 
 
-<div class='img-wrapper'><img src='{{base}}img/febp.admin.min.jpg' /></div>
+<div class='img-wrapper'><img src='{{site.baseurl}}img/febp.admin.min.jpg' /></div>
 <!--more-->
 When the admin uploads a new version of the data, once it is imported they are required to validate it against a schema, and are able to preview the new combination of data/schema. If they are happy with the results, and the data / schema have been validated successfully, they are able to set this new combination active, which changes what is published on the site. So you have a situation where you have multiple versions of large datasets being accessed at the same time.
 
