@@ -55,6 +55,9 @@ h4 { font-size: 16px; line-height: 30px; }
 img { max-width: 620px }
 body { background: url('{{base}}img/gplaypattern.png');}
 
+section.posts h2, section.content h2 { line-height: 1; margin-bottom: 20px }
+section.posts h2 small, section.content h2 small { white-space: nowrap; }
+
 div.container { 
    margin-top: 10px;
    margin-bottom: 10px;
