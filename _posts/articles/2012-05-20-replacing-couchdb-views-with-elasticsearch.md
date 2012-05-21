@@ -40,7 +40,7 @@ Having ripped out the expensive views, this is what the import times looked like
     Rebuilt _design/schema in 1214ms.
     Imported rows 13501 to 13600 into k12_district in 1857ms. Average: 16ms per record.
 
-This is down from 48ms to 96ms per record before getting rid of these views.
+The time it took to import the data is down to 16ms per record, where it was between 48ms and 96ms before I made these changes.
 
 ### Comparison listing
 
