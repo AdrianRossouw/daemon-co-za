@@ -4,6 +4,7 @@
 
 {% include css/bootstrap.min.css %}
 {% include css/pygments.css %}
+{% include css/roundabout.css %}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Maven Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -32,19 +33,18 @@ img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }
 
 .carousel { margin-bottom: 0; }
 
-.img-wrapper, 
-.carousel-wrapper {
+.img-wrapper {
   overflow: hidden;
+  display: block;
   border: 1px solid #444;
   margin: 0.5em auto;
-  width: 500px;
+  width: 600px;
   max-height: 339px;
   box-shadow: 0 0 2px #444;
   border-radius: 4px;
 }
-.img-wrapper {
-  display: block;
-  width: 600px;
+.portfolio .img-wrapper {
+  width: 500px;
 }
 
 h1 { font-size: 38px; }

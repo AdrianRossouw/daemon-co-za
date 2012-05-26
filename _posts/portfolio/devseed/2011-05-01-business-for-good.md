@@ -7,6 +7,8 @@ images:
   -
     src: img/portfolio/bclc.front.png
   -
+    src: img/portfolio/bclc.search.png
+  -
     src: img/portfolio/bclc.post.png
 tech:
   - node-js

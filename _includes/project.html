@@ -22,18 +22,20 @@
 
 
   </header>
-  {% if project.images %}
-    <div class='carousel-wrapper'>
-    <div class='carousel'>
-      {% for img in project.images %}
-        {% if (forloop.first) %}
-          <img class='active item' src='{{base}}{{img.src}}' />
-        {% else %}
-          <img class='item' src='{{base}}{{img.src}}' />
-        {% endif %}
-      {% endfor %}
-  </div></div>
+  {% if project.images.size > 1 %}
+    <div class='roundabout-wrapper'>
+      <ul class='roundabout clearfix'>
+        {% for img in project.images %}
+        <li><div class='slide-wrapper'><img src='{{base}}{{img.src}}' /></div></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% else if project.images %}
+    {% for img in project.images %}
+      <div class='img-wrapper'><img src='{{base}}{{img.src}}' /></div>
+    {% endfor %}
   {% endif %}
+
   {{project.content}}
 
   </article>
