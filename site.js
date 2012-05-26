@@ -10,7 +10,7 @@ $(document).ready(function() {
     $('ul.roundabout').roundabout({
         maxScale: 0.5,
         autoplay: true,
-        autoplayDuration: 1500,
-        autoplayInitialDelay: 500
+        autoplayDuration: 10000,
+        autoplayInitialDelay: 5000
     });
 });
