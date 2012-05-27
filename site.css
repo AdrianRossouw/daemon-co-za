@@ -49,7 +49,7 @@ img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }
 
 h1 { font-size: 38px; }
 h2 { font-size: 28px; }
-h3 { font-size: 18px; line-height: 26px; }
+h3 { font-size: 20px; line-height: 30px; }
 h4 { font-size: 16px; line-height: 30px; }
 
 img { max-width: 620px }
@@ -130,4 +130,6 @@ header .about img.avatar {
   max-height: 120px;
 }
 header .about p { color: #ddd }
-
+header a:hover {
+  text-decoration: none;
+}
