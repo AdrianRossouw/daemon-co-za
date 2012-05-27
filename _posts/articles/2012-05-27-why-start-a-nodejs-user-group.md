@@ -9,6 +9,8 @@ I wrote this article to be able to plug the [Node.js Cape Town](http://nodecpt.g
 
 My decision to start [NodeCPT](http://nodecpt.github.com) has a couple of different motivations, which I will deal with mostly separately in this post. This post was originally going to include a guide to starting your own user group, but I decided that it was best to split that into another post in the near future.
 
+{% include social.html %}
+
 <hr class='soften' />
 
 ### The big picture.
