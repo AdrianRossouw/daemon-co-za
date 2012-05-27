@@ -11,8 +11,6 @@ My decision to start [NodeCPT](http://nodecpt.github.com) has a couple of differ
 
 {% include social.html %}
 
-<hr class='soften' />
-
 ### The big picture.
 
 #### Why a Node.js group and not just Javascript? 
