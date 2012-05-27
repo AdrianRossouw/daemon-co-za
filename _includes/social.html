@@ -1,15 +1,16 @@
+{% capture pageurl %}http://daemon.co.za{{page.url}}{% endcapture %}
 <ul class='social unstyled clearfix'>
     <li class='twitter'>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{site.baseurl}}{{page.url}}" data-text="{{page.title}}" data-via="AdrianRossouw" data-dnt="true">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{pageurl}}" data-text="{{page.title}}" data-via="AdrianRossouw" data-dnt="true">Tweet</a>
     </li>
     <li class='gp'>
-      <div class='g-plusone' data-size='medium' data-width='60' data-href='{{site.baseurl}}{{page.url}}'></div>
+      <div class='g-plusone' data-size='medium' data-width='60' data-href='{{pageurl}}'></div>
       </li>
     <li class='hn'>
-    <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="{{page.title}}" data-url="{{site.baseurl}}{{page.url}}">Vote on HN</a>
+    <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="{{page.title}}" data-url="{{pageurl}}">Vote on HN</a>
     </li>
     <li class='reddit'>
-    <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url={{site.baseurl}}{{{page.url}}}&newwindow=1">
+    <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url={{{pageurl}}}&newwindow=1">
     </script>
     
     </li>
