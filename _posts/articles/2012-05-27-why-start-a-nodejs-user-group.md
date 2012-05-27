@@ -5,9 +5,9 @@ layout: post
 breakWords: 294
 ---
 
-I wrote this article to be able to plug the [Node.js Cape Town](http://nodecpt.github.com) user group I started recently. Our next meeting will be on the __7th of July 2012__, where I will be tempting fate with a [live-coding demonstration of building a basic node application](http://nodecpt.github.com/2012/05/june-meetup/).
+_I wrote this article to be able to plug the [Node.js Cape Town](http://nodecpt.github.com) user group I started recently. Our next meeting will be on the <strong>7th of July 2012</strong>, where I will be tempting fate with a [live-coding demonstration of building a basic node application](http://nodecpt.github.com/2012/05/june-meetup/)._
 
-My decision to start [NodeCPT](http://nodecpt.github.com) has a couple of different motivations, which I will deal with mostly separately in this post. This post was originally going to include a guide to starting your own user group, but I decided that it was best to split that into another post in the near future.
+_My decision to start [NodeCPT](http://nodecpt.github.com) has a couple of different motivations, which I will deal with mostly separately in this post. This post was originally going to include a guide to starting your own user group, but I decided that it was best to split that into another post in the near future._
 
 {% include social.html %}
 
