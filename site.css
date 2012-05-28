@@ -20,7 +20,7 @@ body, p {
   color: #668;
 }
 
-ul.social li { display: inline; float: left; width:80px; }
+ul.social li { display: inline; float: left; width:120px; }
 ul.social li.reddit { width: 200px; }
 
 .alert p { color: inherit; margin: 0; }
