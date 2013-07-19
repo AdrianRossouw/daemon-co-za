@@ -1,0 +1,5 @@
+Other than that I was putting out some fires for BCLC caused by IE bugs. The map interactivity was just not working in IE9, which I tracked down to a bug in the version of reqwest embedded in the older version of Wax we were using on the site. The only way I could fix this was to fork wax and patch the library for the older version.
+
+The other problem was that their about page stopped working in IE7/IE8 , which I eventually tracked down to a bug in all existing versions of bones-document, where the strip tags function we have been using was making use of "string".trim(), which is not available in older versions of IE. This bug has been there forever, but was only triggered once the user had added custom content that actually exposed it. I fixed it upstream.
+
+I also found out that older version of IE play a 'click' sound whenever any page location is changed, INCLUDING invisible iframes we are using for ajax calls. This is not even something we can do much about in javascript, as it is a windows explorer setting changeable in the operating system control panel: [more info](http://stackoverflow.com/questions/470512/ie-click-sound-and-jquery).
