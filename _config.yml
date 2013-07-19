@@ -1,5 +1,3 @@
-auto: true
-server: true
 paginate: 4
 exclude: README.md, .gitignore
 permalink: '/:year/:month/:title' 
@@ -9,3 +7,4 @@ siteName: 'Daemon.co.za'
 github_login: 'Vertice'
 github_repo: 'daemon-co-za'
 github_language: 'JavaScript'
+excerpt_separator: '<!--more-->'

@@ -17,17 +17,12 @@ layout: default
       {% assign on_this_page = forloop.length %}
     {% endif %}
 
-    {% if article.breakWords %}
-      {%capture with_break %}{{article.content | truncatewords: article.breakWords | replace '...','' }}{%endcapture%}
-    {% else %}
-      {%capture with_break %}{{article.content | split:'<!--more-->'| first}}{%endcapture%}
-    {% endif %}
   <article>
       <header>
       
       <h2><a href='{{article.url}}'>{{article.title}}</a> <small>{{article.date | date:"%d %B %Y"}}</small></h2>
             </header>
-      {{with_break}}
+      {{article.excerpt}}
       {% if with_break != article.content %}
       <p><a href='{{article.url}}' class='btn pull-right'>Read more →</a></p>
       {%endif%}
