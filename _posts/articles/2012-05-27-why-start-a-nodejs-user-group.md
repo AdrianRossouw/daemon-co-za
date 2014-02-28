@@ -7,9 +7,7 @@ breakWords: 294
 
 _I wrote this article to be able to plug the [Node.js Cape Town](http://nodecpt.github.com) user group I started recently. Our next meeting will be on the <strong>7th of July 2012</strong>, where I will be tempting fate with a [live-coding demonstration of building a basic node application](http://nodecpt.github.com/2012/05/june-meetup/)._
 
-_My decision to start [NodeCPT](http://nodecpt.github.com) has a couple of different motivations, which I will deal with mostly separately in this post. This post was originally going to include a guide to starting your own user group, but I decided that it was best to split that into another post in the near future._
-
-{% include social.html %}
+_My decision to start [NodeCPT](http://nodecpt.github.com) has a couple of different motivations, which I will deal with mostly separately in this post._
 
 ### The big picture.
 
@@ -22,6 +20,7 @@ I think that the value proposition of javascript on the server is not being able
 I also find Node.js exciting because it is an amazing opportunity to shake off a decade or more of technical debt and intellectual baggage. I would rather encourage people to think about the internet and technology in new and wonderful ways, than try and drag their familiar toys along with them. I'm just not interested in sitting through a presentation about how to use random jquery module X in your wordpress theme.
 
 <!--more-->
+
 #### What is our goal?
 
 My perception of Node.JS in Cape Town, is that there are a fair number of interested early-adopters who are tinkering with it. These developers might even have gotten the permission to build small subsystems in node for their current employers, but by-and-large you don't have many companies that are entirely node oriented yet. I think that is a pretty common picture of how Node.js is seen outside of the valley, actually.

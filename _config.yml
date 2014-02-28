@@ -1,5 +1,7 @@
 paginate: 4
-exclude: README.md, .gitignore
+exclude:
+  - README.md
+  - .gitignore
 permalink: '/:year/:month/:title' 
 description: 'Online Presence of Adrian Rossouw'
 baseurl: http://daemon.co.za/

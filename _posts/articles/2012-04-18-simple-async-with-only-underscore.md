@@ -15,17 +15,17 @@ While doing the import work for a client project i ran into the common use case 
 <!--more-->
 
 {% highlight javascript %}
-// generate a callback
-function cb(text) { return function(next) { 
-  console.warn(text); 
-  next();
-}}
+  // generate a callback
+  function cb(text) { return function(next) { 
+    console.warn(text); 
+    next();
+  }}
 
-// a list of things to call
-var actions = [ cb(1), cb(2), cb(3), cb(4) ]
+  // a list of things to call
+  var actions = [ cb(1), cb(2), cb(3), cb(4) ]
 
-// call the functions in the series array in order
-_(actions).reduceRight(_.wrap, function() { console.warn('done') })();
+  // call the functions in the series array in order
+  _(actions).reduceRight(_.wrap, function() { console.warn('done') })();
 {% endhighlight %}
 
 This results in the following output : 
@@ -58,8 +58,7 @@ To cut a long story short, the use of these two functions nests the callbacks in
 
 ### How the hell is that simple ?
 
-While it may seem a bit confusing, I have actually found it pretty simple to work with because you dont need to learn and understand an entirely different library to handle these tasks. At the same time it also doesnt have a lot of bells and whistles that you might need, such as handling exceptions and better argument passing semantics. Where I definitely prefer it to 
-Step however is that it doesn't overload the meaning of `this`, which I am not really comfortable with. 
+While it may seem a bit confusing, I have actually found it pretty simple to work with because you dont need to learn and understand an entirely different library to handle these tasks. At the same time it also doesnt have a lot of bells and whistles that you might need, such as handling exceptions and better argument passing semantics. Where I definitely prefer it to Step however is that it doesn't overload the meaning of `this`, which I am not really comfortable with. 
 
 In my mind it is also simpler to nest this pattern, in that each of the actions in your list of callbacks can implement this pattern very easily. Just pass the next callback as the last argument to the reduceRight call.
 
@@ -67,15 +66,15 @@ It also lends itself very cleanly to write functions that return closures, so yo
 
 ### What about parallel calls ?
 
-This pattern works really well with another underscore based pattern using the <a href='http://underscorejs.org/#after'>_.after</a> method. Any of the actions in your list of callbacks can look like this.
+This pattern works really well with another underscore based pattern using the <a href="http://underscorejs.org/#after">after</a> method. Any of the actions in your list of callbacks can look like this.
 
 {% highlight javascript %}
-actions.push(function(next) {
-    var counter = _.after(_(records).size(), next);
-    _(records).each(function(record) {
-        put(config, 'data', record, counter);
-    });    
-});
-{%endhighlight%}
+  actions.push(function(next) {
+      var counter = _.after(_(records).size(), next);
+      _(records).each(function(record) {
+          put(config, 'data', record, counter);
+      });    
+  });
+{% endhighlight %}
 
-I have actually found instances where we are still implementing our own counter closures, so I think everyone should be aware of `_.after` regardless of wether they are using the first pattern or not.
+I have actually found instances where we are still implementing our own counter closures, so I think everyone should be aware of `after` regardless of wether they are using the first pattern or not.
