@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Vertice/daemon-co-za/issues"
   },
-  "homepage": "https://github.com/Vertice/daemon-co-za"
+  "homepage": "https://github.com/Vertice/daemon-co-za",
+  "devDependencies": {
+    "gulp-util": "^2.2.14",
+    "gulp": "^3.5.2",
+    "browserify": "^3.31.2",
+    "gulp-uglify": "^0.2.1",
+    "gulp-less": "^1.2.1",
+    "gulp-concat": "^2.1.7"
+  }
 }
