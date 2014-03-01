@@ -1,15 +1,15 @@
 {% capture aboutText %}{% include about.md %}{% endcapture %}
 
-<header class='span12'>
+<header class='col-md-12'>
   <div class='about row'>
      <div class='about-inner'>
-       <div class='span8'>
+       <div class='col-md-8'>
         <img class='pull-left avatar' 
            src='{{site.baseurl}}img/avatar-small.png' />
            {{aboutText | markdownify}}
       </div>
 
-      <div class='span4'>
+      <div class='col-md-4'>
       <ul class="nav nav-pills">
         <li class="active"><a href="{{site.baseurl}}">Home</a></li>
         <li><a href="{{site.baseurl}}portfolio">Portfolio</a></li>

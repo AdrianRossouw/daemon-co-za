@@ -51,11 +51,11 @@ links:
 ---
 
 {% capture aboutText %}{% include about.md %}{% endcapture %}
-<section class='portfolio span12'>
+<section class='portfolio col-md-12'>
 
   <section class='about row'>
-        <div class='span3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
-        <div class='span4'>{{aboutText | markdownify}}
+        <div class='col-md-3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
+        <div class='col-md-4'>{{aboutText | markdownify}}
           <ul>
             {% for d in page.links %}
               <li><a href='{{d.value}}'>{{d.field}}</a></li>
@@ -63,7 +63,7 @@ links:
           </ul>
         </div>
 
-      <div class='span5'>
+      <div class='col-md-5'>
           <table class='table table-condensed'>
             <tbody>
               {% for d in page.details %}
@@ -81,13 +81,13 @@ links:
 
   <hr class='soften' />
   <div class='row'>
-    <section class='span7 projects'>
+    <section class='col-md-7 projects'>
       <h2>Projects</h2>
       {% for project in site.categories.project %}
         {% include project.html %}
       {% endfor %}
     </section>
-    <section class='jobs span5'>
+    <section class='jobs col-md-5'>
       <h2>Employment History</h2>
       {% for job in site.categories.job %}
         {% include job.html %}
