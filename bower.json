@@ -1,0 +1,22 @@
+{
+  "name": "daemon-co-za",
+  "version": "0.0.1",
+  "homepage": "http://daemon.co.za",
+  "authors": [
+    "Adrian Rossouw <adrian@daemon.co.za>"
+  ],
+  "description": "personal blog",
+  "main": "site.js",
+  "keywords": [
+    "blog"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
