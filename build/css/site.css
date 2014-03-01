@@ -5792,14 +5792,6 @@ p {
   line-height: 24px;
   color: #668;
 }
-ul.social li {
-  display: inline;
-  float: left;
-  width: 120px;
-}
-ul.social li.reddit {
-  width: 200px;
-}
 .alert p {
   color: inherit;
   margin: 0;
@@ -5808,13 +5800,73 @@ ul.social li.reddit {
   font-weight: bold;
   color: #16759E;
 }
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 30px;
+}
+header.logo {
+  margin: 1.5em 0;
+}
+header.logo h1 {
+  font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1;
+}
+header .about {
+  background: #333;
+  color: #ddd;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding-top: 1em;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 1em;
+}
+.about-inner {
+  margin-left: 0;
+}
+header .about {
+  background: #333333;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #333333 0%, #444444 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #444444));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #333333 0%, #444444 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #333333 0%, #444444 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #333333 0%, #444444 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #333333 0%, #444444 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#444444', GradientType=0);
+  /* IE6-9 */
+}
+header .about img.avatar {
+  margin-right: 20px;
+  max-height: 120px;
+}
+header .about p {
+  color: #dddddd;
+}
+header a:hover {
+  text-decoration: none;
+}
 .portfolio h2 {
   border-bottom: 1px solid #eee;
   margin-bottom: 0.5em;
-}
-.portfolio h3,
-.portfolio h4 {
-  line-height: 1;
 }
 .portfolio header,
 .portfolio section {
@@ -5825,6 +5877,10 @@ ul.social li.reddit {
 }
 .portfolio small {
   white-space: nowrap;
+}
+.portfolio h3,
+.portfolio h4 {
+  line-height: 1;
 }
 img.avatar {
   box-shadow: 0 0 2px #444;
@@ -5846,25 +5902,11 @@ img.avatar {
 .portfolio .img-wrapper {
   width: 500px;
 }
-h1 {
-  font-size: 38px;
-}
-h2 {
-  font-size: 28px;
-}
-h3 {
-  font-size: 20px;
-  line-height: 30px;
-}
-h4 {
-  font-size: 16px;
-  line-height: 30px;
-}
 img {
   max-width: 620px;
 }
 body {
-  background: url('{{base}}img/gplaypattern.png');
+  background: url('/build/img/dimension.png');
 }
 section.posts h2,
 section.content h2 {
@@ -5904,15 +5946,6 @@ div.container {
 div.container footer {
   margin-bottom: 10px;
 }
-header.logo {
-  margin: 1.5em 0;
-}
-header.logo h1 {
-  font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  line-height: 1;
-}
 /* Faded out hr */
 hr.soften {
   height: 1px;
@@ -5922,45 +5955,4 @@ hr.soften {
   background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
   border: 0;
-}
-header .about {
-  background: #333;
-  color: #ddd;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
-  padding-top: 1em;
-  width: 980px;
-  margin-left: -20px;
-  margin-bottom: 1em;
-}
-.about-inner {
-  margin-left: 0;
-}
-header .about {
-  background: #333333;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #333333 0%, #444444 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #444444));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #333333 0%, #444444 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #333333 0%, #444444 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #333333 0%, #444444 100%);
-  /* IE10+ */
-  background: linear-gradient(top, #333333 0%, #444444 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#444444', GradientType=0);
-  /* IE6-9 */
-}
-header .about img.avatar {
-  margin-right: 20px;
-  max-height: 120px;
-}
-header .about p {
-  color: #dddddd;
-}
-header a:hover {
-  text-decoration: none;
 }

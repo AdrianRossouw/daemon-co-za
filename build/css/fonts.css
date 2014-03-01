@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Maven Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #446;
+}
+body,
+p {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #668;
+}
+.alert p {
+  color: inherit;
+  margin: 0;
+}
+.alert a {
+  font-weight: bold;
+  color: #16759E;
+}
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 30px;
+}

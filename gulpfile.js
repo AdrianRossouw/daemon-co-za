@@ -25,8 +25,8 @@ gulp.task('bootstrap', _.debounce(function() {
         .pipe(gulp.dest('build/fonts'));
 }, 200));
 
-gulp.task('jekyll', _.debounce(function() {
-    require('child_process').spawn('jekyll', ['build', '--config', '_config.yml,_test.yml'], {stdio: 'inherit'});
+gulp.task('jekyll', _.debounce(function(next) {
+    return require('child_process').spawn('jekyll', ['build', '--config', '_config.yml,_test.yml'], {stdio: 'inherit'});
 }, 400));
 
 gulp.task('server', function(next) {
