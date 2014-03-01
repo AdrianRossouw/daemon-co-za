@@ -9,7 +9,7 @@ layout: default
 {% capture article_count %}{{site.categories.post | size}}{% endcapture %}
 {% capture offset %}{{paginator.page | minus: 1 | times:paginator.per_page }}{%endcapture%}
 
-<section class='posts span8'>
+<section class='posts col-md-8'>
   {% for article in site.categories.post limit:paginator.per_page offset:offset %}
     {% if forloop.index > 1 %}
       <hr class='soften' />

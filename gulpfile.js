@@ -1,20 +1,26 @@
-var gulp = require('gulp');
-var less = require('gulp-less');
+var gulp       = require('gulp');
+var gutil      = require('gulp-util');
+var less       = require('gulp-less');
 var livereload = require('gulp-livereload');
-var express = require('express');
-var _ = require('underscore');
+var express    = require('express');
+var _          = require('underscore');
 
 gulp.task('less', _.debounce(function() {
     var opts = {
         paths: [__dirname + '/bower_components/bootstrap/less']
     };
     gulp.src('less/*.less')
-    .pipe(less(opts))
+        .pipe(less(opts))
+        .on('error', gutil.log)
+        .pipe(gulp.dest('build/css'));
+
+    gulp.src('less/*.css')
     .pipe(gulp.dest('build/css'));
+
 }, 200));
 
 gulp.task('jekyll', _.debounce(function() {
-    require('child_process').spawn('jekyll', ['build'], {stdio: 'inherit'});
+    require('child_process').spawn('jekyll', ['build', '--config', '_config.yml,_test.yml'], {stdio: 'inherit'});
 }, 400));
 
 gulp.task('server', function(next) {
@@ -25,19 +31,20 @@ gulp.task('server', function(next) {
     console.log("listening on port 4000");
 });
 
-gulp.task('default', ['less', 'jekyll']);
+//gulp.task('default', ['less', 'jekyll']);
 
 gulp.task('watch', ['less', 'jekyll', 'server'], function() {
     var server = livereload();
-    gulp.watch('less/*.less', ['less']);
+    gulp.watch('less/**', ['less']);
     gulp.watch([
         'index.html',
         '_posts/**',
         '_includes/**',
         '_layouts/**',
-        'portfolio/**'
+        'portfolio/**',
+        'build/**'
     ], ['jekyll']);
-    gulp.watch('build/**').on('change', function(file) {
+    gulp.watch('_site/**').on('change', _.debounce(function(file) {
         server.changed(file.path);
-    });
+    }, 200));
 });
