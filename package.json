@@ -21,7 +21,8 @@
     "gulp": "^3.5.2",
     "browserify": "^3.31.2",
     "gulp-uglify": "^0.2.1",
-    "gulp-less": "^1.2.1",
-    "gulp-concat": "^2.1.7"
+    "gulp-less": "~1.2.1",
+    "gulp-concat": "^2.1.7",
+    "gulp-minify-css": "~0.3.0"
   }
 }
