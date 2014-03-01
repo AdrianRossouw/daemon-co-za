@@ -1,0 +1,19 @@
+{
+  "name": "daemon-co-za",
+  "version": "0.0.1",
+  "description": "personal blog",
+  "main": "site.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Vertice/daemon-co-za.git"
+  },
+  "author": "adrian rossouw",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Vertice/daemon-co-za/issues"
+  },
+  "homepage": "https://github.com/Vertice/daemon-co-za"
+}
