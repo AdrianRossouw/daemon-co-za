@@ -5821,6 +5821,7 @@ header.logo {
   margin-left: -20px;
   margin-right: -20px;
   margin-bottom: 1em;
+  text-transform: uppercase;
 }
 header.logo:before,
 header.logo:after {
@@ -5841,19 +5842,16 @@ header.logo:after {
 header.logo h1 {
   float: left !important;
   font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 500;
   line-height: 1;
-  margin: .5em;
-  padding-top: 5px;
+  margin: 0.5em;
 }
 header.logo .menu {
   margin: 1em;
-  font-size: 20px;
   float: right !important;
 }
-header.logo a:hover {
-  text-decoration: none;
+header.logo .menu :hover {
+  background: #ffffff;
 }
 header.logo {
   background: #333333;
