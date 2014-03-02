@@ -10,8 +10,13 @@ tech:
   - python
   - linux
 ---
-Raincity Studios [purchased Bryght](http://www.prweb.com/releases/raincity-studios/acquires-bryght/prweb571216.htm) in November of 2007.
+Responsible for the maintenance of the hosting system I had built before being acquired.
 
-My responsibilities at the new company included the maintenance of the existing hosting system, but also building a completely rewritten replacement for the aging system, that took into account all the lessons we had learned, and would allow for us to offer more functionality to our clients.
+I was also tasked with a completely rewritten replacement for the aging system, that took into account all the lessons we had learned, and would allow for us to offer more functionality to our clients.
 
-The system (eventually known as the [Aegir hosting system](http://aegirproject.org)) was feature complete and deployed to staging when the company started disintegrating. I continued working on this project on my own time, for several months afterwards.
+<!--more-->
+
+The system (eventually known as the [Aegir hosting system](http://aegirproject.org)) was feature complete and deployed to staging when the company went bankrupt.
+
+I continued working on this project on my own time, for several months afterwards. I was able to get sponsorship for the growing open source product through employment by
+Development Seed.

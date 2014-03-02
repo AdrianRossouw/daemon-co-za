@@ -21,5 +21,14 @@
   {% endif %}
 
   </header>
+
+  {% if job.excerpt %}
+  {{job.excerpt}}
+  <div class='expand'>
+      {{job.content | remove: job.excerpt}}
+  </div>
+  {% else %}
   {{job.content}}
+  {% endif %}
+
 </article>

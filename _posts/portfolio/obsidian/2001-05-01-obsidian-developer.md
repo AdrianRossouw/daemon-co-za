@@ -9,6 +9,10 @@ tech:
   - tcl
   - python
   - postresql
+  - linux
 ---
-Built several large portal / application projects in PHP.
-Was additionally responsible for construction and improvements of systems written in both TCL/TK and Python.
+Obsidian was arguably the largest company in South Africa solely focused on Linux and Open Source.
+
+My primary motivation for seeking employment with them was to be able to focus on various open source technologies, at a time when the majority of the local industry were tied to Microsoft products.
+
+I was involved in a number of projects including multiple web portals written in PHP, a cross-platform desktop application written in Tcl/TK, and a touch screen point-of-sale system written in Python.

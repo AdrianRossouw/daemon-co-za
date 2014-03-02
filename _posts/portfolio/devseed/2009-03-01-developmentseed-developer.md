@@ -17,8 +17,6 @@ tech:
   - puppet
   - linux
 ---
-DevelopmentSeed initially approached me with employment as a means of funding the open source [Aegir project](http://aegirproject.org), that I had founded during my employment with Raincity Studios.
+I was initially employed as a means of funding the open source [Aegir project](http://aegirproject.org), that I had founded while working for my previous employer. I stayed on with them and transitioned into a more development support and system automation role, and eventually working with them on various client projects.
 
-After my initial contract ran it's course, I stayed on with the company adding additional system administration and workflow automation to my responsibilities. I was still primarily employed as a means to further my work on Aegir at the time.
-
-In early 2011 the company (and myself) decided to abandon our current Drupal based stack, instead focusing on [Node.JS](http://nodejs.org) and server side javascript. Since then I have been involved in several client projects using these technologies, with a focus on building interactive data sites that have a geo/maps component to them.
+During my time with them we all made the decision to refocus our energies on Node.js, and proceeded to [find new maintainers for several successful open source products](http://developmentseed.org/blog/2011/feb/22/open-atrium-and-managing-news-acquired/) we had built using Drupal. They have built many data driven sites with very complex mapping components since then, and I was involved in many of their projects during that time.

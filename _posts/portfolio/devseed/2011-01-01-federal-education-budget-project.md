@@ -16,6 +16,7 @@ tech:
   - couchdb
   - geo
   - elasticsearch
+  - mapbox
   - nginx
 ---
 We partnered with the [Federal Education Budget Project](http://febp.newamerica.net) at the [New America Foundation](http://newamerica.net) to help better communicate how each U.S. school district compares to its surrounding districts, how it performs relative to other districts in its state, and how it compares to other schools in the country across a range of indicators. The custom data browser shows each school district on a map next to its neighbors using custom mapping tools.

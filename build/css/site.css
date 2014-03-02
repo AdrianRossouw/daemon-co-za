@@ -5885,6 +5885,12 @@ header a:hover {
 .portfolio .excerpt {
   display: none;
 }
+.portfolio .img-wrapper {
+  width: 500px;
+}
+.portfolio .expand {
+  display: none;
+}
 img.avatar {
   box-shadow: 0 0 2px #444;
   border-radius: 4px;
@@ -5901,9 +5907,6 @@ img.avatar {
   max-height: 339px;
   box-shadow: 0 0 2px #444;
   border-radius: 4px;
-}
-.portfolio .img-wrapper {
-  width: 500px;
 }
 img {
   max-width: 620px;
