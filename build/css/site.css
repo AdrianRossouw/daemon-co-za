@@ -5823,6 +5823,7 @@ header.logo {
   margin-left: -20px;
   margin-right: -20px;
   margin-bottom: 1em;
+  text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
 header.logo:before,

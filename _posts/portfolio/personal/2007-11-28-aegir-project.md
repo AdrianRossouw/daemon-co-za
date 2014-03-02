@@ -2,6 +2,7 @@
 title: The Aegir Project
 end_date: "2011-04-15"
 category: project
+layout: post
 link: http://aegirproject.org
 images:
   - 
