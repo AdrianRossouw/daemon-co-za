@@ -5794,10 +5794,6 @@ p {
   color: inherit;
   margin: 0;
 }
-.alert a {
-  font-weight: bold;
-  color: #16759E;
-}
 h1 {
   font-size: 38px;
 }
@@ -5812,66 +5808,41 @@ h4 {
   font-size: 16px;
   line-height: 30px;
 }
-header.logo {
-  margin: 1.5em 0;
+.navbar {
   background: #333;
   color: #ddd;
+  border-color: 0;
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
   margin-left: -20px;
   margin-right: -20px;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 0;
   text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
-header.logo:before,
-header.logo:after {
-  content: " ";
-  display: table;
-}
-header.logo:after {
-  clear: both;
-}
-header.logo:before,
-header.logo:after {
-  content: " ";
-  display: table;
-}
-header.logo:after {
-  clear: both;
-}
-header.logo h1 {
-  float: left !important;
+.navbar .navbar-brand {
   font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
+  font-size: 38px;
+  margin-right: 0;
+}
+.navbar .navbar-text {
+  color: #999;
   line-height: 1;
-  margin: .5em;
-  padding-top: 5px;
-}
-header.logo .menu {
-  margin: 1em;
   font-size: 20px;
-  float: right !important;
+  padding-left: 0;
+  margin-left: 0;
+  font-weight: normal;
 }
-header.logo .menu .nav li a:hover {
-  background: rgba(0, 0, 0, 0.5);
+.navbar .navbar-nav a:hover {
+  color: #428bca;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
 }
-header.logo {
-  background: #333333;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #333333 0%, #444444 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #444444));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #333333 0%, #444444 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #333333 0%, #444444 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #333333 0%, #444444 100%);
-  /* IE10+ */
-  background: linear-gradient(top, #333333 0%, #444444 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#444444', GradientType=0);
-  /* IE6-9 */
+.navbar {
   background-image: url('../img/escheresque_ste.png');
 }

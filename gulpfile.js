@@ -1,21 +1,23 @@
-var gulp       = require('gulp');
-var gutil      = require('gulp-util');
-var less       = require('gulp-less');
-var livereload = require('gulp-livereload');
-var express    = require('express');
-var _          = require('underscore');
+var gulp         = require('gulp');
+var gutil        = require('gulp-util');
+var less         = require('gulp-less');
+var livereload   = require('gulp-livereload');
+var express      = require('express');
+var _            = require('underscore');
 
-var bootstrapSrc = __dirname + '/bower_components/bootstrap';
+var bowerSrc     = __dirname + '/bower_components';
+var bootstrapSrc = bowerSrc + '/bootstrap';
+var lesshatSrc   = bowerSrc + '/lesshat';
+
 gulp.task('less', _.debounce(function() {
-    var opts = {
-        paths: [
-            __dirname + '/less',
-            bootstrapSrc + '/less'
-        ]
+    // set up some paths for less to import from
+    var paths = [];
+    paths.push(__dirname + '/less');
+    paths.push(bootstrapSrc + '/less');
+    paths.push(lesshatSrc + '/build');
 
-    };
     gulp.src('less/*.less')
-        .pipe(less(opts))
+        .pipe(less({paths:paths}))
         .on('error', gutil.log)
         .pipe(gulp.dest('build/css'));
 
@@ -59,7 +61,7 @@ gulp.task('watch', ['less', 'bootstrap', 'jekyll', 'server'], function() {
         '_layouts/**',
         'portfolio/**',
     ], ['jekyll']);
-    gulp.watch('_site/**').on('change', _.debounce(function(file) {
+    gulp.watch('_site/**').on('change', function(file) {
         server.changed(file.path);
-    }, 200));
+    });
 });
