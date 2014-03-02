@@ -90,8 +90,10 @@ links:
     <section class='jobs col-md-5'>
       <h2>Employment History</h2>
       {% for job in site.categories.job %}
-        {% include job.html %}
+        {% unless job.hide %}
+          {% include job.html %}
+        {% endunless %}
       {% endfor %}
-    </section>
+      </section>
   </div>
 </section>

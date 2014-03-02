@@ -2,6 +2,7 @@
 title: Instructor at ITTC
 link: http://www.ittc.co.za
 end_date: "2000-08-01"
+hide: true
 category: job
 tech: 
   - java

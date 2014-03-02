@@ -25,9 +25,8 @@ tech:
   - mocha-js
   
 ---
-GoBe.Me provides online simulation and decision support platforms. This technology powers products that enable businesses, consumers and institutions to quantify complex processes and receive actionable guidance that increase the likelihood of success and decrease costs.
 
-@Work is a one of several vertically integrated products we have been working on. It provides career guidance support to job seekers through it's analysis of a variety of data sources, but most significantly it makes use of proven psychological assessments to form a more cohesive personality profile of the consumer.
+One of several vertically integrated products I have built while at GoBe.Me. It provides career guidance support to job seekers through it's analysis of a variety of data sources, but most significantly it makes use of proven psychological assessments to form a more cohesive personality profile of the consumer.
 
 The goal of the application is not to match you with any job, but rather to find a career path that is more likely to be fulfilling to you as a person and therefor improving your quality of life. 
 
