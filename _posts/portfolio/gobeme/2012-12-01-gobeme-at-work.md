@@ -5,30 +5,34 @@ category: project
 link: http://gobe.me
 images:
   - 
-    src: img/portfolio/febp.front.png
-  - 
-    src: img/portfolio/febp.map.png
-  - 
-    src: img/portfolio/febp.comparison.png
+    span: 6
+    src: img/portfolio/atwork.history.png
 tech:
   - node-js
   - javascript
   - backbone-js
   - marionette-js
-  - continuous-integration
+  - d3-js
   - couchdb
   - elasticsearch
-  - grunt-js
+  - bootstrap
+  - less
+  - gulp-js
+  - jade
   - browserify
+  - cordova
+  - continuous-integration
+  - mocha-js
+  
 ---
-http://commons.wikimedia.org/wiki/File:Graft_182_(PSF).png
-
-named [Graft](http://github.com/ONCHoldings/graft.js), with the goal of encouraging our team to properly abstract the various components in a way that optimises our code base towards long term maintainability and more complete documentation.
-
-
-The focus on writing tested and verifiable code, through the use of continuous integration is also bolstered by this practise. It also aids the on-boarding of more developers to the team, and allows more opportunities for code reuse.
-
 GoBe.Me provides online simulation and decision support platforms. This technology powers products that enable businesses, consumers and institutions to quantify complex processes and receive actionable guidance that increase the likelihood of success and decrease costs.
 
-The problem space is both interesting, and vast. Allowing me to expand my horizons beyond my primary toolchain of javascript and node.js, and into areas like industrial psychology, statistical analysis and business process management.
+@Work is a one of several vertically integrated products we have been working on. It provides career guidance support to job seekers through it's analysis of a variety of data sources, but most significantly it makes use of proven psychological assessments to form a more cohesive personality profile of the consumer.
 
+The goal of the application is not to match you with any job, but rather to find a career path that is more likely to be fulfilling to you as a person and therefor improving your quality of life. 
+
+<!--more-->
+
+This project is built using the Graft framework that we abstracted from our existing codebases and open sourced. As such it is backbone-based with a heavy reliance on marionette.js and the majority of the source code is re-used between the front- and back-ends. There are a number of other technologies involved in the stack too.
+
+The psychological assesments are provided [CPP](http://cpp.com), who own the world renowned Meyers-Briggs assesment (also known as MBTI), although we are actually making use of some of their lesser known instruments which are more applicable to our problem space. They are also one of the major investors in GoBe.Me.

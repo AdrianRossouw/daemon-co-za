@@ -14,8 +14,10 @@ tech:
   - node-js
   - javascript
   - backbone-js
+  - couchdb
+  - elasticsearch
   - geo
-  - nginx
+  - mapbox
 ---
 The Business for Good Map shows where and how businesses are improving communities and lives all over the world.
 
