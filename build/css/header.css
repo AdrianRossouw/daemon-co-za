@@ -5844,14 +5844,16 @@ header.logo h1 {
   font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1;
-  margin: 0.5em;
+  margin: .5em;
+  padding-top: 5px;
 }
 header.logo .menu {
   margin: 1em;
+  font-size: 20px;
   float: right !important;
 }
-header.logo .menu :hover {
-  background: #ffffff;
+header.logo .menu .nav li a:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 header.logo {
   background: #333333;
