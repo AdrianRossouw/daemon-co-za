@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign base = site.baseurl %}
+
+<section class='content col-md-8'>
+<h2>{{page.title}}</small></h2>
+  {% assign project=page %}
+  {% include project.html %}
+</section>
+
+<nav class='sidebar col-md-4'>
+  {% include sidebar.html %}
+</nav>
+
