@@ -17,6 +17,8 @@ tech:
   - backbone-js
   - geo
   - mapbox
+  - inkscape
+  - svg
   - nginx
 ---
 The Global Adaptation Index™ (GAIN™), a project of the [Global Adaption Institute](http://gain.org), provides a data-driven approach to help countries and the private sector invest in adaptation to climate change and other global forces.

@@ -13,6 +13,10 @@ tech:
   - jekyll
   - drupal
   - php
+  - inkscape
+  - svg
+  - d3-js
+  - mapbox
   - mysql
   - puppet
   - linux

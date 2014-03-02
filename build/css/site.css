@@ -5964,6 +5964,9 @@ section.posts h2 small,
 section.content h2 small {
   white-space: nowrap;
 }
+a:hover {
+  text-decoration: none;
+}
 div.container {
   margin-top: 10px;
   margin-bottom: 10px;

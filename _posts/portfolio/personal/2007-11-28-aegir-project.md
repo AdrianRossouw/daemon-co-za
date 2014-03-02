@@ -30,13 +30,13 @@ tech:
 ---
 Aegir is an open source project that I founded, that builds a cloud-based hosting platform for Drupal, using nothing but command-line PHP scripts and sheer determination.
 
-It includes such advanced functionality as provisioning sites across web clusters, migrating between said servers, provisioning DNS and SSL certificates for the sites.
-
-You are also able to use Aegir to manage a dev-staging-production workflow, and it was even able to be completely white-boxed and integrated into any niche you could build a Drupal site for.
-
-I built an community around the project, and was able to successfully hand off the project to my co-maintainers when the project reached the 1.0 milestone.
+I built a community around the project, and was able to successfully hand off the project to my co-maintainers when the project reached the 1.0 milestone.
 
 <!--more-->
+
+You are able to use Aegir to manage a dev-staging-production workflow, and it was even able to be completely white-boxed and integrated into any niche you could build a Drupal site for.
+
+It also provides more advanced features like provisioning sites across web clusters, migrating between said servers, provisioning DNS and SSL certificates for the sites.
 
 In early 2004, I left my job to help found Bryght, one of the first Drupal service companies, with the ambition of building a hosted service with Drupal. I had a dream, and that dream was called "hostmaster". Over the next several years, the system I developed to accomplish this dream evolved into Aegir.
 

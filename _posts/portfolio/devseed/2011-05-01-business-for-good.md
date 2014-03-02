@@ -17,6 +17,8 @@ tech:
   - couchdb
   - elasticsearch
   - geo
+  - inkscape
+  - svg
   - mapbox
 ---
 The Business for Good Map shows where and how businesses are improving communities and lives all over the world. The platform is a tool for businesses to connect, find partners, discover ideas, and share best practices and lessons learned.
