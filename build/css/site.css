@@ -5816,27 +5816,48 @@ h4 {
 }
 header.logo {
   margin: 1.5em 0;
-}
-header.logo h1 {
-  font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  line-height: 1;
-}
-header .about {
   background: #333;
   color: #ddd;
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
-  padding-top: 1em;
   margin-left: -20px;
   margin-right: -20px;
   margin-bottom: 1em;
 }
-.about-inner {
-  margin-left: 0;
+header.logo:before,
+header.logo:after {
+  content: " ";
+  display: table;
 }
-header .about {
+header.logo:after {
+  clear: both;
+}
+header.logo:before,
+header.logo:after {
+  content: " ";
+  display: table;
+}
+header.logo:after {
+  clear: both;
+}
+header.logo h1 {
+  float: left !important;
+  font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1;
+  margin: .5em;
+  padding-top: 5px;
+}
+header.logo .menu {
+  margin: 1em;
+  font-size: 20px;
+  float: right !important;
+}
+header.logo a:hover {
+  text-decoration: none;
+}
+header.logo {
   background: #333333;
   /* Old browsers */
   background: -moz-linear-gradient(top, #333333 0%, #444444 100%);
@@ -5853,16 +5874,7 @@ header .about {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#444444', GradientType=0);
   /* IE6-9 */
-}
-header .about img.avatar {
-  margin-right: 20px;
-  max-height: 120px;
-}
-header .about p {
-  color: #dddddd;
-}
-header a:hover {
-  text-decoration: none;
+  background-image: url('../img/escheresque_ste.png');
 }
 .portfolio h2 {
   border-bottom: 1px solid #eee;
@@ -5897,6 +5909,35 @@ img.avatar {
 }
 .carousel {
   margin-bottom: 0;
+}
+.sidebar .about {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+.sidebar .about h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.sidebar .about .alert-link {
+  font-weight: bold;
+}
+.sidebar .about > p,
+.sidebar .about > ul {
+  margin-bottom: 0;
+}
+.sidebar .about > p + p {
+  margin-top: 5px;
+}
+.sidebar .about hr {
+  border-top-color: #a6e1ec;
+}
+.sidebar .about .alert-link {
+  color: #245269;
 }
 .img-wrapper {
   overflow: hidden;

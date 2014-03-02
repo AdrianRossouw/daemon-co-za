@@ -3,9 +3,6 @@ title: The Musings of Adrian Rossouw
 layout: default
 ---
 {% assign base = site.baseurl %}
-
-{% include profile.html %}
-
 {% capture article_count %}{{site.categories.post | size}}{% endcapture %}
 {% capture offset %}{{paginator.page | minus: 1 | times:paginator.per_page }}{%endcapture%}
 
@@ -50,7 +47,9 @@ layout: default
   </ul>
 </section>
 <nav class='sidebar col-md-4'>
-    
+  <section class='about'>
+    {% include profile.html %}
+  </section>
 
   <h4>Latest Articles</h4>
   <ul class='nav nav-list'>

@@ -1,22 +1,5 @@
 {% capture aboutText %}{% include about.md %}{% endcapture %}
+<div class='about-inner'>
+    {{aboutText | markdownify}}
+</div>
 
-<header class='col-md-12'>
-  <div class='about row'>
-     <div class='about-inner'>
-       <div class='col-md-8'>
-        <img class='pull-left avatar' 
-           src='{{site.baseurl}}img/avatar-small.png' />
-           {{aboutText | markdownify}}
-      </div>
-
-      <div class='col-md-4'>
-      <ul class="nav nav-pills">
-        <li class="active"><a href="{{site.baseurl}}">Home</a></li>
-        <li><a href="{{site.baseurl}}portfolio">Portfolio</a></li>
-        <li><a href="http://github.com/Vertice">GitHub</a></li>
-        <li><a href="http://twitter.com/AdrianRossouw">Twitter</a></li>
-      </ul>
-    </div>
-
-    </div>
-</header>
