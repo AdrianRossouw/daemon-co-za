@@ -9,14 +9,15 @@
   {% else %}
     {{project.title}}
   {% endif %}
-    <small>{{project.date | date:"%B %Y"}} -
-      {% if project.end_date %}{{project.end_date | date:"%B %Y"}}
-      {% else %}Present{% endif %}
+  <small>{{project.date | date:"%B %Y"}}
+      {% if project.ongoing %} - Present
+      {% elsif project.end_date %} - {{project.end_date | date:"%B %Y"}}
+      {% endif %}
   </small></h3>
   
   {% if project.tech %}
     {% for tech in project.tech %}
-      <span class='label label-inverse'>{{ tech }}</span>
+      <span class='label label-default label-inverse'>{{ tech }}</span>
     {% endfor %}
   {% endif %}
 
@@ -36,6 +37,13 @@
     {% endfor %}
   {% endif %}
 
+  {% if project.excerpt %}
+  {{project.excerpt}}
+  <div class='expand'>
+      {{project.content | remove: project.excerpt}}
+  </div>
+  {% else %}
   {{project.content}}
+  {% endif %}
 
   </article>

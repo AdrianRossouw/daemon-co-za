@@ -8,7 +8,11 @@ var _          = require('underscore');
 var bootstrapSrc = __dirname + '/bower_components/bootstrap';
 gulp.task('less', _.debounce(function() {
     var opts = {
-        paths: [bootstrapSrc + '/less']
+        paths: [
+            __dirname + '/less',
+            bootstrapSrc + '/less'
+        ]
+
     };
     gulp.src('less/*.less')
         .pipe(less(opts))
@@ -31,24 +35,29 @@ gulp.task('jekyll', _.debounce(function(next) {
 
 gulp.task('server', function(next) {
     var app = new express();
-    app.use(new express.logger());
+    //app.use(new express.logger());
     app.use(new express.static(__dirname + '/_site'));
     app.listen(4000, next);
     console.log("listening on port 4000");
 });
+
+gulp.task('copy-build', _.debounce(function() {
+    gulp.src('build/css/**')
+        .pipe(gulp.dest('_site/build/css'));
+}, 200));
 
 //gulp.task('default', ['less', 'jekyll']);
 
 gulp.task('watch', ['less', 'bootstrap', 'jekyll', 'server'], function() {
     var server = livereload();
     gulp.watch('less/**', ['less']);
+    gulp.watch('build/**', ['copy-build']);
     gulp.watch([
         'index.html',
         '_posts/**',
         '_includes/**',
         '_layouts/**',
         'portfolio/**',
-        'build/**'
     ], ['jekyll']);
     gulp.watch('_site/**').on('change', _.debounce(function(file) {
         server.changed(file.path);
