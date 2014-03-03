@@ -19,7 +19,7 @@ ongoing: true
 ---
 I rescued an online community for queer and questioning youth I had been involved with as a teenager from complete collapse, after the commercial CMS used for the site suffered a catastrophic meltdown.
 
-While I am not actively involved with the site anymore, I still host and maintain it, as I have for nearly 10 years.
+While I am not actively involved with the site anymore, I still host and maintain it, as I have for more than ten years.
 
 <!--more-->
 
