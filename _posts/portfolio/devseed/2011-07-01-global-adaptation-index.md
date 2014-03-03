@@ -10,7 +10,7 @@ images:
     src: img/portfolio/gain.rankings.png
   -
     src: img/portfolio/gain.matrix.png
-tech:
+tags:
   - node-js
   - javascript
   - couchdb

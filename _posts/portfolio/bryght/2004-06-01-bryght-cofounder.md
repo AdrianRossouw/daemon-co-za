@@ -2,7 +2,7 @@
 title: Co-Founder of Bryght
 end_date: "2007-10-01"
 category: job
-tech: 
+tags: 
   - drupal
   - php
   - mysql

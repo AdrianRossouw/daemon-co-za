@@ -10,7 +10,7 @@ images:
     src: img/portfolio/febp.map.png
   - 
     src: img/portfolio/febp.comparison.png
-tech:
+tags:
   - node-js
   - javascript
   - couchdb

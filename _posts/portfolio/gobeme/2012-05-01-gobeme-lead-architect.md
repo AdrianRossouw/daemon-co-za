@@ -2,7 +2,7 @@
 title: Lead Architect at GoBe.me 
 link: http://oncholdings.com
 category: job
-tech: 
+tags: 
   - node-js
   - javascript
   - backbone-js

@@ -10,7 +10,7 @@ images:
     src: img/portfolio/bclc.search.png
   -
     src: img/portfolio/bclc.post.png
-tech:
+tags:
   - node-js
   - javascript
   - backbone-js

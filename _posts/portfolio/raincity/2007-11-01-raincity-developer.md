@@ -2,7 +2,7 @@
 title: Developer at Raincity Studios
 end_date: "2008-12-01"
 category: job
-tech: 
+tags: 
   - drupal
   - php
   - mysql

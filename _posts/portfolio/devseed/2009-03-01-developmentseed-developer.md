@@ -3,7 +3,7 @@ title: Developer at DevelopmentSeed
 link: http://developmentseed.org
 category: job
 end_date: "2012-04-30"
-tech: 
+tags: 
   - node-js
   - javascript
   - couchdb

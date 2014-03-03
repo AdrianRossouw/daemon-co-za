@@ -1,6 +1,6 @@
 ---
 title: Courseware Delivery System
-tech:
+tags:
   - php
   - mysql
   - linux

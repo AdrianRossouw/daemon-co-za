@@ -17,7 +17,7 @@ images:
     span: 2
     src: img/portfolio/community.aegirproject.png
     href: http://community.aegirproject.org
-tech:
+tags:
   - php
   - mysql
   - unix

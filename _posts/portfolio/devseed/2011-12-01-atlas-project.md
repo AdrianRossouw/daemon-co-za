@@ -6,7 +6,7 @@ category: project
 images:
   -
     src: img/portfolio/atlas.2.png
-tech:
+tags:
   - node-js
   - javascript
   - backbone-js

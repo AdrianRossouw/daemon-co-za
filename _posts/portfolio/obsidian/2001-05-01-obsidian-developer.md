@@ -3,7 +3,7 @@ title: Application Developer at Obsidian Systems
 link: http://www.obsidian.co.za
 category: job
 end_date: "2004-05-01"
-tech: 
+tags: 
   - php
   - mysql
   - tcl

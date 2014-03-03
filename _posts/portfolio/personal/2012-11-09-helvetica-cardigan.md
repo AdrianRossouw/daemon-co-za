@@ -7,7 +7,7 @@ images:
     span: 6 
     src: img/portfolio/cardigan.png
     href: https://github.com/Vertice/helvetica-cardigan
-tech:
+tags:
   - node-js 
   - javascript
   - backbone-js

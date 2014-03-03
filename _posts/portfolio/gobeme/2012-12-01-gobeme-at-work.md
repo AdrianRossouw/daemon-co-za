@@ -7,7 +7,7 @@ images:
   - 
     span: 6
     src: img/portfolio/atwork.history.png
-tech:
+tags:
   - node-js
   - javascript
   - backbone-js
