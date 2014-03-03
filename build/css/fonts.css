@@ -7,14 +7,14 @@ h6 {
   font-family: 'Maven Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  color: #446;
+  color: #335;
 }
 body,
 p {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: #668;
+  color: #446;
 }
 .alert p {
   color: inherit;

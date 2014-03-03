@@ -2,15 +2,8 @@
 @import "bootstrip.less";
 @import "pygments.css";
 @import "roundabout.css";
-@import "fonts.less";
 @import "header.less";
 @import "lesshat.less";
-@import "variables.less";
-
-@brand-primary: spin(#428bca, 145);
-@state-info-text: spin(#31708f, 180);
-@state-info-bg: spin( #d9edf7, 180);i
-
 .portfolio {
   h2 {
     border-bottom: 1px solid #eee;
@@ -49,7 +42,11 @@ img { max-width: 620px }
 body { background: url('/build/img/dimension.png');}
 
 section.posts, section.content {
-  h2 { line-height: 1; margin-bottom: 20px }
+  h2 { 
+      line-height: 1;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
   h2 small { white-space: nowrap; }
 }
 a:hover {
