@@ -39,6 +39,8 @@
 
   {% if project.excerpt %}
   {{project.excerpt}}
+
+      <p><a href='{{project.url}}' class='btn btn-default pull-right'>Read more →</a></p>
   {% else %}
   {{project.content}}
   {% endif %}

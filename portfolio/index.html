@@ -55,7 +55,7 @@ links:
 
   <section class='about row'>
         <div class='col-md-3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
-        <div class='col-md-4'>{{aboutText | markdownify}}
+        <div class='col-md-5'>{{aboutText | markdownify}}
           <ul>
             {% for d in page.links %}
               <li><a href='{{d.value}}'>{{d.field}}</a></li>
@@ -63,7 +63,7 @@ links:
           </ul>
         </div>
 
-      <div class='col-md-5'>
+      <div class='col-md-4'>
           <table class='table table-condensed'>
             <tbody>
               {% for d in page.details %}
