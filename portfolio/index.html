@@ -53,8 +53,9 @@ links:
 {% capture aboutText %}{% include about.md %}{% endcapture %}
 <section class='portfolio col-md-12'>
 
+  <h2 class='page-title'>Portfolio of Adrian Rossouw</h2>
   <section class='about row'>
-        <div class='col-md-3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
+    
         <div class='col-md-5'>{{aboutText | markdownify}}
           <ul>
             {% for d in page.links %}
@@ -63,6 +64,7 @@ links:
           </ul>
         </div>
 
+        <div class='col-md-3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
       <div class='col-md-4'>
           <table class='table table-condensed'>
             <tbody>

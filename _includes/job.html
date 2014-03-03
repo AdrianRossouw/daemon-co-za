@@ -12,9 +12,9 @@
       {% endif %}
   </small></h3>
 
-  {% if job.tech %}
+  {% if job.tags %}
   <footer>
-    {% for tech in job.tech %}
+    {% for tech in job.tags %}
       <span class='label label-default label-inverse'>{{ tech }}</span>
     {% endfor %}
     </footer>

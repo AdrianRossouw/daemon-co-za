@@ -15,8 +15,8 @@
       {% endif %}
   </small></h3>
   
-  {% if project.tech %}
-    {% for tech in project.tech %}
+  {% if project.tags %}
+    {% for tech in project.tags %}
       <span class='label label-default label-inverse'>{{ tech }}</span>
     {% endfor %}
   {% endif %}
