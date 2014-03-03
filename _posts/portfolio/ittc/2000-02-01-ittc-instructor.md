@@ -5,7 +5,6 @@ end_date: "2000-08-01"
 hide: true
 category: job
 tags: 
-  - java
   - c/c++
   - visual basic
 ---

@@ -5917,10 +5917,14 @@ h4 {
   margin-left: 0;
   font-weight: normal;
 }
+.navbar .navbar-nav li.active a,
 .navbar .navbar-nav a:hover {
   color: #56c812;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;
+}
+.navbar .navbar-nav li.active a {
+  color: #8cef51;
 }
 .navbar {
   background-image: url('../img/escheresque_ste.png');
@@ -5958,6 +5962,10 @@ h4 {
 .portfolio table.table-condensed tr:first-child td,
 .portfolio table.table-condensed tr:first-child th {
   border-top: 0;
+}
+.portfolio .links li {
+  white-space: nowrap;
+  width: 9em;
 }
 img.avatar {
   box-shadow: 0 0 2px #444;

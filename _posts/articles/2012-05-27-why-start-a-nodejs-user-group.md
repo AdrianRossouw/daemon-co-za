@@ -5,8 +5,6 @@ layout: post
 breakWords: 294
 ---
 
-_I wrote this article to be able to plug the [Node.js Cape Town](http://nodecpt.github.com) user group I started recently. Our next meeting will be on the <strong>7th of July 2012</strong>, where I will be tempting fate with a [live-coding demonstration of building a basic node application](http://nodecpt.github.com/2012/05/june-meetup/)._
-
 _My decision to start [NodeCPT](http://nodecpt.github.com) has a couple of different motivations, which I will deal with mostly separately in this post._
 
 ### The big picture.

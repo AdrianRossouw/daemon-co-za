@@ -35,10 +35,16 @@
     margin-left: 0; 
     font-weight: normal;
   }
-  .navbar-nav a:hover {
-    color: @brand-complement1;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
+  .navbar-nav {
+    li.active a, a:hover {
+      color: @brand-complement1;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 4px;
+    }
+    li.active a {
+      color: lighten(@brand-complement1, 20%);
+    }
+
   }
 
 }

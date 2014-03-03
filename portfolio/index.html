@@ -1,62 +1,16 @@
 ---
 title: Portfolio
 layout: default
-details:
-  - 
-    field: 'Full Name'
-    value: 'Frederik Jacobus Adrian Rossouw' 
-  -
-    field: 'Nationality'
-    value: 'South African' 
-  -
-    field: 'Birth Date'
-    value: '28 June 1981' 
-
-contact:
-  -
-    field: 'Email'
-    value: 'adrian@daemon.co.za'
-    link: 'mailto\:adrian@daemon.co.za'
-  -
-    field: 'Gtalk'
-    value: 'adrian@daemon.co.za'
-  -
-    field: 'Twitter'
-    value: 'AdrianRossouw'
-    link: 'http://twitter.com/AdrianRossouw'
-  -
-    field: 'Skype'
-    value: 'Vertice123'
-  -
-    field: 'Telephone'
-    value: '+27 83 379 1716'
-
-links:
-  - 
-    field: 'Personal Website'
-    value: 'http://daemon.co.za'
-  - 
-    field: 'Github'
-    value: 'http://github.com/Vertice'
-  - 
-    field: 'LinkedIn'
-    value: 'http://www.linkedin.com/profile/view?id=27444'
-  - 
-    field: 'Drupal.org'
-    value: 'http://drupal.org/user/1337'
-  - 
-    field: 'Drupal Community Spotlight'
-    value: 'https://drupal.org/node/956624'
 
 ---
 
 {% capture aboutText %}{% include about.md %}{% endcapture %}
 <section class='portfolio col-md-12'>
 
-  <h2 class='page-title'>Portfolio of Adrian Rossouw</h2>
+<h2 class='page-title'>Adrian Rossouw <small>Full-Stack Developer</small></h2>
   <section class='about row'>
     
-        <div class='col-md-5'>{{aboutText | markdownify}}
+        <div class='col-sm-8 col-md-5'>{{aboutText | markdownify}}
           <ul>
             {% for d in page.links %}
               <li><a href='{{d.value}}'>{{d.field}}</a></li>
@@ -64,14 +18,15 @@ links:
           </ul>
         </div>
 
-        <div class='col-md-3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
-      <div class='col-md-4'>
+        <div class='hidden-xs col-sm-4 col-md-3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
+        <div class='col-sm-12 col-md-4'>
+          <h2 class='hidden-md hidden-lg'>Contact Details</h2>
           <table class='table table-condensed'>
             <tbody>
-              {% for d in page.details %}
+              {% for d in site.data.details %}
                 <tr><th>{{d.field}}</th><td>{{d.value}}</td></tr>
               {% endfor %}
-              {% for d in page.contact %}
+              {% for d in site.data.contact %}
                 <tr><th>{{d.field}}</th><td>
                   {% if d.link %}<a href='{{d.link}}'>{{d.value}}</a>{% else %}{{d.value}}{% endif %}
                 </td></tr>
@@ -80,16 +35,27 @@ links:
           </table>
         </div>
     </section>
-
-  <hr class='soften' />
+ 
   <div class='row'>
-    <section class='col-md-7 projects'>
-      <h2>Selected Projects</h2>
-      {% for project in site.categories.project %}
-        {% include project.html %}
+    <div class='techs col-md-8'>
+      <h2>Technologies</h2>
+      {% for tech in site.data.skills  %}
+        <span class='label label-default label-inverse'>{{ tech }}</span>
       {% endfor %}
-    </section>
-    <section class='jobs col-md-5'>
+    </div>
+     <div class='col-md-4 links'>
+       <h2>Links</h2>
+          <ul class='list-inline'>
+              {% for d in site.data.links %}
+                <li><a href='{{d.value}}'>{{d.field}}</a></li>
+              {% endfor %}
+          </ul>
+        </div>
+
+  </div>
+
+  <div class='row'>
+    <section class='jobs col-md-5 col-md-push-7'>
       <h2>Employment History</h2>
       {% for job in site.categories.job %}
         {% unless job.hide %}
@@ -97,5 +63,12 @@ links:
         {% endunless %}
       {% endfor %}
       </section>
+    <section class='col-md-7 col-md-pull-5 projects'>
+      <h2>Selected Projects</h2>
+      {% for project in site.categories.project %}
+        {% include project.html %}
+      {% endfor %}
+    </section>
+
   </div>
 </section>

@@ -24,7 +24,7 @@
 
   </header>
   {% if project.images.size > 1 %}
-    <div class='roundabout-wrapper'>
+    <div class='roundabout-wrapper hidden-xs'>
       <ul class='roundabout clearfix'>
         {% for img in project.images %}
         <li><div class='slide-wrapper'><img src='{{base}}{{img.src}}' /></div></li>
@@ -33,14 +33,13 @@
     </div>
   {% else if project.images %}
     {% for img in project.images %}
-      <div class='img-wrapper'><img src='{{base}}{{img.src}}' /></div>
+      <div class='img-wrapper hidden-xs'><img src='{{base}}{{img.src}}' /></div>
     {% endfor %}
   {% endif %}
 
   {% if project.excerpt %}
   {{project.excerpt}}
 
-      <p><a href='{{project.url}}' class='btn btn-default pull-right'>Read more →</a></p>
   {% else %}
   {{project.content}}
   {% endif %}
