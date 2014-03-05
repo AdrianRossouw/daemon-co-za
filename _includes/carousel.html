@@ -1,0 +1,28 @@
+{% assign base = site.baseurl %}
+
+<div id='project{{projectId}}' class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      {% for img in project.images %}
+      <li data-target='#project{{projectId}}' data-slide-to="{{forloop.index0}}" {% if forloop.first %} class="active" {% endif %}></li>
+      {% endfor %}
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        {% for img in project.images %}
+          <div class="{% if forloop.first %} active {% endif %} item">
+            <img src='{{base}}{{img.src}}' />
+          </div>
+        {% endfor %}
+      </div>
+
+      
+  <!-- Controls -->
+  <a class="left carousel-control" href="#project{{projectId}}" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#project{{projectId}}" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>

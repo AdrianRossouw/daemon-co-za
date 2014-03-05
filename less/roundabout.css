@@ -1,33 +1,14 @@
-.roundabout-wrapper {
-  height: 280px;
+.carousel {
+  width: 560px;
   margin: 2em 1em 2em 1em;
 }
-.roundabout .slide-wrapper {
+.carousel img {
+  width: 560px;
+}
+.carousel-inner {
   border: 1px solid #333;
   width: 420px;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 2px 2px 4px #444;
-}
-.roundabout img {
-
-  width: 420px;
-
-}
-.roundabout-holder {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  height: 1em;
-  width: 7em;
-
-}
-.roundabout-moveable-item {
-  height: 5em;
-  width: 6em;
-  cursor: pointer;
-  background-color: #ccc;
-}
-.roundabout-in-focus {
-  cursor: auto;
 }

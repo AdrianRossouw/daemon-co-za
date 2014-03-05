@@ -2,12 +2,14 @@ var gulp         = require('gulp');
 var gutil        = require('gulp-util');
 var less         = require('gulp-less');
 var livereload   = require('gulp-livereload');
+var watch        = require('gulp-watch');
 var express      = require('express');
 var _            = require('underscore');
 
 var bowerSrc     = __dirname + '/bower_components';
 var bootstrapSrc = bowerSrc + '/bootstrap';
 var lesshatSrc   = bowerSrc + '/lesshat';
+var server = livereload();
 
 gulp.task('less', _.debounce(function() {
     // set up some paths for less to import from
@@ -51,7 +53,6 @@ gulp.task('copy-build', _.debounce(function() {
 //gulp.task('default', ['less', 'jekyll']);
 
 gulp.task('watch', ['less', 'bootstrap', 'jekyll', 'server'], function() {
-    var server = livereload();
     gulp.watch('less/**', ['less']);
     gulp.watch('build/**', ['copy-build']);
     gulp.watch([
@@ -61,7 +62,7 @@ gulp.task('watch', ['less', 'bootstrap', 'jekyll', 'server'], function() {
         '_layouts/**',
         'portfolio/**',
     ], ['jekyll']);
-    gulp.watch('_site/**').on('change', function(file) {
+    gulp.watch('_site/**', function(file) {
         server.changed(file.path);
     });
 });

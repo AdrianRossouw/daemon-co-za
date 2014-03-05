@@ -1,5 +1,7 @@
 {% assign base = site.baseurl %}
 {% if forloop.index > 1 %}<hr class='soften' />{% endif %}
+{% assign projectId = forloop.index0 %}
+{% assign img = project.images | first %}
 
 <article class='project'>
 <header>
@@ -23,18 +25,15 @@
 
 
   </header>
+
   {% if project.images.size > 1 %}
-    <div class='roundabout-wrapper hidden-xs'>
-      <ul class='roundabout clearfix'>
-        {% for img in project.images %}
-        <li><div class='slide-wrapper'><img src='{{base}}{{img.src}}' /></div></li>
-        {% endfor %}
-      </ul>
+    {% include carousel.html %}
+    {% elsif project.images %}
+    <div class='carousel'>
+      <div class='carousel-inner'>
+        <img src='{{base}}{{img.src}}' />
+      </div>
     </div>
-  {% else if project.images %}
-    {% for img in project.images %}
-      <div class='img-wrapper hidden-xs'><img src='{{base}}{{img.src}}' /></div>
-    {% endfor %}
   {% endif %}
 
   {% if project.excerpt %}
