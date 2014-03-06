@@ -5929,6 +5929,33 @@ h4 {
 .navbar {
   background-image: url('../img/escheresque_ste.png');
 }
+#footer {
+  background: #333;
+  color: #ddd;
+  border-color: transparent;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: 1.5em;
+  padding: 1em;
+  border-radius: 0;
+  text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  background-image: url('../img/escheresque_ste.png');
+}
+#footer a {
+  color: #56c812;
+}
+#footer p {
+  color: #999;
+  margin: 0;
+  line-height: 1;
+  font-weight: normal;
+}
+#footer .copyright {
+  float: right !important;
+}
 .portfolio h2 {
   border-bottom: 1px solid #eee;
   margin-bottom: 0.5em;
@@ -6035,7 +6062,6 @@ div.container {
   padding: 0 20px;
   box-shadow: 0 1px 5px #444;
   border-radius: 4px;
-  padding-bottom: 4em;
 }
 div.container {
   background: #fefefe;

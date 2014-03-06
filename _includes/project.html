@@ -29,7 +29,7 @@
   {% if project.images.size > 1 %}
     {% include carousel.html %}
     {% elsif project.images %}
-    <div class='carousel'>
+    <div class='hide-xs hide-sm carousel'>
       <div class='carousel-inner'>
         <img src='{{base}}{{img.src}}' />
       </div>

@@ -8,7 +8,7 @@
 <h4>Latest Posts</h4>
 <ul class='nav nav-list'>
     {% for article in site.categories.post %}
-    <li><a href='{{base}}{{article.url}}'>{{article.title}}</a></li>
+    <li><a href='{{article.url}}'>{{article.title}}</a></li>
     {% endfor %}
 </ul>
 
