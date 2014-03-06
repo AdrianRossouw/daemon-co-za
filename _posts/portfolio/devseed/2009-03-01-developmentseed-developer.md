@@ -1,6 +1,7 @@
 ---
 title: Developer at DevelopmentSeed
 link: http://developmentseed.org
+print: true
 category: job
 end_date: "2012-04-30"
 tags: 

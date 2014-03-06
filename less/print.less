@@ -1,0 +1,20 @@
+@import "bootstrip.less";
+
+@media print {
+  .portfolio {
+    a:after { content: ""; }
+    .carousel {
+      display: none !important;
+    }
+    hr.soften {
+      margin: 0 !important;
+      height: 0 !important;
+    }
+    
+    h1, h2, h3, h4 {
+      color: @brand-primary !important;
+    }
+
+  }
+}
+

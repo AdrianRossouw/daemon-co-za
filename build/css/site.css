@@ -1,5 +1,5 @@
 @import "pygments.css";
-@import "roundabout.css";
+@import "carousel.css";
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5956,6 +5956,24 @@ h4 {
 #footer .copyright {
   float: right !important;
 }
+@media print {
+  .portfolio a:after {
+    content: "";
+  }
+  .portfolio .carousel {
+    display: none !important;
+  }
+  .portfolio hr.soften {
+    margin: 0 !important;
+    height: 0 !important;
+  }
+  .portfolio h1,
+  .portfolio h2,
+  .portfolio h3,
+  .portfolio h4 {
+    color: #e55b15 !important;
+  }
+}
 .portfolio h2 {
   border-bottom: 1px solid #eee;
   margin-bottom: 0.5em;
@@ -5993,6 +6011,11 @@ h4 {
 .portfolio .links li {
   white-space: nowrap;
   width: 9em;
+}
+@media print {
+  .portfolio .tags {
+    display: none !important;
+  }
 }
 img.avatar {
   box-shadow: 0 0 2px #444;

@@ -9,6 +9,7 @@ tags:
   - postgresql
   - python
   - linux
+print: true
 ---
 Bryght was the first Drupal services company, co-founded by myself and some other developers.
 

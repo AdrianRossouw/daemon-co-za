@@ -1,9 +1,9 @@
 {% assign base = site.baseurl %}
-{% if forloop.index > 1 %}<hr class='soften' />{% endif %}
+{% if forloop.index > 1 %}<hr class='{% unless project.print %}hidden-print {% endunless %}soften' />{% endif %}
 {% assign projectId = forloop.index0 %}
 {% assign img = project.images | first %}
 
-<article class='project'>
+<article class='{% unless project.print %}hidden-print {% endunless %}project'>
 <header>
   <h3>
   {% if project.link %}
@@ -18,9 +18,11 @@
   </small></h3>
   
   {% if project.tags %}
+    <span class='tags'>
     {% for tech in project.tags %}
-      <span class='label label-default label-inverse'>{{ tech }}</span>
+      <span class='hide-xs label label-default label-inverse'>{{ tech }}</span>
     {% endfor %}
+    </span>
   {% endif %}
 
 

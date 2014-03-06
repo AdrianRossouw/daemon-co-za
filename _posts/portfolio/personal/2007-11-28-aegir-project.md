@@ -1,5 +1,6 @@
 ---
 title: The Aegir Project
+print: true
 end_date: "2011-04-15"
 category: project
 layout: post

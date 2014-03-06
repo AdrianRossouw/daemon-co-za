@@ -1,5 +1,6 @@
 ---
 title: Global Adaptation Index
+print: true
 end_date: "2011-09-15"
 category: project
 link: http://index.gain.org

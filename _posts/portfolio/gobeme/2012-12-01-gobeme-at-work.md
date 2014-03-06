@@ -23,7 +23,7 @@ tags:
   - cordova
   - continuous-integration
   - mocha-js
-  
+print: true  
 ---
 
 One of several vertically integrated products I have built while at GoBe.Me. It provides career guidance support to job seekers through it's analysis of a variety of data sources, but most significantly it makes use of proven psychological assessments to form a more cohesive personality profile of the consumer.

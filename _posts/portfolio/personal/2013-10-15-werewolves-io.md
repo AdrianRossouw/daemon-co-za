@@ -1,6 +1,7 @@
 ---
 title: Werewolves.io 
 link: https://werewolves.io
+print: true
 category: project
 images:
   - 

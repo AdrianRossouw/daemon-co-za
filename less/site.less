@@ -1,10 +1,11 @@
 // hello world
 @import "bootstrip.less";
 @import "pygments.css";
-@import "roundabout.css";
+@import "carousel.css";
 @import "header.less";
 @import "lesshat.less";
 @import "footer.less";
+@import "print.less";
 
 .portfolio {
   h2 {
@@ -29,6 +30,11 @@
     td, th { border-top: 0; }
   }
   .links li { white-space: nowrap; width: 9em; }
+
+    .tags {
+      .hidden-print;
+    }
+
 }
 
 img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }

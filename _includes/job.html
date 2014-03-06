@@ -1,5 +1,5 @@
 {% if forloop.index > 1 %}<hr class='soften' />{% endif %}
-<article class='job'>
+<article class='{% unless job.print %}hidden-print {% endunless %}job'>
   <header>
   <h3>{{job.title}}
     <small>
@@ -13,7 +13,7 @@
   </small></h3>
 
   {% if job.tags %}
-  <footer>
+  <footer class='tags'>
     {% for tech in job.tags %}
       <span class='label label-default label-inverse'>{{ tech }}</span>
     {% endfor %}

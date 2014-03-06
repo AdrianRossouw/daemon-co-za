@@ -13,7 +13,7 @@ tags:
   - grunt-js
   - browserify
   - cordova
-
+print: true
 ---
 Responsible for design and implementation of online simulation and decision support platforms.  
 

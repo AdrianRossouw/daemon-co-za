@@ -3,6 +3,7 @@ title: Federal Education Budget Project
 end_date: "2011-05-01"
 category: project
 link: http://febp.newamerica.net
+print: true
 images:
   - 
     src: img/portfolio/febp.front.png
