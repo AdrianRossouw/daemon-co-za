@@ -6051,12 +6051,11 @@ img.avatar {
   color: #202035;
 }
 .img-wrapper {
+  margin: 0.5em 1em;
   overflow: hidden;
   display: block;
   border: 1px solid #444;
-  margin: 0.5em;
-  width: 600px;
-  max-height: 339px;
+  max-width: 600px;
   box-shadow: 0 0 2px #444;
   border-radius: 4px;
 }
