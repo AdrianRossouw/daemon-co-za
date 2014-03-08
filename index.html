@@ -18,8 +18,10 @@ layout: default
       <header>
         <h2><a href='{{article.url}}'>{{article.title}}</a> <small>{{article.date | date:"%d %B %Y"}}</small></h2>
       </header>
+      <section class='content'>
       {{article.excerpt}}
       {% if with_break != article.content %}
+      </section>
       <p><a href='{{article.url}}' class='btn btn-default pull-right'>Read more →</a></p>
       {%endif%}
   </article>
