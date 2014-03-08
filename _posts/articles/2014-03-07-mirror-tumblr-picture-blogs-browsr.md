@@ -53,7 +53,7 @@ some of the more notable items below.
 #### Additional Tools
 
 * [Yeoman](http://yeoman.io) used for the [couchapp generator](https://github.com/garbados/generator-couchapp).
-* [Bower](http://bower.io) used for client-side dependencies, as I'm usually a [browserify guy](http://localhost:4000/2014/03/subtly-meta-introduction-to-browserify).
+* [Bower](http://bower.io) used for client-side dependencies, as I'm usually a [browserify guy](http://daemon.co.za/2014/03/subtly-meta-introduction-to-browserify).
 * [Grunt](http://gruntjs.com) used for complex build processes.
 * [Masonry](http://masonry.desandro.com/) based cascading grid layout.
 * [ngInfiniteScroll](http://binarymuse.github.io/ngInfiniteScroll/) for infinite scrolling. 
