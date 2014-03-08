@@ -12,7 +12,7 @@ I was still quite happy with how it turned out, and the amount of practical expe
 Since I don't really have the time to commit to maintaining the app, I was originally going to keep it to myself until I realized it would be a good thing to add to my [online portfolio](http://daemon.co.za/portfolio).
 {% endcapture %}
 
-<div class='alert alert-info'>
+<div class='bs-callout-info bs-callout'>
  {{preface || markdownify}}
 </div>
 
@@ -32,8 +32,6 @@ Since I don't really have the time to commit to maintaining the app, I was origi
 
 <!--more-->
 
-<hr class='soften' />
-
 <div class='img-wrapper'>
    <a href='https://github.com/Vertice/browsr'><img alt='browsr' src='/img/browsr.zoom.png' /></a>
 </div>
@@ -43,7 +41,7 @@ Since I don't really have the time to commit to maintaining the app, I was origi
 Since I built this primarily to learn new technologies, I really crammed as many new things that I could legitimately make use of. I've compiled a list of
 some of the more notable items below.
 
-Primarily consists of :
+#### Primary components
 
 * [Angular](http://angularjs.org) based front end.
 * [CouchApp](http://couchapp.org) to host the UI.
@@ -52,7 +50,7 @@ Primarily consists of :
 * [Node.js](http://nodejs.org) based proxy, that mostly is a straight pass-through to ES/Couch.
 * [node.io](http://node.io) based scraping back-end, allowing multi-threaded mirroring of sites.
 
-Additionally tools used include :
+#### Additional Tools
 
 * [Yeoman](http://yeoman.io) used for the [couchapp generator](https://github.com/garbados/generator-couchapp).
 * [Bower](http://bower.io) used for client-side dependencies, as I'm usually a [browserify guy](http://localhost:4000/2014/03/subtly-meta-introduction-to-browserify).
@@ -60,8 +58,6 @@ Additionally tools used include :
 * [Masonry](http://masonry.desandro.com/) based cascading grid layout.
 * [ngInfiniteScroll](http://binarymuse.github.io/ngInfiniteScroll/) for infinite scrolling. 
 
-
-<hr class='soften' />
 
 
 <div class='img-wrapper'>

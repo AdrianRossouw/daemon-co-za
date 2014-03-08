@@ -5862,8 +5862,9 @@ h6 {
 body,
 p {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
   color: #446;
 }
 .alert p {
@@ -6022,33 +6023,11 @@ img.avatar {
   border-radius: 4px;
 }
 .sidebar .about {
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  background-color: #e4effb;
-  border-color: #c6e5f6;
-  color: #333355;
-}
-.sidebar .about h4 {
-  margin-top: 0;
-  color: inherit;
-}
-.sidebar .about .alert-link {
-  font-weight: bold;
-}
-.sidebar .about > p,
-.sidebar .about > ul {
-  margin-bottom: 0;
-}
-.sidebar .about > p + p {
-  margin-top: 5px;
-}
-.sidebar .about hr {
-  border-top-color: #b0dbf2;
-}
-.sidebar .about .alert-link {
-  color: #202035;
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
 }
 .img-wrapper {
   margin: 0.5em 1em;
@@ -6116,4 +6095,35 @@ hr.soften {
   background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
   border: 0;
+}
+/* Side notes for calling out things
+-------------------------------------------------- */
+/* Base styles (regardless of theme) */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+/* Themes for different contexts */
+.bs-callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
 }

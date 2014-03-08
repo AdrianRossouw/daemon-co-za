@@ -5786,8 +5786,9 @@ h6 {
 body,
 p {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
   color: #446;
 }
 .alert p {
