@@ -18,14 +18,19 @@
 
   }
   header, section { margin-bottom: 1em; }
-  .label { text-transform: uppercase; }
+  .label {
+     text-transform: uppercase;
+     border: 1px solid @label-info-border;
+  }
   small { white-space: nowrap; }
   h3, h4 { line-height: 1 }
   .excerpt { display: none; }
-  .img-wrapper { width: 500px; }
 
   .expand { display: none; }
 
+  .about .img-wrapper {
+    margin: 0;
+  }
   table.table-condensed tr:first-child {
     td, th { border-top: 0; }
   }

@@ -7,10 +7,10 @@ layout: default
 {% capture aboutText %}{% include about.md %}{% endcapture %}
 <section class='portfolio col-md-12'>
 
-<h2 class='page-title'>Adrian Rossouw <small>Full-Stack Developer</small></h2>
   <section class='about row'>
     
-        <div class='col-sm-8 col-md-5'>{{aboutText | markdownify}}
+        <h2 class='col-xs-12 page-title'>Adrian Rossouw <small>Full-Stack Developer</small></h2>
+        <div class='col-sm-12 col-md-5'>{{aboutText | markdownify}}
           <ul>
             {% for d in page.links %}
               <li><a href='{{d.value}}'>{{d.field}}</a></li>
@@ -18,9 +18,8 @@ layout: default
           </ul>
         </div>
 
-        <div class='hidden-xs col-sm-4 col-md-3'><img class='avatar' src='{{site.baseurl}}img/avatar.png' /></div>
-        <div class='col-sm-12 col-md-4'>
-          <h2 class='hidden-md hidden-lg'>Contact Details</h2>
+        <h2 class='col-sm-12 hidden-md hidden-lg'>Contact Details</h2>
+        <div class='col-sm-8 col-md-4 col-md-push-3'>
           <table class='table table-condensed'>
             <tbody>
               {% for d in site.data.details %}
@@ -34,13 +33,20 @@ layout: default
             </tbody>
           </table>
         </div>
+
+        <div class='hidden-xs col-sm-4 col-md-pull-4 col-md-3'>
+            <div class='img-wrapper'>
+                <img class='avatar' src='{{site.baseurl}}img/avatar.png' />
+            </div>
+        </div>
+
     </section>
  
   <div class='row'>
     <div class='techs col-md-8'>
       <h2>Technologies</h2>
       {% for tech in site.data.skills  %}
-        <span class='label label-default label-inverse'>{{ tech }}</span>
+        <span class='label label-info label-inverse'>{{ tech }}</span>
       {% endfor %}
     </div>
      <div class='col-md-4 links'>

@@ -4295,7 +4295,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #ffffff;
+  color: #333355;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -4336,11 +4336,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #449d44;
 }
 .label-info {
-  background-color: #185595;
+  background-color: #e4effb;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #113c69;
+  background-color: #b8d5f4;
 }
 .label-warning {
   background-color: #f0ad4e;
@@ -5988,6 +5988,7 @@ h4 {
 }
 .portfolio .label {
   text-transform: uppercase;
+  border: 1px solid #b8d5f4;
 }
 .portfolio small {
   white-space: nowrap;
@@ -5999,11 +6000,11 @@ h4 {
 .portfolio .excerpt {
   display: none;
 }
-.portfolio .img-wrapper {
-  width: 500px;
-}
 .portfolio .expand {
   display: none;
+}
+.portfolio .about .img-wrapper {
+  margin: 0;
 }
 .portfolio table.table-condensed tr:first-child td,
 .portfolio table.table-condensed tr:first-child th {

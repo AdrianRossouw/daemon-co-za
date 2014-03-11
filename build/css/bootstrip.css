@@ -4254,7 +4254,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #ffffff;
+  color: #333355;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -4295,11 +4295,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #449d44;
 }
 .label-info {
-  background-color: #185595;
+  background-color: #e4effb;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #113c69;
+  background-color: #b8d5f4;
 }
 .label-warning {
   background-color: #f0ad4e;
