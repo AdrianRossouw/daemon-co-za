@@ -21,7 +21,7 @@ Now, I'm sure some of you might think that being afraid of a piece of software
 is a ridiculous proposition, and you would be right... but at least for myself,
 a lot of my experience seems to have been integrated into my decision making processes
 on a more emotional than strictly intellectual level. It sometimes causes me
-have an instinctive distrust of things that look even vaguely [automagical](http://en.wiktionary.org/wiki/automagical).
+to have an instinctive distrust of things that look even vaguely [automagical](http://en.wiktionary.org/wiki/automagical).
 
 So it wasn't fear it filled me with, but rather dread. You know, dread at losing days
 or weeks of my life trying to fix bugs that end up being part of something that
@@ -54,7 +54,7 @@ project I am on...
 A lot of the times my fears end up being valid (like require.js), but sometimes they
 end up being completely wrong (like angular). __Those__ are the times I actually learn something.
 
-What was very interesting to me about Angular though, is that had been 6 months
+What was very interesting to me about Angular, though, is that it had been 6 months
 since I had spent any time even looking at it. Even so, about 2 weeks before I
 started on this project I had this really involved almost-lucid dream that
 I was building an application in Angular and having the time of my life doing so.
