@@ -6056,6 +6056,11 @@ section.posts h2 small,
 section.content h2 small {
   white-space: nowrap;
 }
+section.posts iframe.youtube,
+section.content iframe.youtube {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 a:hover {
   text-decoration: none;
 }
