@@ -7,19 +7,6 @@ Last week the startup I have been working for started wrapping up due
 to lack of funds. It's not been unexpected, so I've kind of put the week aside
 to try being ['funemployed'](http://www.urbandictionary.com/define.php?term=funemployed).
 
-{% capture preface %}
-Seeing as I'm having my 15 minutes right now. I'm open to new challenges at
-the moment, so check out [my portfolio](/portfolio) if you might any for me. I'm only
-really interested in work I can do remotely from South Africa.
-
-Also, come check out [Werewolves.io](http://werewolves.io), the WebRTC based party game we built.
-{% endcapture %}
-
-<div class='bs-callout-info bs-callout'>
- {{preface || markdownify}}
-</div>
-
-
 It has given me the time to catch up with old friends,
 do a little bit of writing, but also to spend some time processing everything
 that's happened over the last few years.

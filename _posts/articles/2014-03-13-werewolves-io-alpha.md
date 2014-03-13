@@ -9,11 +9,6 @@ layout: post
 
 1. Only Chrome (and maybe firefox) is supported. The flash fallback for safari seems to be broken.
 1. We are missing about 1/5 of the audio files still, and for now there is a text2speech bot reading the script for the missing files.
-
-Also:
-
-I am freshly 'funemployed' and will be looking for the next challenge (remote to south africa only).
-Check out [my portfolio](/portfolio) and feel free to contact me if you have any questions.
 {% endcapture %}
 
 
