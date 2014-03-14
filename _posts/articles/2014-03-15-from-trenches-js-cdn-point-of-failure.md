@@ -61,7 +61,9 @@ it is introducing complexity into your application's critical path that would no
 takes time for network requests to fail.
 
 The supposed benefits of using a CDN are untested and are dependent on a whole range of criteria that are impossible to predict or depend on. Even so, the reasoning for them
-is fatally flawed because it could only ever optimize a theoretical best case scenario. At the same time, it is actually the primary reason your worst case will now FAIL, completely. Your worst case performance is far more important than your best case performance because you should be focusing on making your application actually work, not improving a situation that is already pretty good.
+is fatally flawed because it could only ever optimize a theoretical best case scenario.
+
+At the same time, it is actually the primary reason your worst case will now FAIL, completely. Your worst case performance is far more important than your best case performance because you should be focusing on making your application actually work, not improving a situation that is already pretty good.
 
 __I firmly believe that you are introducing an unacceptable amount of uncertainty into your application through the use of external dependencies that can in no way
 be justified by any possible benefits.__
