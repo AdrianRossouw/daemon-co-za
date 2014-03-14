@@ -20,7 +20,11 @@ please check out my [online portfolio](/portfolio)._
 ### Using a public JS CDN is inappropriate for anything more complex than a JSFiddle.
 
 This really flies in the face of currently accepted best practices, but in the last 6 months I have
-had two experiences that taught me this the hard way. While not my own experience, I have included
+had two experiences that taught me this the hard way. 
+
+I should add that I don't object to using a CDN to serve your static files, but rather to using a shared public CDN (such as cdnjs or google hosted libraries) to serve your vendor libraries (such as jquery and backbone).
+
+While not my own experience, I have included
 someone else's experience from a [reddit discussion](http://www.reddit.com/r/javascript/comments/1zsu7h/my_requirejs_itches_and_how_i_scratched_them/cfx7l40) to further illustrate my point.
 
 
@@ -43,27 +47,39 @@ and even then the youtube videos we integrated into our product weren't working 
 
 <blockquote>I live in china and most of the big public CDN don't go through the great firewall so i know that problem well. I personally have a "fake" CDN on my local that i use to server static assets when developing - <a href='http://www.reddit.com/user/0mbre'>0mbre</a></blockquote>
 
-### Why you should not use a CDN.
+### Why you should not use a public CDN.
 
-All of the problems caused above were entirely avoidable, and this post would not have existed, had we not been using a CDN in the first place. In still technical, but possibly more relatable terms:
+All of the problems caused above were entirely avoidable, and this post would not have existed, had we not been using a public CDN in the first place.
 
-<blockquote>Using code from a CDN is similar to storing your most critical library (or DLL) files on an external network share (such as NFS or SMB), and then assuming it is always available when you run your application.</blockquote>
+All of the files that your application needs for normal operation should be hosted together, instead of one library from this public CDN, one library from that public CDN, your code from wherever you serve your static files... and so forth.
 
-Using an external dependency this way also exponentially increases the opportunities that inevitable network errors can break your system. If you are using a build system,
+You are adding an unnecessary dependency that all of those servers (on completely different networks) need to be available, and also reachable.
+
+In still technical, but possibly more relatable terms:
+
+<blockquote>Using code from a public CDN is similar to storing your most critical library (or DLL) files on an external network share (such as NFS or SMB), and then assuming it is always available when you run your application.</blockquote>
+
+The generally accepted benefit of using a public CDN (such as cdnjs or google hosted libraries), is that your user _might_ have gone to another site that _might_ have used the same CDN to load the same version of the library before he loaded you window, and it _might_ still be cached in his browser. 
+
+It is impossible to predict when these criteria will be met and what actual difference it will make to your site across your user base. Even if you could predict it, the only thing this would ever be able to do is optimize some theoreticaly best case scenario.
+
+Your worst case performance is far more important than your best case performance because you should be focusing on making your application actually work, not improving a situation that is already pretty good.
+
+<blockquote>Optimizing for the best case in this way is like releasing the hounds on runners hoping the fastest ones will run faster, while not caring that the slower ones are being mauled to death.</blockquote>
+
+
+Using an external dependency this way increases the opportunities that inevitable network errors can break your system. If you are using a build system,
 and self-hosting the files, a network issue that stops you from accessing the file has exactly one chance to be triggered. When you use the file hosted on the CDN, it
 has as many opportunities as unique hits you receive (give or take).
 
-<blockquote>The difference in probable risk between code that is self-hosted and CDN-hosted, is like playing russian roulette with a revolver exactly once, or playing russian roulette as many times as you have hits per second.
+<blockquote>The difference in probable risk between code that is self-hosted and public CDN-hosted, is like playing russian roulette with a revolver exactly once, or playing russian roulette as many times as you have hits per second.
 </blockquote>
 
 While it is certainly possible to [specify a fallback via some javascript](http://www.paulund.co.uk/fallback-on-local-jquery-if-cdn-fails), that is still not a good idea because
-it is introducing complexity into your application's critical path that would not be necessary if you just didn't use the CDN to begin with. It also doesn't acknowledge that it
-takes time for network requests to fail.
+it is introducing complexity into your application's critical path that would not be necessary if you just didn't use the public CDN to begin with.
 
-The supposed benefits of using a CDN are untested and are dependent on a whole range of criteria that are impossible to predict or depend on. Even so, the reasoning for them
-is fatally flawed because it could only ever optimize a theoretical best case scenario.
-
-At the same time, it is actually the primary reason your worst case will now FAIL, completely. Your worst case performance is far more important than your best case performance because you should be focusing on making your application actually work, not improving a situation that is already pretty good.
+It also doesn't acknowledge that it
+takes time for network requests to fail, so even if it does manage to fall back to your library you have just done twice as many HTTP requests and delayed your application from even starting.
 
 __I firmly believe that you are introducing an unacceptable amount of uncertainty into your application through the use of external dependencies that can in no way
 be justified by any possible benefits.__
