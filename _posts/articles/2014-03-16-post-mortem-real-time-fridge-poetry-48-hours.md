@@ -2,7 +2,7 @@
 title: 'Post-Mortem: Real-Time Fridge Poetry in Just 48 Hours'
 category: post
 layout: post
-iframe: true
+iframe: false
 ---
 {% capture preface %}
 [Helvetica Cardigan](http://cardigan.daemon.co.za/) is an implementation of the popular 'fridge poetry' curio.
