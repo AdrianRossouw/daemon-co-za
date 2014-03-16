@@ -2,7 +2,7 @@
 title: 'Post-Mortem: Real-Time Fridge Poetry in Just 48 Hours'
 category: post
 layout: post
-iframe: false
+iframe: true
 ---
 {% capture preface %}
 [Helvetica Cardigan](http://cardigan.daemon.co.za/) is an implementation of the popular 'fridge poetry' curio.
@@ -10,6 +10,8 @@ iframe: false
 It was completed in 48 hours during the Node Knockout 2012 coding contest by [myself](http://daemon.co.za) and [Le Roux Bodenstein](http://twitter.com/lerouxb). The name comes from one of the combinations we made with the default 'hipster ipsum' wordset. You can add your own fridges with your own words too.
 
 Although it was finished back then, I spent some time cleaning it up last night to make it a bit more interesting to blog about. Primarily I added the ability to embed it into other pages, and improved tablet support.
+
+__There is a bug which causes node to crash at the moment. I have set up a cronjob to reset it every few minutes until I have a moment to debug it properly__
 
 It has been released under a MIT license and the [source is available on GitHub](https://github.com/Vertice/helvetica-cardigan).
 {% endcapture %}
@@ -91,6 +93,8 @@ delivering empty fridges to the visitors.
 
 I _think_ I finally tracked it down yesterday to not removing socket.io handlers on disconnect, but I can't really be sure
 until I have lots of people connecting to the server. We'll see if the embedded fridge above holds.
+
+__Oh yeah, totally wrong. much worse now. it seems to run out of memory. I have a script restarting it every few minutes until I can fix it.__
 
 ### Yeah, no ... i'm not making a screencast right now.
 
