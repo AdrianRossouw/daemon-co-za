@@ -177,3 +177,5 @@ so you can avoid further situations like that.
 Stop telling people about this first, or possibly even at all. Mention it in the handbook
 as a "oh, this is another way to do it, but it is not recommended". You need to do this
 before it gets too deeply ingrained in the community.
+
+Github issue: [Please consider removing inferred dependencies](https://github.com/angular/angular.js/issues/6717)
