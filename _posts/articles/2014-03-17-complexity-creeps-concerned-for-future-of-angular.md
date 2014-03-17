@@ -38,10 +38,16 @@ If you have anything that you think would interest me,
 please check out my [online portfolio](/portfolio)._
 
 {% capture portfolio %}
-I got some feedback from the developers in the [github issue queue](https://github.com/angular/angular.js/issues/6717), and according to them they have
-scheduled the dependency annotations to be removed for Angular.js 2.0.
+__Some people on twitter have been using this article to say that angular sucks. That couldn't be further from the truth.__
 
-It is being replaced by their [new DI system](https://github.com/angular/di.js).
+You should read the previous article in this series: [Why I Was Wrong About Angular.js](http://daemon.co.za/2014/03/why-wrong-to-be-afraid-angular)
+
+I thought I wouldn't like it, but I had to build something to make sure. What I found was a really amazing framework that is almost prescient in it's vision for the internet.
+This issue I bring up here was the __only__ thing in Angular I found objectionable, and I needed to express why I felt this way, because I couldn't find any dissenting
+voices.
+
+I also got some feedback from the developers in the [github issue queue](https://github.com/angular/angular.js/issues/6717), and according to them they have
+scheduled the dependency annotations to be removed for Angular.js 2.0. It is being replaced by their [new DI system](https://github.com/angular/di.js).
 
 I think this feedback is still valuable to provide perspective on why I reacted to Angular in that way, and how small changes can lead to major problems
 when you don't keep in mind how future contributions can affect them.
