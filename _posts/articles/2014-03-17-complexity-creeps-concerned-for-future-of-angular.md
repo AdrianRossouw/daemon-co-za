@@ -33,6 +33,10 @@ After having worked my way through the [parts of Angular.js that concerned me th
 that I have finally narrowed it down to the fact that I believe the way it tries to infer dependencies is a
 critical mistake.
 
+_Also, I'm currently "between challenges".
+If you have anything that you think would interest me,
+please check out my [online portfolio](/portfolio)._
+
 ### Inferred Dependencies
 
 Angular.js uses a pattern called called [Dependency Injection](http://en.wikipedia.org/wiki/Dependency_injection) to pass references into various parts of the system, but it
