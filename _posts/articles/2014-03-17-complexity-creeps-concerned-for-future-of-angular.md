@@ -33,9 +33,17 @@ After having worked my way through the [parts of Angular.js that concerned me th
 that I have finally narrowed it down to the fact that I believe the way it tries to infer dependencies is a
 critical mistake.
 
-_Also, I'm currently "between challenges".
+### Github issue: [Please consider removing inferred dependencies](https://github.com/angular/angular.js/issues/6717)
+
+{% capture portfolio %}
+Also, I'm currently "between challenges".  
 If you have anything that you think would interest me,
-please check out my [online portfolio](/portfolio)._
+please check out my [online portfolio](/portfolio).
+{% endcapture %}
+
+<div class='bs-callout-info bs-callout'>
+ {{portfolio || markdownify}}
+</div>
 
 ### Inferred Dependencies
 
@@ -182,4 +190,4 @@ Stop telling people about this first, or possibly even at all. Mention it in the
 as a "oh, this is another way to do it, but it is not recommended". You need to do this
 before it gets too deeply ingrained in the community.
 
-Github issue: [Please consider removing inferred dependencies](https://github.com/angular/angular.js/issues/6717)
+
