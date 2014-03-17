@@ -22,7 +22,7 @@ It has been released under a MIT license and the [source is available on GitHub]
 
 {% if page.iframe %}
 <div class='iframe-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-  <iframe height="315" src="http://cardigan.daemon.co.za/e" frameborder="0">
+  <iframe height="315" src="http://cardigan.daemon.co.za/e/WrjkB+jwxTd4" frameborder="0">
   </iframe>
 </div>
 {% else %}
