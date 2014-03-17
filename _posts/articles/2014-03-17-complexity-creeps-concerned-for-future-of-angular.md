@@ -33,12 +33,18 @@ After having worked my way through the [parts of Angular.js that concerned me th
 that I have finally narrowed it down to the fact that I believe the way it tries to infer dependencies is a
 critical mistake.
 
-### Github issue: [Please consider removing inferred dependencies](https://github.com/angular/angular.js/issues/6717)
+_Also, I'm currently "between challenges". 
+If you have anything that you think would interest me,
+please check out my [online portfolio](/portfolio)._
 
 {% capture portfolio %}
-Also, I'm currently "between challenges".  
-If you have anything that you think would interest me,
-please check out my [online portfolio](/portfolio).
+I got some feedback from the developers in the [github issue queue](https://github.com/angular/angular.js/issues/6717), and according to them they have
+scheduled the dependency annotations to be removed for Angular.js 2.0.
+
+It is being replaced by their [new DI system](https://github.com/angular/di.js).
+
+I think this feedback is still valuable to provide perspective on why I reacted to Angular in that way, and how small changes can lead to major problems
+when you don't keep in mind how future contributions can affect them.
 {% endcapture %}
 
 <div class='bs-callout-info bs-callout'>
