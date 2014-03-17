@@ -26,10 +26,10 @@ var ctrlFn = ['$scope',
 {% endhighlight %}
 {%endcapture%}
 
-In recent weeks I have been trying to resolve why I had such a visceral reaction to Angular.js,
+In recent weeks I have been trying to resolve [why I had such a visceral reaction to Angular.js](http://daemon.co.za/2014/03/wrong-to-be-afraid-of-angular),
 that I even started dreaming about it.
 
-After having worked my way through the parts of Angular.js that concerned me the most, I think
+After having worked my way through the [parts of Angular.js that concerned me the most](http://daemon.co.za/2014/03/why-wrong-to-be-afraid-angular), I think
 that I have finally narrowed it down to the fact that I believe the way it tries to infer dependencies is a
 critical mistake.
 
