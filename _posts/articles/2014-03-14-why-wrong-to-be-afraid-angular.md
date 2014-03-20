@@ -23,6 +23,7 @@ Now that I know more about how everything fits together, I am also able to see t
 it can actually be improved. It has the potential to become a lot simpler over time,
 because it ended up having some sound design decisions at the basis of it.
 
+<a name="observables"> </a>
 ### Observables are not the train smash I thought they would be.
 
 I'm not going to lie, the current implementation with digest cycles and the like still seems far too fragile.
@@ -55,7 +56,8 @@ so things will get better in the future. This means we won't stay shackled to th
 On the other hand, I am still still not absolutely convinced that '2-way binding for all the things' is the sanest default,
 but that may just be because I've not built many systems that legitimately needed it.
 
-### Sometimes I am fine with not being able to reuse my code on the server.
+<a name="reuse"> </a>
+### Sometimes I am fine with not being able to reuse my code on the server. 
 
 The only reason I was able to use Angular for my test project was because I had explicitly set out to develop a [CouchApp](http://couchapp.org/).
 
@@ -74,6 +76,7 @@ too many moving parts that in turn have far too much of a functional overlap for
 
 I can only really justify using Angular for a project where I don't have complete control of the backend or I am not able to use Node.js.
 
+<a name='libraries'> </a>
 ### The angular eco-system is wonderful.
 
 I wasn't afraid of not being able to find the libraries I needed, but I was aware of how difficult it can be to avoid jquery when
@@ -88,6 +91,7 @@ of the most encouraging signs for their future. The design of Angular is just di
 that it has convinced a whole range of developers to build a new generation of libraries that I suspect are more likely to be suited to
 whatever the next iteration of the web as a platform will look like.
 
+<a name='di'> </a>
 ### I was right to be scared of Inferred Dependencies
 
 This is the one thing that I think my fears were entirely justified about. This feature more than anything else
@@ -105,5 +109,3 @@ believe that level of magic is even remotely justified if the exact same results
 much more straight forward and doesn't break under what can be considered normal usage.
 
 I think they should be deprecated, removed from the documentation and only ever be mentioned again in a version migration doc.
-
-
