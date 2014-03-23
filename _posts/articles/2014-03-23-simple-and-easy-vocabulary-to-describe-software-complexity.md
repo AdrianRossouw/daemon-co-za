@@ -10,6 +10,10 @@ This is not a direct transcription, but more of a selective overview of the part
 While it does become a tad Clojure-specific at times, on the whole it remains broadly relevant. There are also
 [slides from the presentation](http://www.slideshare.net/evandrix/simple-made-easy) up on slideshare, from which I have taken some screencaps for this post.
 
+_Also, I'm currently "between challenges". 
+If you have anything that you think would interest me,
+please check out my [online portfolio](/portfolio)._
+
 ### Terminology 
 
 Rich starts the presentation by examining the latin roots of the terms, to illustrate their meanings in this context.
@@ -131,22 +135,14 @@ While, If you focus on simplicity, you might not be able to move as fast initial
 and plan before you start, you will be able to accomplish much more in the long run. A lot of simple tools are still
 very easy, but the focus on simplicity is what is going to help you succeed.
 
-### Making things easier
+### Conclusion
 
-You can install a tool to make it available, so it is easier in the 'to hand' sense.
-You can also make something easier by getting more 'familiar' with a tool, even just by trying it out.
+We are going to stop here at about 25 minutes in, mostly because it's a really dense
+presentation with a lot of concepts, and these are the most important ones I needed
+to get across.
 
-The truth is that while we can learn more things, what we can't do is make ourselves smarter in any real way.
-The only way to bring things near enough to our capabilities to understand them, is to simplify them.
+At some point, I might do a second part, but there are a lot of Clojure and functional
+programming specific terms that come to play, especially when Rich starts explaining
+how to avoid complexity and how to fix it.
 
-### Making things complex
-
-<blockquote class='pull-left'>
-<dl>
-<dt>com·plect</dt>
-<dd>to join together by weaving</dd>
-<dd><em>archaic</em></dd>
-</dl>
-</blockquote>
-
-When you make something more complex, you __complect__ it.
+I __highly recommend__ that you watch the [presentation itself](http://www.infoq.com/presentations/Simple-Made-Easy), if you want to learn more.
