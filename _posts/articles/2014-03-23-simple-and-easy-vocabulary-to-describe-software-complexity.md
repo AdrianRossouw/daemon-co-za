@@ -63,16 +63,16 @@ There are several different senses in which something can be easy or hard.
 Rich categorizes them in the following ways :
 
 <dl>
-<dt>Near, At hand</dt>
+<dt>Near, as in at Hand</dt>
 <dd>On our hard drive, in our toolset or IDE... just generally available.</dd>
-<dt>Near our Understanding/Skillset</dt>
+<dt>Near to our Understanding/Skillset</dt>
 <dd>Familiar, or closely enough related to allow for knowledge transfer.</dd>
-<dt>Near our Capabilities</dt>
+<dt>Near to our Capabilities</dt>
 <dd>Whether it is within our ability to reason about, how 'smart' we are.</dd>
 </dl>
 
 _In the actual presentation Rich is very careful with how he words that last point, but because
-this is just a summary I am not really capable of that level of subtlety._
+this is just a summary, I am not really capable of that level of subtlety here._
 
 _The distinction is that while you can certainly learn more, you can't really become smarter and able
 to comprehend higher levels of complexity than you are capable of now._
@@ -139,7 +139,7 @@ whereas simplicity makes it easier to debug.__
    <a href='http://www.slideshare.net/evandrix/simple-made-easy'><img alt='simple made easy - development speed' src='/img/simple.easy.speed.png' /></a>
 </div>
 
-This 'experiential graph' represents how, that if you focus on ease while ignoring simplicity, you might be able to move at top speed at the beginning of the project.
+This 'experiential graph' represents how, if you focus on ease while ignoring simplicity, you might be able to move at top speed at the beginning of the project.
 However, no matter what your tools are, or how advanced they are, the complexity will eventually kill your productivity.
 
 While, If you focus on simplicity, you might not be able to move as fast initially because you will actually need to think
@@ -147,7 +147,7 @@ and plan before you start, you will be able to accomplish much more in the long 
 very easy, but the focus on simplicity is what is going to help you succeed.
 
 __Complexity reduces your productivity over time to a point of grinding you to a near halt,
-whereas simplicity will slow you down initially and then level out to keep you productive for much longer than complexity.__
+whereas simplicity will slow you down initially and then level out to keep you productive for much longer than otherwise.__
 
 ### Conclusion
 
