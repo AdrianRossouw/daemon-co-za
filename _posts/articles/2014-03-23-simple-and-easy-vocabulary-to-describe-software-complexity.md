@@ -71,23 +71,32 @@ Rich categorizes them in the following ways :
 <dd>Whether it is within our ability to reason about, how 'smart' we are.</dd>
 </dl>
 
-__Easy is Subjective:__ For something to be __easy__, it needs to be near something, and for that you will you need a point of reference.  
-Stuff that is easy to me, in the familiar sense, might not be easy to you.  
-Stuff that is easy to you, in the capability sense, I might not even be able to comprehend, much less reason about.
+_Rich is very careful with how he words the last point in the presentation, but because
+this is just a summary I am not really capable of that level of subtlety._
+
+_The distinction is that while you can certainly learn more, you can't really become smarter and able
+to comprehend higher levels of complexity than you are capable of now._
+
+__Easy is Subjective:__ For something to be __easy__ to me, it needs to be near to me, so it is relative to how
+available and understandable it is to me, or whether I am even capable of understanding it..
+
+Stuff that is easy to me, in the familiar sense, might not be easy to you. 
+Stuff that is easy to you, in the capability sense, I might not even be able to comprehend.
 
 #### Constructs vs Artifacts
 
-We program using __constructs__. We use certain programming languages, and we have certain libraries and
-those things in an of themselves, have certain characteristics.
-
-We tend to focus on our experience from using the construct, by emphasising how convenient it is for the programmer, or how
-easy it is to replace programmers on a project.  
+We program using __constructs__. The programming languages, libraries, and tools we use
+are all constucts. All of them also have these characteristics of being simple or easy, in
+and of themselves.
 
 The programs we build are the __artifacts__. All of the characteristics such as whether it runs, whether it
 performs acceptably, or whether we have the ability to change it... those are all properties of the artifact, not the construct.
 
-We should instead be thinking about the artifacts it produces
-and how long term use of a construct will effect software quality and our ability to maintain or change the software.
+We tend to focus on our experience from using the construct, by emphasising how convenient it is for the programmer, or how
+easy it is to replace programmers on a project.  
+
+__We should be thinking about the artifacts we produce and how long term use of a construct will
+effect software quality and our ability to maintain or change the software over time.__
 
 ### How Complexity Effects Us
 
@@ -136,6 +145,9 @@ However, no matter what your tools are, or how advanced they are, the complexity
 While, If you focus on simplicity, you might not be able to move as fast initially because you will actually need to think
 and plan before you start, you will be able to accomplish much more in the long run. A lot of simple tools are still
 very easy, but the focus on simplicity is what is going to help you succeed.
+
+__Complexity reduces your productivity over time to a point of grinding you to a near halt,
+whereas simplicity will slow you down initially and then level out to keep you productive for much longer than complexity.__
 
 ### Conclusion
 
