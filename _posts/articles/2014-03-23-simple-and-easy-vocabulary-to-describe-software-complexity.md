@@ -3,10 +3,12 @@ title: "Simple and Easy: A Vocabulary to Describe Software Complexity"
 layout: post
 category: post
 ---
-Recently I was directed to an enlightening presentation called [Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy) by Rich Hickey, the creator of [Clojure](http://en.wikipedia.org/wiki/Clojure).  Because it's really difficult to justify asking someone to watch an hour long presentation just to be able to use the same terminology,
-I'm publishing some notes here in a more easily digestible format.
+Recently I was directed to an enlightening presentation called [Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy) by Rich Hickey, the creator of [Clojure](http://en.wikipedia.org/wiki/Clojure).
 
-This is not a direct transcription, but more of a selective overview of the parts I consider the most important.  I still __highly recommend__ that you watch at least the first half of the [presentation itself](http://www.infoq.com/presentations/Simple-Made-Easy). 
+Because it's really difficult to justify asking someone to watch an hour long presentation just to be able to use the same terminology,
+I'm publishing some notes here in a more easily digestible format. This is not a direct transcription, but more of a selective overview of the parts I consider the most important.
+
+I still __highly recommend__ that you watch at least the first half of the [presentation itself](http://www.infoq.com/presentations/Simple-Made-Easy). 
 While it does become a tad Clojure-specific at times, on the whole it remains broadly relevant. There are also
 [slides from the presentation](http://www.slideshare.net/evandrix/simple-made-easy) up on slideshare, from which I have taken some screencaps for this post.
 
@@ -69,9 +71,9 @@ Rich categorizes them in the following ways :
 <dd>Whether it is within our ability to reason about, how 'smart' we are.</dd>
 </dl>
 
-__Easy is Subjective:__ For something to be __easy__, it needs to be near something, and for that you will you need a point of reference. 
-Stuff that is easy, in the familiar sense, to me might not be easy to you. Stuff that is easy to you, in the
-capability sense, I might not even be able to comprehend, much less reason about.
+__Easy is Subjective:__ For something to be __easy__, it needs to be near something, and for that you will you need a point of reference.  
+Stuff that is easy to me, in the familiar sense, might not be easy to you.  
+Stuff that is easy to you, in the capability sense, I might not even be able to comprehend, much less reason about.
 
 #### Constructs vs Artifacts
 
@@ -142,7 +144,7 @@ presentation with a lot of concepts, and these are the most important ones I nee
 to get across.
 
 At some point, I might do a second part, but there are a lot of Clojure and functional
-programming specific terms that come to play, especially when Rich starts explaining
+programming specific terms that come into play, especially when Rich starts explaining
 how to avoid complexity and how to fix it.
 
 I __highly recommend__ that you watch the [presentation itself](http://www.infoq.com/presentations/Simple-Made-Easy), if you want to learn more.
