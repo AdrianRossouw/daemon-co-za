@@ -37,7 +37,7 @@ gulp.task('jekyll', _.debounce(function(next) {
     return require('child_process').spawn('jekyll', ['build', '--config', '_config.yml,_test.yml'], {stdio: 'inherit'});
 }, 400));
 
-gulp.task('server', function(next) {
+gulp.task('server', ['watch'], function(next) {
     var app = new express();
     //app.use(new express.logger());
     app.use(new express.static(__dirname + '/_site'));
@@ -50,9 +50,9 @@ gulp.task('copy-build', _.debounce(function() {
         .pipe(gulp.dest('_site/build/css'));
 }, 200));
 
-//gulp.task('default', ['less', 'jekyll']);
+gulp.task('default', ['less', 'bootstrap', 'jekyll', 'copy-build']);
 
-gulp.task('watch', ['less', 'bootstrap', 'jekyll', 'server'], function() {
+gulp.task('watch', ['default'], function() {
     gulp.watch('less/**', ['less']);
     gulp.watch('build/**', ['copy-build']);
     gulp.watch([

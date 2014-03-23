@@ -6063,6 +6063,11 @@ img.avatar {
 body {
   background: url('/build/img/dimension.png');
 }
+section.posts dl dd,
+section.content dl dd {
+  margin-left: 1em;
+  margin-bottom: 0;
+}
 section.posts h2,
 section.content h2 {
   line-height: 1;
@@ -6072,6 +6077,12 @@ section.content h2 {
 section.posts h2 small,
 section.content h2 small {
   white-space: nowrap;
+}
+section.posts h3,
+section.content h3,
+section.posts h4,
+section.content h4 {
+  border-bottom: 1px solid #eee;
 }
 section.posts iframe.youtube,
 section.content iframe.youtube {
