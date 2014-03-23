@@ -71,14 +71,14 @@ Rich categorizes them in the following ways :
 <dd>Whether it is within our ability to reason about, how 'smart' we are.</dd>
 </dl>
 
-_Rich is very careful with how he words the last point in the presentation, but because
+_In the actual presentation Rich is very careful with how he words that last point, but because
 this is just a summary I am not really capable of that level of subtlety._
 
 _The distinction is that while you can certainly learn more, you can't really become smarter and able
 to comprehend higher levels of complexity than you are capable of now._
 
 __Easy is Subjective:__ For something to be __easy__ to me, it needs to be near to me, so it is relative to how
-available and understandable it is to me, or whether I am even capable of understanding it..
+available and understandable it is to me, or whether I am even capable of understanding it.
 
 Stuff that is easy to me, in the familiar sense, might not be easy to you. 
 Stuff that is easy to you, in the capability sense, I might not even be able to comprehend.
