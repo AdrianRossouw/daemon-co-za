@@ -42,7 +42,7 @@ literally means 'braided together'.  He describes it as having a couple or piece
 knotted together.
 
 __Easy__, when traced down to the original latin _adjacens_, means 'lying close by' or 'to lie near'.  In the sense of
-being having sommething be within reachable distance. The opposite of easy is __hard__, which doesn't actually have a specific
+being having something be within reachable distance. The opposite of easy is __hard__, which doesn't actually have a specific
 meaning here beyond the general usage of the term.
 
 #### Simple vs Complex
