@@ -65,17 +65,14 @@ Rich categorizes them in the following ways :
 <dl>
 <dt>Near, as in at Hand</dt>
 <dd>On our hard drive, in our toolset or IDE... just generally available.</dd>
+<dd><em>"Oh, library X includes that so we might as well use theirs!"</em></dd>
 <dt>Near to our Understanding/Skillset</dt>
 <dd>Familiar, or closely enough related to allow for knowledge transfer.</dd>
+<dd><em>"I already know Library Y, so I will just use that!"</em></dd>
 <dt>Near to our Capabilities</dt>
 <dd>Whether it is within our ability to reason about, how 'smart' we are.</dd>
+<dd><em>"What the hell is going on in Incredibly Complex Topic Z, I'm so lost!"</em></dd>
 </dl>
-
-_In the actual presentation Rich is very careful with how he words that last point, but because
-this is just a summary, I am not really capable of that level of subtlety here._
-
-_The distinction is that while you can certainly learn more, you can't really become smarter and able
-to comprehend higher levels of complexity than you are capable of now._
 
 __Easy is Subjective:__ For something to be __easy__ to me, it needs to be near to me, so it is relative to how
 available and understandable it is to me, or whether I am even capable of understanding it.
