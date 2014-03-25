@@ -93,9 +93,9 @@ We tend to focus on our experience from using the construct, by emphasising how 
 easy it is to replace programmers on a project.  
 
 __We should be thinking about the artifacts we produce and how long term use of a construct will
-effect software quality and our ability to maintain or change the software over time.__
+affect software quality and our ability to maintain or change the software over time.__
 
-### How Complexity Effects Us
+### How Complexity Affects Us
 
 <blockquote>Think of trying to remove a cable from a box you use for that purpose.
 You know the way that all those other cables come along with it in a tangled mess?  
