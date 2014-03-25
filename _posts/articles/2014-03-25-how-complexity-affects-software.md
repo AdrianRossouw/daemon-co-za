@@ -45,7 +45,7 @@ others.
 
 This braiding together of things is going to limit our ability to understand our software.
 
-__Complexity makes it harder to understand your program, 
+__Complexity makes it harder to understand your program,  
 whereas simplicity makes it easier to understand.__
 
 ### Changing Things is Hard
