@@ -12,7 +12,7 @@ images:
   - 
     src: img/drupalcon/gone.2.jpg
   - 
-    src: img/drupalcon/gone.presentation.jpg
+    src: img/drupalcon/gone.leslie.jpg
 
 
 ---
