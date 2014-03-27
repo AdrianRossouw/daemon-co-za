@@ -38,7 +38,9 @@ It was only after almost 10 years with the project that I became aware that it's
 growing complexity would eventually overwhelm me and become an obstacle to my future happiness.
 
 It wasn't really Drupal's fault that I needed to leave, I think it is just any system
-that gets to this level of complexity.
+that gets to this level of complexity. I can work on this level for a while, but working
+on this level every day will start to drain the colour out of the world, and is ultimately
+not going to make me a better person.
 
 I had invested so much of myself into Drupal, that it had become part of my identity.
 Subsequently, stepping away from the project was one of the hardest things I had ever needed to do.
@@ -64,11 +66,11 @@ even if just to put my mind to rest.
 </div>
 
 I now believe that my intuition was, in a way, projecting my possible/likely emotional
-state 6 (or maybe even up to 8) years down the line, if I were to invest myself, or my time into this.
+state 6 (or maybe even up to 8) years down the line, if I were to invest myself or my time into this.
 Basically, would I be happy doing this for a really long time?
 
 The only way this extra sense could really develop is through personal experience and
-if I hadn't have those experiences, I would probably have charged ahead, not thinking
+if I hadn't had those experiences, I would probably have charged ahead, not thinking
 about where I could be headed.
 
 I can only really intellectually extrapolate how these types of systems could evolve
