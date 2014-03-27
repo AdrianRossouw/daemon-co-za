@@ -18,9 +18,10 @@ images:
 ---
 <div class='bs-callout bs-callout-info'>
 <p><strong>This post has nothing to do with any technical similarity
-between the two systems.</strong> It is the conclusion of a series of posts, in which
-I have attempted to understand why my instincts were telling me to avoid
-Angular.js at all costs.</p>
+between the two systems.</strong></p>
+<p>It is the conclusion of a series of posts, in which
+I have attempted to understand why my <a href='/2014/03/wrong-to-be-afraid-of-angular'>instincts were telling me to avoid
+Angular.js</a> at all costs.</p>
 </div>
 
 ### Conflicting Emotions
@@ -30,9 +31,9 @@ Angular.js at all costs.</p>
 </div>
 
 It's not something I really emphasize on my [online portfolio](/portfolio), but
-I was actually a __major contributor__ to Drupal. I don't think
-it's hyperbolic to say that I was responsible for a lot of the parts of the framework,
-that could generally be considered some of the most quintessential 'Drupal' api's.
+I was actually a [__major contributor to Drupal__](https://drupal.org/node/956624). I don't think
+it's hyperbolic to say that I was responsible for a lot of the parts of the framework
+that could generally be considered some of the most quintessentially 'Drupal' api's.
 
 It was only after almost 10 years with the project that I became aware that it's
 growing complexity would eventually overwhelm me and become an obstacle to my future happiness.
