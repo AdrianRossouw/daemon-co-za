@@ -40,7 +40,7 @@ growing complexity would eventually overwhelm me and become an obstacle to my fu
 
 It wasn't really Drupal's fault that I needed to leave, I think it is just any system
 that gets to this level of complexity. I can work on this level for a while, but working
-on this level every day will start to drain the colour out of the world, and is ultimately
+on this level every day will start to drain the colour out of my world, and is ultimately
 not going to make me a better person.
 
 I had invested so much of myself into Drupal, that it had become part of my identity.
@@ -57,8 +57,8 @@ Subsequently, stepping away from the project was one of the hardest things I had
 <p>I dreaded feeling the way I had near the end of my time with Drupal.</p>
 </blockquote>
 
-I think it was this conflict that drove my need to properly evaluate Angular.js,
-even if just to put my mind to rest.
+__I think it was this conflict that drove my need to properly evaluate Angular.js,
+even if just to put my mind to rest.__
 
 ### Nature of my Intuition
 
