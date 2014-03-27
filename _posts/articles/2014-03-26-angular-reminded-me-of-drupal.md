@@ -24,6 +24,10 @@ I have attempted to understand why my <a href='/2014/03/wrong-to-be-afraid-of-an
 Angular.js</a> at all costs.</p>
 </div>
 
+_Also, I'm currently "between challenges". 
+If you have anything that you think would interest me,
+please check out my [online portfolio](/portfolio)._
+
 ### Conflicting Emotions
 
 <div class='img-wrapper'>
