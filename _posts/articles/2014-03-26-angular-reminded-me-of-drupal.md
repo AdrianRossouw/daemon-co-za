@@ -91,14 +91,14 @@ __easier__ for me, ever again.
 
 I think that Angular is very rare in that actually has real potential to become __simpler__
 over time as the standards evolve. A lot of the things I was uncomfortable with,
-such as dirty-checking observables, can eventually be removed entirely.
+such as [dirty-checking observables](/2014/03/why-wrong-to-be-afraid-angular#observables), can eventually be removed entirely.
 
-The last thing that set off my spidey-sense was the black magic dependency injection,
+The last thing that set off my spidey-sense was the [black magic dependency injection](/2014/03/complexity-creeps-concerned-for-future-of-angular),
 but even that is going to be gone in Angular 2.0. I really do think the developers know
-what they are doing. I hope they will pick __simple__ over __easy__ whenever they can.
+what they are doing, and I hope they will pick __simple__ over __easy__ whenever they can.
 
-I am still not the model user for Angular, and I am still likely to use
-Backbone when I have the choice, but I do look forward to seeing how
+I am still not the model user for Angular, and I am still [likely to use
+Backbone when I have the choice]((/2014/03/why-wrong-to-be-afraid-angular#reuse), but I do look forward to seeing how
 it evolves over time. 
 
 ### Did I learn anything?
@@ -113,8 +113,9 @@ aid me when discussing these topics in the future.
 
 I've also realized that I still have a Drupal community sized hole in my heart. Those were
 some of the happiest times of my life and I will always cherish them. I'd
-like to think I left behind an Adrian sized hole too. _Pictures below are
-from the first DrupalCon I missed, and therefor was carried around in effigy by my friends._
+like to think I left behind an Adrian sized hole in theirs too.
+
+_Pictures below are from the first DrupalCon I missed, and therefor was carried around in effigy by my friends._
 
 But I also know that leaving was the right thing for me to do, and I am
 in a much better place than I would have been otherwise.
