@@ -4,8 +4,6 @@ category: post
 layout: post
 images:
   - 
-    src: img/drupalcon/gone.presentation.jpg
-  - 
     src: img/drupalcon/gone.angie1.jpg
   - 
     src: img/drupalcon/gone.dries.jpg
@@ -13,6 +11,8 @@ images:
     src: img/drupalcon/gone.1.jpg
   - 
     src: img/drupalcon/gone.2.jpg
+  - 
+    src: img/drupalcon/gone.presentation.jpg
 
 
 ---
