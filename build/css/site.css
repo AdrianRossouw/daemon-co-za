@@ -6027,8 +6027,8 @@ img.avatar {
   margin: 20px 0;
   padding: 15px 30px 15px 15px;
   border-left: 5px solid #eee;
-  background-color: #f0f7fd;
-  border-color: #d0e3f0;
+  background-color: #fefbed;
+  border-color: #f1e7bc;
 }
 .img-wrapper {
   margin: 0.5em 1em;
@@ -6083,6 +6083,24 @@ section.content h3,
 section.posts h4,
 section.content h4 {
   border-bottom: 1px solid #eee;
+}
+section.posts .bs-callout .bs-callout,
+section.content .bs-callout .bs-callout {
+  margin-left: 2em;
+}
+section.posts .bs-callout h3,
+section.content .bs-callout h3,
+section.posts .bs-callout h4,
+section.content .bs-callout h4 {
+  border-bottom: 0;
+}
+section.posts .bs-callout .img-container,
+section.content .bs-callout .img-container {
+  display: block;
+}
+section.posts .bs-callout img,
+section.content .bs-callout img {
+  padding-left: 1em;
 }
 section.posts iframe.youtube,
 section.content iframe.youtube {
