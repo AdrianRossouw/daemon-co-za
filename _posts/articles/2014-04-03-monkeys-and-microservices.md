@@ -41,15 +41,15 @@ __When it has finished reading the note:__ it starts skittering around
 the factory floor, running in no discernible pattern, dashing between a random subset of
 these bespoke manafacturing behemoths on display in front of you.
 
-__Once it stops flipping levers__ and feeding industrial offal into the various machines, It comes back to you and gives you (hopefully) the result you requested.
+__Once it stops flipping levers__ and feeding industrial offal into the various machines, it comes back to you and gives you (hopefully) the result you requested.
 
 __If it doesn't get everything perfectly right__, it might lose a limb on the belt sander, or set off a catastrophic factory fire.
 
-__The monkey might be a cleverer than most__, but it's still just a monkey. __It doesn't matter how well you dress it__, it is still always just going to stay a monkey.
+__The monkey might be cleverer than most__, but it's still just a monkey. __It doesn't matter how well you dress it__, it is still always just going to stay a monkey.
 
 __The monkey can never be smarter than the one who trained  him__, so if you didn't warn it about 
-putting ball bearings in the industrial microwaves... that's your fault. If you didn't tell him not to 
-freely hand out the keys to your bitcoin vault. also your fault.
+putting ball bearings in the industrial microwaves... that's your fault. If you didn't tell him _not_ to 
+freely hand out the keys to your bitcoin vault? That's also your fault.
 
 {% endcapture %}
 
@@ -107,26 +107,6 @@ and then it will <strong>return the result</strong>.
 <div class='bs-callout'>
 {{ second || markdownify }}
 </div>
-
-<div class='img-wrapper'>
-  <img src='/img/monkey4.png' />
-</div>
-
-## Is this just SOA by another name?
-
-[Service-oriented architecture](http://en.wikipedia.org/wiki/Service-oriented_architecture) (or SOA) does have very similar goals, but through nature or nurture, SOA has evolved in a direction
-that would be more accurately described as segmenting responsibilities through specialization.
-
-In the context of this article, SOA would be like building a factory to house all your woodworking equipment,
-and forcing everything that involves wood in some way to pass through this factory. That's still a valid approach,
-but it's also not nearly as granular as microservices suggest.
-
-I think that the desire and need to build systems this way has been with us for a long time, but
-I think the environment that this new iteration is evolving in is going to allow us to get closer 
-to some "platonic ideal" for distributed systems.
-
-SOA is from an era before the advent of [DevOps](http://en.wikipedia.org/wiki/DevOps) and the [Cloud](http://en.wikipedia.org/wiki/Cloud_computing), and we have become a lot more efficient at cloning monkeys and propping up prefab factories in that time.
-
 <div class='img-wrapper'>
   <img src='/img/monkey3.png' />
 </div>
@@ -159,7 +139,7 @@ My favorite benefit is probably the focus on simplicity, that results in microse
 getting down to __less than 100 lines of code__. The resulting code is often so simple, that many
 practitioners have found that __they no longer need unit tests__!
 
-It's just __fundamentally simpler__, and therefor __easier to debug__ a system that has been
+It's just __fundamentally simpler__, and therefore __easier to debug__ a system that has been
 built on these principles. They make sense for the same reasons that people have realized
 that functional programming really makes sense.
 
@@ -169,6 +149,26 @@ only has a very specific set of requirements and can work on these completely in
 It's also truly __independent of the implementation language__, because we don't care if
 there's a capuchin monkey or an orangutang pulling levers behind the scenes. It just doesn't matter
 to us.
+
+<div class='img-wrapper'>
+  <img src='/img/monkey4.png' />
+</div>
+
+## Is this just SOA by another name?
+
+[Service-oriented architecture](http://en.wikipedia.org/wiki/Service-oriented_architecture) (or SOA) does have very similar goals, but through nature or nurture, SOA has evolved in a direction
+that would be more accurately described as segmenting responsibilities through specialization.
+
+In the context of this article, SOA would be like building a factory to house all your woodworking equipment,
+and forcing everything that involves wood in some way to pass through this factory. That's still a valid approach,
+but it's also not nearly as granular as microservices would suggest.
+
+I think that the desire and need to build systems this way has been with us for a long time, but
+I think the environment this latest iteration is evolving in is going to allow us to get closer 
+to some "platonic ideal" for distributed systems than before.
+
+SOA is from an era before the advent of [DevOps](http://en.wikipedia.org/wiki/DevOps) and the [Cloud](http://en.wikipedia.org/wiki/Cloud_computing), and we have become a lot more efficient at cloning monkeys and propping up prefab factories in that time.
+
 
 <div class='img-wrapper'>
   <img src='/img/monkey5.png' />
@@ -211,7 +211,7 @@ which has been evolving out of hard-won experience by engineers with decades of 
 complex enterprise level systems.
 
 Many of the ["seminal" writings](http://martinfowler.com/articles/microservices.html) on microservices, were only published in the last 3 weeks, for instance. They also
-has a severe case of _"wow, these things are awesome. go watch this hour long presentation so I can talk
+have a severe case of _"wow, these things are awesome. go watch this hour long presentation so I can talk
 to you about them"_.
 
 __To combat this last point I will be publishing a field guide to microservices soon.__
