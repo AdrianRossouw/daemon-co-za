@@ -14,3 +14,4 @@ github_login: 'Vertice'
 github_repo: 'daemon-co-za'
 github_language: 'JavaScript'
 excerpt_separator: '<!--more-->'
+markdown: kramdown

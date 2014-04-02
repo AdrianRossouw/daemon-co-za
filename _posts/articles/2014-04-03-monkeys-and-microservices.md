@@ -195,11 +195,11 @@ and there will probably be some very difficult life lessons learnt the very hard
 ### How applicable is all of this to the web? 
 
 I'm actually am __not sure that microservices will be practical on the front-end__, because a lot of the problems
-you face there seem almost antithetical to what it attempts to solve.
+you face there seem almost antithetical to what they attempt to solve.
 
-__If I were to imagine the browser environment as a factory, it looks like something out of the minds
-of HR Giger and the villains in Saw__. For instance, the DOM is like the shared-state that other shared-states
-tell their .children scary bedtime stories of.
+For instance, the DOM is like the shared-state that other shared-states
+tell their .children scary bedtime stories of, and __if I were to imagine the browser environment as a factory, it looks like something out of the minds
+of HR Giger and the villains in Saw__.
 
 I'm not sure this approach can really map _cleanly_ onto REST either, but I am starting to suspect that it
 might become a secret ingredient in the 'real-time web' recipe.
