@@ -36,8 +36,7 @@ what kind of article this is going to be upfront._
 </footer>
 </div>
 
-<p>Your application is a monkey that you have trained to take a note from you, and then perform whatever
-actions that will be required to result in what you asked for on the note.</p>
+<p>Your application is a monkey that you have trained to take a note from you, and then perform whatever actions are required to produce the results you asked for on the note</p>
 
 __When it has finished reading the note:__ it starts skittering around
 the factory floor, running in no discernible pattern, dashing between a random subset of
@@ -51,7 +50,7 @@ __The monkey might be cleverer than most__, but it's still just a monkey. __It d
 
 __The monkey can never be smarter than the one who trained  him__, so if you didn't warn it about 
 putting ball bearings in the industrial microwaves... that's your fault. If you didn't tell him _not_ to 
-freely hand out the keys to your bitcoin vault? That's also your fault.
+hand out the keys to your bitcoin vault when asked? That's also your fault.
 
 {% endcapture %}
 
@@ -109,6 +108,11 @@ and then it will <strong>return the result</strong>.
 <div class='bs-callout'>
 {{ second || markdownify }}
 </div>
+
+And also, no matter how you slice it, training a monkey to do only one thing with one known
+set of inputs, is much much simpler and easier. Just about every monkey trainer out today
+should be able to do it with their eyes closed, and only nominal amounts of facial scarring.
+
 <div class='img-wrapper'>
   <img src='/img/monkey3.png' />
 </div>
@@ -209,7 +213,7 @@ might become a secret ingredient in the 'real-time web' recipe.
 ### So bleeding edge it hurts
 
 What I find fascinating about them, is that __they currently only exist as a form of tribal knowledge__,
-which has been evolving out of hard-won experience by engineers with decades of experience building really 
+which has been evolving out of hard-earned lessons by engineers with decades of experience building really 
 complex enterprise level systems.
 
 Many of the ["seminal" writings](http://martinfowler.com/articles/microservices.html) on microservices, were only published in the last 3 weeks, for instance. They also
