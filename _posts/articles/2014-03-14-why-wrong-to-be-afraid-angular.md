@@ -1,8 +1,9 @@
 ---
-title: Why I was Wrong to be Afraid of Angular.js (pt2)
+title: Why I was Wrong to be Afraid of Angular.js
 layout: post
 category: post
 ---
+
 Recently I shared some of the thought processes that I went through when trying to
 understand [why I chose to use Angular.js](/2014/03/wrong-to-be-afraid-of-angular) for a [little demo project](/2014/03/mirror-tumblr-picture-blogs-browsr) I was building
 as a learning exercise.
@@ -24,6 +25,7 @@ it can actually be improved. It has the potential to become a lot simpler over t
 because it ended up having some sound design decisions at the basis of it.
 
 <a name="observables"> </a>
+
 ### Observables are not the train smash I thought they would be.
 
 I'm not going to lie, the current implementation with digest cycles and the like still seems far too fragile.
@@ -57,6 +59,7 @@ On the other hand, I am still still not absolutely convinced that '2-way binding
 but that may just be because I've not built many systems that legitimately needed it.
 
 <a name="reuse"> </a>
+
 ### Sometimes I am fine with not being able to reuse my code on the server. 
 
 The only reason I was able to use Angular for my test project was because I had explicitly set out to develop a [CouchApp](http://couchapp.org/).
@@ -77,6 +80,7 @@ too many moving parts that in turn have far too much of a functional overlap for
 I can only really justify using Angular for a project where I don't have complete control of the backend or I am not able to use Node.js.
 
 <a name='libraries'> </a>
+
 ### The angular eco-system is wonderful.
 
 I wasn't afraid of not being able to find the libraries I needed, but I was aware of how difficult it can be to avoid jquery when
@@ -92,6 +96,7 @@ that it has convinced a whole range of developers to build a new generation of l
 whatever the next iteration of the web as a platform will look like.
 
 <a name='di'> </a>
+
 ### I was right to be scared of Inferred Dependencies
 
 This is the one thing that I think my fears were entirely justified about. This feature more than anything else
