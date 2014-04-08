@@ -5866,6 +5866,9 @@ p {
   letter-spacing: 0.02em;
   color: #446;
 }
+p {
+  margin-bottom: 22px;
+}
 .alert p {
   color: inherit;
   margin: 0;
