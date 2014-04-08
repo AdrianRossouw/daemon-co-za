@@ -77,8 +77,8 @@ I believe it because PostGIS/spatialite were so incredibly frustrating to move G
 
 I don't have comments on this blog, but I will read and respond to anything posted on:
 
-* The <a href='{{hnThread}}'>HackerNews discussion</a>.
-* The <a href='{{progitThread}}'>/r/programming thread</a>.
+* The <a href='https://news.ycombinator.com/item?id=7551125'>HackerNews discussion</a>.
+* The <a href='http://www.reddit.com/r/programming/comments/22hf4c/when_is_mongodb_the_right_tool_for_the_job/'>/r/programming thread</a>.
 * You could even leave an [issue on GitHub](https://github.com/Vertice/daemon-co-za/issues) for me.
 
 <aside class='bs-callout bs-callout-warning'><strong>Please try to be impartial.</strong> A lot of the feedback I have seen is that the way that MongoDB has been sold to developers is a large part of the problem. I am going to find it difficult to place a lot of trust in any party that stands to gain from selling Mongo as a product.</aside>
