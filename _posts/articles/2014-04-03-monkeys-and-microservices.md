@@ -1,5 +1,5 @@
 ---
-title: Of Monkeys and Microservices
+title: Of Monkeys and Microservices: An Introduction
 category: post
 layout: post
 ---
