@@ -81,12 +81,16 @@ I don't have comments on this blog, but I will read and respond to anything post
 * The <a href='{{progitThread}}'>/r/programming thread</a>.
 * You could even leave an [issue on GitHub](https://github.com/Vertice/daemon-co-za/issues) for me.
 
-<aside class='bs-callout bs-callout-warning'><strong>Please try to be impartial.</strong> A lot of the feedback I have seen about it is that the way that MongoDB has been sold to developers is a large part of the problem. I am going to find it difficult to place a lot of trust in any party that stands to gain from selling Mongo as a product.</aside>
+<aside class='bs-callout bs-callout-warning'><strong>Please try to be impartial.</strong> A lot of the feedback I have seen is that the way that MongoDB has been sold to developers is a large part of the problem. I am going to find it difficult to place a lot of trust in any party that stands to gain from selling Mongo as a product.</aside>
 
 ## Unless otherwise convinced
 
-I will probably teach them the tools that I know the best. Those would be CouchDB as a data store, ElasticSearch as a search index and sometimes Redis to store sessions and other ephemeral data. Using CouchDB as a separate "source-of-truth" and doing queries and reads from ElasticSearch makes a lot of sense to me because those things often scale differently. It is also in-line  with some of the [data storage lessons that LinkedIn have shared recently](http://vitalflux.com/data-handled-linkedin-com/).
+I will probably teach them the tools that I know the best. Those would be CouchDB as a data store, ElasticSearch as a search index and sometimes Redis to store sessions and other ephemeral data.
 
-Teaching CouchDB+ElasticSearch also means I can focus more on the principles of REST, and teach the concepts of node streams through the use of proxying connections around. This in turn would give me the opportunity to teach them about realtime systems such as Websockets or WebRTC instead.
+Using CouchDB as a separate "source-of-truth" and doing queries and reads from ElasticSearch makes a lot of sense to me because those things often scale differently. It is also in-line  with some of the [data storage lessons that LinkedIn have shared recently](http://vitalflux.com/data-handled-linkedin-com/).
+
+Teaching CouchDB+ElasticSearch also means I can focus more on the principles of REST, and teach the concepts of node streams through the use of proxying connections around. 
+
+This in turn would give me the opportunity to teach them about realtime systems such as Websockets or WebRTC instead of mucking around in MongoDB specifics.
 
 That's probably the best course of action anyway, but I want to be able to take it with a clear conscience.
