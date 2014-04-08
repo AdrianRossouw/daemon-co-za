@@ -60,7 +60,7 @@ just feels really strange to me. It's NoSQL so the first thing you do is declara
 
 ## I don't mind being proven wrong
 
-I actually kind of enjoy it, because I find that I can [learn so much from those experiences](http://localhost:4000/2014/03/wrong-to-be-afraid-of-angular).
+I actually kind of enjoy it, because I find that I can [learn so much from those experiences](/2014/03/wrong-to-be-afraid-of-angular).
 I __will__ update this post, or even write a new one if I manage to learn anything from this process.
 
 For instance, the [one use case I have found](https://news.ycombinator.com/item?id=7498803) so far that actually makes a lot of sense.
