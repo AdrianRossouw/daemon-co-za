@@ -1,5 +1,5 @@
 ---
-title: "Of Monkeys and Microservices: An Introduction"
+title: "Of Monkeys and Microservices: Introduction"
 category: post
 layout: post
 ---
