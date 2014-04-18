@@ -73,8 +73,6 @@ img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }
   }
 }
 
-body { background: url('/build/img/dimension.png');}
-
 section.posts, section.content {
   dl dd {
     margin-left: 1em;
@@ -118,28 +116,15 @@ section.posts, section.content {
 a:hover {
   text-decoration: none;
 }
-div.container { 
-   margin-top: 10px;
-   margin-bottom: 10px;
-   padding: 0 20px; 
-   box-shadow: 0 1px 5px #444;
-   border-radius: 4px;
+#main { 
+   padding: 0 20px;
+   background: #fff;
+ }
+body {
+  .background-image(linear-gradient(to bottom, #ffffff 0%,#efefef 100%))
+  
  }
 
-div.container {
-   background: #fefefe; /* Old browsers */
-   background: -moz-linear-gradient(top,  #fefefe 0%, #f6f6f6 100%); /* FF3.6+ */
-   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
-   background: -webkit-linear-gradient(top,  #fefefe 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
-   background: -o-linear-gradient(top,  #fefefe 0%,#f6f6f6 100%); /* Opera 11.10+ */
-   background: -ms-linear-gradient(top,  #fefefe 0%,#f6f6f6 100%); /* IE10+ */
-   background: linear-gradient(top,  #fefefe 0%,#f6f6f6 100%); /* W3C */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
- }
-
- div.container footer { 
-    margin-bottom: 10px;
- }
 
 
 /* Faded out hr */
