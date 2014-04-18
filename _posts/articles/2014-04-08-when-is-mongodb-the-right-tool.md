@@ -24,7 +24,7 @@ As some of my students are hoping to use these skills I share with them on the j
 __I want to know what your data looks like.__ What are the data access patterns, how much of it is there, how much trouble did you have building it, scaling it, but especially maintaining it?
 
 {% capture quote %}
-Show me you algorithm and I will remain puzzled,  
+Show me your algorithm and I will remain puzzled,  
 but show me your data structure and I will be enlightened.  
 {% endcapture %}
 
