@@ -9,26 +9,24 @@ layout: default
 <section class='posts col-md-8'>
   {% for article in site.categories.post limit:paginator.per_page offset:offset %}
     {% if forloop.index > 1 %}
-      <hr class='soften' />
     {%else%}
       {% assign on_this_page = forloop.length %}
     {% endif %}
 
-  <article>
+  <article class='clearfix'>
       <header>
         <h2><a href='{{article.url}}'>{{article.title}}</a> <small>{{article.date | date:"%d %B %Y"}}</small></h2>
       </header>
       <section class='content'>
       {{article.excerpt}}
       {% if with_break != article.content %}
+      <a href='{{article.url}}' class='btn btn-default pull-right'>Read more →</a>
       </section>
-      <p><a href='{{article.url}}' class='btn btn-default pull-right'>Read more →</a></p>
       {%endif%}
   </article>
   {% endfor %}
 
   {% capture more_to_show %}{{article_count | minus:offset | minus: on_this_page}}{% endcapture %}
-  <hr class='soften' />
 
   <ul class="pager">
     {% if paginator.page > 1%}

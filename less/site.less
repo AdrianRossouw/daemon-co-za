@@ -42,17 +42,19 @@
 
 }
 
-
-
 img.avatar { box-shadow: 0 0 2px #444; border-radius: 4px; }
 
 .sidebar .about {
+  margin-left: 19px;
   .bs-callout;
-  .bs-callout-warning;
+  .bs-callout-info;
 }
 
 .sidebar .latest {
+  margin-left: 19px;
   li {
+
+  margin-left: -19px;
     margin-bottom: 4px;
   }
   li a {
@@ -131,6 +133,9 @@ a:hover {
 #main { 
    padding: 0 20px;
    background: #fff;
+   a:hover {
+     color: #FF5600;
+   }
  }
 body {
   .background-image(linear-gradient(to bottom, #ffffff 0%,#efefef 100%))

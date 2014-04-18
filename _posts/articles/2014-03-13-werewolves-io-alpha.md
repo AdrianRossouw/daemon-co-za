@@ -11,7 +11,6 @@ layout: post
 1. We are missing about 1/5 of the audio files still, and for now there is a text2speech bot reading the script for the missing files.
 {% endcapture %}
 
-
 [Werewolves.io](http://werewolves.io) is a VOIP-based multiplayer game for 7-16 players.
 
 While the first iteration of this application was built in 48 hours as our entry into the 2013 [Node Knockout Hackathon](http://nodeknockout.com), we were not able to complete it in that time.
@@ -23,8 +22,6 @@ I subsequently revisited the project and completely refactored the code, wrote h
 <div class='img-wrapper'>
    <a href='https://werewolves.io'><img alt='werewolves.io' src='/img/portfolio/werewolves.lobby.png' /></a>
 </div>
-
-
 
 <div class='bs-callout-info bs-callout'>
  {{preface || markdownify}}
