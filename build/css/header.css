@@ -5814,11 +5814,7 @@ h4 {
 .navbar {
   background: #333;
   color: #ddd;
-  border-color: 0;
-  border-top: 1px solid #999;
   border-bottom: 1px solid #999;
-  margin-left: -20px;
-  margin-right: -20px;
   margin-bottom: 1.5em;
   padding-top: 2.5em;
   padding-bottom: 1em;
@@ -5828,6 +5824,9 @@ h4 {
 }
 .navbar a {
   color: #56c812;
+}
+.navbar .navbar-header {
+  padding-left: 15px;
 }
 .navbar .navbar-brand {
   font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
