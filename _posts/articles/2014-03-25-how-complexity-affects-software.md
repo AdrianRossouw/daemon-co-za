@@ -6,6 +6,8 @@ category: post
 
 This is the second in a series of notes I have made about an enlightening presentation called [Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy) by Rich Hickey, the creator of [Clojure](http://en.wikipedia.org/wiki/Clojure).
 
+<!--more-->
+
 {% include terms.html %}
 
 _Also, I'm currently "between challenges". 

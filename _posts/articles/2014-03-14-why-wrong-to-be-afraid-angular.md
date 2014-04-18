@@ -10,6 +10,8 @@ as a learning exercise.
 
 This article is about what I took away from my experiment on a more intellectual level.
 
+<!--more-->
+
 _Also, I'm currently "between challenges". 
 If you have anything that you think would interest me,
 please check out my [online portfolio](/portfolio)._

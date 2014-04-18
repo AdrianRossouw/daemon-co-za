@@ -15,6 +15,8 @@ I was finally writing the [announcement for a project I built on a whim
 a few months ago](http://daemon.co.za/2014/03/mirror-tumblr-picture-blogs-browsr), but when I tried to justify why I had chosen to use [Angular.js](http://angularjs.org/)
 specifically on that project I came to a deeper realization.
 
+<!--more-->
+
 ### I needed to build something with Angular.js because it scared me.
 
 Now, I'm sure some of you might think that being afraid of a piece of software

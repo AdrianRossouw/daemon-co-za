@@ -9,6 +9,8 @@ This puts me in a quandary, because my recent stint on the job market has shown 
 
 I also can't foresee any situation where there is a solid technical reason for choosing MongoDB over it's competitors either, and the last thing I want to do is lead people astray or foist my preconceptions onto them.
 
+<!--more-->
+
 _I'm still open to new projects, please check out my [online portfolio](/portfolio) and reach out if you think you have an interesting challenge for me._
 
 ## Why MongoDB?

@@ -12,6 +12,8 @@ I still __highly recommend__ that you watch at least the first half of the [pres
 While it does become a tad Clojure-specific at times, on the whole it remains broadly relevant. There are also
 [slides from the presentation](http://www.slideshare.net/evandrix/simple-made-easy) up on slideshare, from which I have taken some screencaps for this post.
 
+<!--more-->
+
 _Also, I'm currently "between challenges". 
 If you have anything that you think would interest me,
 please check out my [online portfolio](/portfolio)._

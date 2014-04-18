@@ -6036,6 +6036,15 @@ img.avatar {
   background-color: #fefbed;
   border-color: #f1e7bc;
 }
+.sidebar .latest li {
+  margin-bottom: 4px;
+}
+.sidebar .latest li a {
+  border-left: 4px solid #f3f3f3;
+}
+.sidebar .latest li a:hover {
+  border-left: 4px solid #aaa;
+}
 .img-wrapper {
   margin: 0.5em 1em;
   overflow: hidden;

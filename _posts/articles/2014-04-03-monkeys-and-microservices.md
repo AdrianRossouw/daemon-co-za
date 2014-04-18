@@ -4,14 +4,16 @@ category: post
 layout: post
 ---
 
-__This is the first in a series documenting the process of building
+This is the first in a series documenting the process of building
 out an example application for the [Seneca.js framework](http://senecajs.org/), which is built
 around the concept of microservices. This post is more
 about the theory behind microservices though, to lay the groundwork
-for future posts as I embark on this journey.__
+for future posts as I embark on this journey.
 
 __[NearForm](http://nearform.com) is paying for the development work,
 but blogging about it is all me.__
+
+<!--more-->
 
 _To take on this project I am going to be operating as an independent contractor for the next few months,
 which means I am still open to new work, on a contract or permanent basis._

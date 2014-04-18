@@ -12,19 +12,23 @@ layout: post
 {% endcapture %}
 
 
-<div class='img-wrapper'>
-   <a href='https://werewolves.io'><img alt='werewolves.io' src='/img/portfolio/werewolves.lobby.png' /></a>
-</div>
-
-<div class='bs-callout-info bs-callout'>
- {{preface || markdownify}}
-</div>
-
 [Werewolves.io](http://werewolves.io) is a VOIP-based multiplayer game for 7-16 players.
 
 While the first iteration of this application was built in 48 hours as our entry into the 2013 [Node Knockout Hackathon](http://nodeknockout.com), we were not able to complete it in that time.
 
 I subsequently revisited the project and completely refactored the code, wrote hundreds of units tests and even bots to allow me to test it more easily.
+
+<!--more-->
+
+<div class='img-wrapper'>
+   <a href='https://werewolves.io'><img alt='werewolves.io' src='/img/portfolio/werewolves.lobby.png' /></a>
+</div>
+
+
+
+<div class='bs-callout-info bs-callout'>
+ {{preface || markdownify}}
+</div>
 
 The team consisted of:
 

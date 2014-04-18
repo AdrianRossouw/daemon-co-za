@@ -16,9 +16,9 @@ __There is a bug which causes node to crash at the moment. I have set up a cronj
 It has been released under a MIT license and the [source is available on GitHub](https://github.com/Vertice/helvetica-cardigan).
 {% endcapture %}
 
-<div class='bs-callout-info bs-callout'>
- {{preface || markdownify}}
-</div>
+{{preface || markdownify}}
+
+<!--more-->
 
 {% if page.iframe %}
 <div class='iframe-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12'>

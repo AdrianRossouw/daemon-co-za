@@ -2,14 +2,16 @@
 {% include mailchimp.html %}
 
 <section class='about'>
-  <h4>About Adrian Rossouw</h4>
-    {% include profile.html %}
+<h3>About Adrian Rossouw</h3>
+{% include profile.html %}
 </section>
-    
-<h4>Latest Posts</h4>
+
+<section class='latest'>
+<h3>Latest Posts</h3>
 <ul class='nav nav-list'>
     {% for article in site.categories.post %}
     <li><a href='{{article.url}}'>{{article.title}}</a></li>
     {% endfor %}
 </ul>
+</section>
 

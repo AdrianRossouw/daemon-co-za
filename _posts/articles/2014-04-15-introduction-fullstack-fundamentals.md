@@ -6,6 +6,8 @@ category: post
 
 This is the start of a series of posts that will detail the minimum knowledge I deem necessary to become a competent full-stack developer. In recent weeks, I have found myself acting as mentor to several friends and acquaintances, and it has become clear that sharing this knowledge in writing is going to be far more efficient and practical.
 
+<!--more-->
+
 _I'm still open to new projects, please check out my [online portfolio](/portfolio) and reach out if you think you have an interesting challenge for me._
 
 

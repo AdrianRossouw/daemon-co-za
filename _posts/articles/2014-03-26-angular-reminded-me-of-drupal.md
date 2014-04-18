@@ -16,13 +16,14 @@ images:
 
 
 ---
-<div class='bs-callout bs-callout-info'>
 <p><strong>This post has nothing to do with any technical similarity
 between the two systems.</strong></p>
-<p>It is the conclusion of a series of posts, in which
+
+It is the conclusion of a series of posts, in which
 I have attempted to understand why my <a href='/2014/03/wrong-to-be-afraid-of-angular'>instincts were telling me to avoid
-Angular.js</a> at all costs.</p>
-</div>
+Angular.js</a> at all costs.
+
+<!--more-->
 
 _Also, I'm currently "between challenges". 
 If you have anything that you think would interest me,

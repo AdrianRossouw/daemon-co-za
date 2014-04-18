@@ -3,15 +3,15 @@ title: 'From The Trenches: CDN-hosted JavaScript Represents an Additional Point 
 layout: post
 category: post
 ---
-<div class='bs-callout-info bs-callout'>
 This is the first in a new series of articles on painful lessons that I have learnt from real problems I have faced in the past.
 This is an effort to stop future generations from running into the same mistakes, or at the very least, it will give them
 something to find via google when they get stumped.
-</div>
 
 Since I'm still busy collecting my thoughts on [why I was afraid of angular](http://daemon.co.za/2014/03/why-wrong-to-be-afraid-angular),
 specifically illustrating what about the inferred dependency feature worries me so much, I decided to take a break from the topic to start
 publishing some of my war stories.
+
+<!--more-->
 
 _Also, I'm currently "between challenges". 
 If you have anything that you think would interest me,
