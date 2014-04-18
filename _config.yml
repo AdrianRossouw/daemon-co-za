@@ -1,4 +1,4 @@
-paginate: 4
+paginate: 8
 exclude:
   - README.md
   - .gitignore
