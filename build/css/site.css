@@ -5888,11 +5888,11 @@ h4 {
   line-height: 30px;
 }
 .navbar {
+  border: none;
   background: #333;
-  color: #ddd;
+  color: #666;
   border-bottom: 1px solid #999;
   margin-bottom: 1.5em;
-  padding-top: 2.5em;
   padding-bottom: 1em;
   border-radius: 0;
   text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.7);
@@ -5900,9 +5900,6 @@ h4 {
 }
 .navbar a {
   color: #56c812;
-}
-.navbar .navbar-header {
-  padding-left: 15px;
 }
 .navbar .navbar-brand {
   font-family: 'Exo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -5922,13 +5919,31 @@ h4 {
 .navbar .navbar-nav a:hover {
   color: #56c812;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 4px;
 }
 .navbar .navbar-nav li.active a {
   color: #8cef51;
 }
-.navbar {
-  background-image: url('../img/escheresque_ste.png');
+.navbar,
+.fullscreen-img {
+  display: block;
+  position: relative;
+  min-width: 100%;
+  min-height: 200px;
+}
+.navbar .fullscreen-img {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  background: url('/img/header/succulent2.jpg') center center no-repeat;
+  background-size: cover;
+  max-height: 450px;
+}
+.navbar .overlay {
+  margin-top: 2em;
+  display: block;
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
 }
 #footer {
   background: #efefef;

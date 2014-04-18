@@ -19,8 +19,6 @@ This series will run for as long as it needs to, and has no time limit. I am not
 
 Since I will base this on weekly sessions with two of my students, they should be available every week or so. I'll also be involving my friend [André Ellis](http://uberellis.com/) to do some illustration work, so they will hopefully be more visually arresting than a wall of text.
 
-{% include mailchimp.html %}
-
 ### Intended Audience
 
 This series is going to assume that you have at least some familiarity with web development, and quite likely that you are already working in the industry in some form or another.
