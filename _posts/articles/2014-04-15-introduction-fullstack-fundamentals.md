@@ -61,7 +61,7 @@ I'm going to avoid rewriting things that exist on the internet, so I will only c
 * Async + Events (enough to explain db calls).
 * NoSQL Databases (CouchDB).
 * Streams (local and network).
-* Columnar Data (arrays/lists)
+* Linear Data (arrays/lists)
 * Iteration + Aggregation
 * Functional Programming (underscore/lodash)
 * __The Browser Environment.__
