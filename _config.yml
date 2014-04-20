@@ -1,6 +1,7 @@
 paginate: 8
 exclude:
   - README.md
+  - gulp
   - .gitignore
   - bower_components
   - node_modules
