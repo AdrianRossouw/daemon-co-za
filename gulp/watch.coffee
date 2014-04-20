@@ -7,7 +7,7 @@ gulp.task "watch", ["default"], ->
   server ?= livereload()
 
   gulp.watch "less/**", ["less"]
-  gulp.watch "build/**", ["copy-build"]
+  gulp.watch "build/**", ["build"]
   gulp.watch [
     "index.html"
     "_posts/**"
