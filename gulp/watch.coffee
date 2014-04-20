@@ -1,4 +1,5 @@
 gulp = require("gulp")
+watch = require("gulp-watch")
 livereload = require('gulp-livereload')
 
 server = null
@@ -15,6 +16,8 @@ gulp.task "watch", ["default"], ->
     "_layouts/**"
     "portfolio/**"
   ], ["jekyll"]
-  gulp.watch "_site/**", (file) ->
-    server.changed file.path
+
+  watch glob: "_site/**", (files) ->
+    console.log(files)
+    server.changed file.path for file in files
 
