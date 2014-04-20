@@ -17,7 +17,7 @@ gulp.task "watch", ["default"], ->
     "portfolio/**"
   ], ["jekyll"]
 
-  watch glob: "_site/**", (files) ->
-    console.log(files)
-    server.changed file.path for file in files
+  #  watch glob: "_site/**", (files) ->
+  #  console.log(files)
+  #server.changed file.path for file in files
 
