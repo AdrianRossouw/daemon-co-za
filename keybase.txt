@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/adrianrossouw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://daemon.co.za
+  * I am adrianrossouw (https://keybase.io/adrianrossouw) on keybase.
+  * I have a public key with fingerprint 2D21 FDAE AEB8 71AC 89F1  105D 9AC1 7A0B A656 E74C
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "2d21fdaeaeb871ac89f1105d9ac17a0ba656e74c",
+            "host": "keybase.io",
+            "key_id": "9ac17a0ba656e74c",
+            "uid": "e47eab9b79dfe10b71635e29230b7600",
+            "username": "adrianrossouw"
+        },
+        "service": {
+            "hostname": "daemon.co.za",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398086049,
+    "expire_in": 157680000,
+    "prev": "d5a3a125d886b580868965c0f94b0da1da4e9cdbcfbf04fad44634aba323d2b3",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.8
+Comment: https://keybase.io/crypto
+
+yMHyAnicbZFtSBVZHMbv1VbrZpZwTXIzYqQVy2TeXy64klJuZpJ4DUXjcs7Mmetg
+zlxn5nrVi7rusruBIruQCLvuksKyaPVhdasPIl1UetOI6MsSvZIQCcld34IlX86I
+fWu+nJnz/J7n+Q//6T2JLo+bflVz9NpXKzXumdhq2FVZdWAwSkBDaSV8UaIBbR2q
+pgeRGTI13SZ8BK3QlKoABBAUBQrIoqRSFMkpEpApAZAQ8ByPBFYm8oh6w3IcOAYC
+C+VrBr7DHwFNwbef4cNbAmIFBKAEBUlREUVCgeIZDtESzeB3niQd0EKmDhoRpoFi
+akA3DcsywhGiPY/AUrMmYym61b+N4YEbDT1fNvLbAA4ImYZtyMZFrNTbdsjnGO3W
+kENGEAxsZwSgpiv457GhGZmWZuiEj8KkbGtOKMVIIinyJCvlEaglpJkooDkEJ/Ai
+iR+nBjU75RxgAEVziijykHM8osRzMqlKLCQVQCmARZKsQFmFKsmqQGFZnmEBBAzN
+KDRkcL+FmnSD8DF4TBDEkZYW1IEdNhHRPhmr2+Fye1xJXyQ463N5du37tNRlV/I6
+1fvhIPnf+2dT/fqV79+eqOo5PFXi/TPq/a6r+ss317up1Zaqn3+bGL6sPDDKy8W6
+4jOnmdqh7LTb4xNj3P/CyW4wUP3wr8KfyuJra1k/Brl4Zrjwau6p43cjyaWddUML
+wd6CyUf+52d3dj5ZfHpj+HGHf/ybmXfB/UWCuhQZbLFHkFmcEGuAyXMvV24upvV/
+vfDPcsrucG675/eP7vmcrqRoNlOTHi9ITVlKr/Sv3xm61dQWY7K+na0oSb30w0rF
+oT4Z7J0KLJUmrmbEX89tdJT9Ucu+mJ/75ULYvy7L945seEeL/mb/RQMZx85l9oVG
+RvnZ89P9Y+PVlnfs156c+5t4CxXq
+=8lSc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adrianrossouw
+
+==================================================================
