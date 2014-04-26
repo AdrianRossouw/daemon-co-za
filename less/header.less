@@ -43,21 +43,53 @@
 
 }
 
-.navbar,
-.fullscreen-img {
+.navbar {
     display:block;
     position:relative;
     min-width:100%;
-    min-height:200px;
+    min-height:120px;
+    height: 100%
 }
 
-.navbar .fullscreen-img {
+.navbar.normal {
+  min-height: 240px;
+}
+
+.navbar.large {
+  min-height: 480px;
+}
+
+.navbar.full {
+  min-height: 960px;
+}
+
+.fullscreen-img {
+  .navbar;
+ 
+}
+ 
+.normal .fullscreen-img {
+  min-height: 240px;
+}
+
+.large  .fullscreen-img{
+  min-height: 480px;
+}
+
+.full  .fullscreen-img{
+  min-height: 960px;
+}
+
+.navbar {
+
+  .fullscreen-img {
     display:block;
     position:absolute;
     z-index:1;
-  background: url('/img/header/succulent2.jpg') center center no-repeat;
-  background-size:cover;
-  max-height: 450px;
+    background: url('/img/header/succulent2.jpg') center center no-repeat;
+    background-size:cover;
+  }
+  
 }
 .navbar .overlay {
     margin-top: 2em;
