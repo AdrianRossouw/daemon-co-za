@@ -166,4 +166,4 @@ area but having a broad working knowledge in many other related areas. Way befor
 
 Everything old is new again.
 
-[Discussion on the /r/FullStack subreddit](http://www.reddit.com/r/FullStack/comments/24534d/what_does_fullstack_mean/)
+__[Discussion on the /r/FullStack subreddit](http://www.reddit.com/r/FullStack/comments/24534d/what_does_fullstack_mean/)__
