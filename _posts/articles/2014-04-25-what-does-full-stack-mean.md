@@ -162,6 +162,6 @@ how the parts fit together, and the reasons for things working that way. Whateve
 larger one.
 
 This is not a new idea either. There is a much older term called ["T-Shaped Skills"](http://en.wikipedia.org/wiki/T-shaped_skills), that are defined as having a deep specialization in one
-area but having a broad working knowledge in many other related areas. Way before that, people who aimed for this were called Reneissance Men.
+area but having a broad working knowledge in many other related areas. Way before that, people who aimed for this were called renaissance men.
 
 Everything old is new again.
