@@ -6127,15 +6127,25 @@ img.avatar {
 .sidebar .latest li a:hover {
   border-left: 4px solid #aaa;
 }
+.figure-wrapper {
+  margin: 0.5em 1em;
+  overflow: hidden;
+  display: block;
+  max-width: 800px;
+  margin: 1em auto;
+}
+.figure-wrapper img {
+  width: 100%;
+}
 .img-wrapper {
   margin: 0.5em 1em;
   overflow: hidden;
   display: block;
-  border: 1px solid #444;
   max-width: 800px;
+  margin: 1em auto;
+  border: 1px solid #444;
   box-shadow: 0 0 2px #444;
   border-radius: 4px;
-  margin: 1em auto;
 }
 .img-wrapper img {
   width: 100%;
@@ -6144,11 +6154,11 @@ img.avatar {
   margin: 0.5em 1em;
   overflow: hidden;
   display: block;
-  border: 1px solid #444;
   max-width: 800px;
+  margin: 1em auto;
+  border: 1px solid #444;
   box-shadow: 0 0 2px #444;
   border-radius: 4px;
-  margin: 1em auto;
   padding: 0;
 }
 .iframe-wrapper img {
