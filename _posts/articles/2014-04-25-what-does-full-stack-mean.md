@@ -49,7 +49,7 @@ I think it is a valid definition, because it really depends on what you consider
 ### Defining Feature
 You can build the front-end and back-end of a site on your own. You can set up and manage the servers, configure and maintain the database.
 
-### Required Knowledge
+### Required Skills
 
 You will need to know at least one programming language for the front-end, and one programming language for the back-end. Since the front-end has to be JavaScript, choosing JavaScript for the back-end means you are done.
 
@@ -88,7 +88,7 @@ From this perspective, you are looking as the "stack" as being the entire distri
   <footer>Keith Adams</footer>
 </blockquote>
 
-## Required Skills
+### Required Skills
 
 You need to have a solid level of experience in a few different languages (you shouldnt just be a "all i know is java so i do everything in java" programmer). Industry best practices such as version control, testing and backups, and various development metholodogies will be second nature to you at this point.
 
