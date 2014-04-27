@@ -165,3 +165,5 @@ This is not a new idea either. There is a much older term called ["T-Shaped Skil
 area but having a broad working knowledge in many other related areas. Way before that, people who aimed for this were called renaissance men.
 
 Everything old is new again.
+
+[Discussion on the /r/FullStack subreddit](http://www.reddit.com/r/FullStack/comments/24534d/what_does_fullstack_mean/)
