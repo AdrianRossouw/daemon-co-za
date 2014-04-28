@@ -143,7 +143,7 @@ You need to be able to understand what matters to your collaborators, and avoid 
 Nobody likes being told they are wrong, and nobody likes admitting that they are.
 
 All of your know-how isn't going to make any difference to a project if you aren't able to share what you know in a way
-that your team will be able to make us of it. This goes beyond just logically arguing a point, and requires you to strike the right
+that your team will be able to make use of it. This goes beyond just logically arguing a point, and requires you to strike the right
 tone and share the right message.
 
 You will also need to be able to swallow your pride, and just do what needs to be done. You need to acknowledge that you can't know everything
