@@ -11,8 +11,6 @@ I also can't foresee any situation where there is a solid technical reason for c
 
 <!--more-->
 
-_I'm still open to new projects, please check out my [online portfolio](/portfolio) and reach out if you think you have an interesting challenge for me._
-
 ## Why MongoDB?
 
 __I'm looking for the cases where MongoDB was the right technical decision to make.__ I'm finding it really difficult to cut through the FUD to find any really impartial information about it.

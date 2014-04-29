@@ -8,9 +8,6 @@ This is the start of a series of posts that will detail the minimum knowledge I 
 
 <!--more-->
 
-_I'm still open to new projects, please check out my [online portfolio](/portfolio) and reach out if you think you have an interesting challenge for me._
-
-
 ### This is a Roadmap, Not a Recipe Book 
 
 My goal is going to be to explain all of the layers of the web development environment, the concepts at play within each layer, and how all of them interact.

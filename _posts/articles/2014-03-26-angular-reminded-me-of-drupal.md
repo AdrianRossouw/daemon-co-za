@@ -25,10 +25,6 @@ Angular.js</a> at all costs.
 
 <!--more-->
 
-_Also, I'm currently "between challenges". 
-If you have anything that you think would interest me,
-please check out my [online portfolio](/portfolio)._
-
 ### Conflicting Emotions
 
 <div class='img-wrapper'>

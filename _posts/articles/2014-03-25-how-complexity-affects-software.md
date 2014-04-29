@@ -10,10 +10,6 @@ This is the second in a series of notes I have made about an enlightening presen
 
 {% include terms.html %}
 
-_Also, I'm currently "between challenges". 
-If you have anything that you think would interest me,
-please check out my [online portfolio](/portfolio)._
-
 ### The Parable of the USB Rat's Nest
 
 <blockquote>

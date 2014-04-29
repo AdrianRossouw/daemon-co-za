@@ -13,10 +13,6 @@ publishing some of my war stories.
 
 <!--more-->
 
-_Also, I'm currently "between challenges". 
-If you have anything that you think would interest me,
-please check out my [online portfolio](/portfolio)._
-
 ### Using a public JS CDN is inappropriate for anything more complex than a JSFiddle.
 
 This really flies in the face of currently accepted best practices, but in the last 6 months I have

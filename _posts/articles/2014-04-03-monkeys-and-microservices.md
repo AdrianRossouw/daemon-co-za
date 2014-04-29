@@ -15,11 +15,6 @@ but blogging about it is all me.__
 
 <!--more-->
 
-_To take on this project I am going to be operating as an independent contractor for the next few months,
-which means I am still open to new work, on a contract or permanent basis._
-
-_Check out my [online portfolio](/portfolio)
-and please get in touch with me if you think you have a project that would interest me._
 {% capture intro %}
 ## The Parable of the Programmable Primate
 

@@ -12,10 +12,6 @@ This article is about what I took away from my experiment on a more intellectual
 
 <!--more-->
 
-_Also, I'm currently "between challenges". 
-If you have anything that you think would interest me,
-please check out my [online portfolio](/portfolio)._
-
 ### When it was all said and done ...
 
 The parts of [Angular.js](http://angularjs.org/) that caused me the most apprehension didn't even give

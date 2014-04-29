@@ -14,10 +14,6 @@ While it does become a tad Clojure-specific at times, on the whole it remains br
 
 <!--more-->
 
-_Also, I'm currently "between challenges". 
-If you have anything that you think would interest me,
-please check out my [online portfolio](/portfolio)._
-
 ### Terminology 
 
 Rich starts the presentation by examining the latin roots of the terms, to illustrate their meanings in this context.

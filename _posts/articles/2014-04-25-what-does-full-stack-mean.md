@@ -116,7 +116,6 @@ Many of the definitions have points that have no relation to programming at all,
 The scope here is to consider all of the things that happen on the technical level as just part of a separate tech stack. You now have to be able to consider
 the environment in which these decisions need to be made.
 
-
 ### Defining Feature
 
 Being able to see past the details, and figure out what the user actually needs. Using your

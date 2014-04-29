@@ -14,10 +14,6 @@ critical mistake.
 
 <!--more-->
 
-_Also, I'm currently "between challenges". 
-If you have anything that you think would interest me,
-please check out my [online portfolio](/portfolio)._
-
 {% capture portfolio %}
 __Some people on twitter have been using this article to say that angular sucks. That couldn't be further from the truth.__
 
