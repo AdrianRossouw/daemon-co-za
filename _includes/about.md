@@ -1,4 +1,4 @@
-I am a full-stack JavaScript developer with nearly fifteen years of industry experience.
+I am a [full-stack](/2014/04/what-does-full-stack-mean) JavaScript engineer with [fifteen years of industry experience](/portfolio).
 
 I am currently serving as the CTO of [Wayfinder](http://wayfinder.co), an innovative internet startup based in New York City.
 
