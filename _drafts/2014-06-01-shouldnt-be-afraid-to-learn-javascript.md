@@ -1,6 +1,6 @@
 ---
 published: false
-title: "Why You Shouldn't be Afraid to Learn JavaScript"
+title: "Why you shouldn't be Afraid to Learn Javascript"
 layout: post
 category: post
 ---
