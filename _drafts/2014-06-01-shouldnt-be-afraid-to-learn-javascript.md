@@ -1,5 +1,8 @@
 ---
 published: false
+title: "Why You Shouldn't be Afraid to Learn JavaScript"
+layout: post
+category: post
 ---
 
 JavaScript is the language of the web. It's what every web browser understands, and what enables the advanced functionality and interactivity we've come to associate with modern websites. Technologies like HTML and CSS can *describe* the structure and aesthetics of a web application, but JavaScript is what makes an app come alive. There are many other technologies which can be used to build elements of a full-stack website, but I picked JavaScript for this series because it's the only programming language which can empower the whole stack -- from the user's browser all the way down to the server.
