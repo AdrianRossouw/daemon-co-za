@@ -1,0 +1,4 @@
+<h4>Attributions</h4>
+{% for attrib in page.attributions %}
+  <li><a href='{{attrib.link}}'>{{attrib.title}}</a> by {{attrib.author}}</li> 
+{% endfor %}
