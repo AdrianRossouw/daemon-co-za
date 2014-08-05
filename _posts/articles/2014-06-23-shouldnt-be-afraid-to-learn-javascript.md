@@ -2,6 +2,7 @@
 title: "Why You Shouldn't Be Afraid to Learn Javascript"
 layout: post
 category: post
+published: false
 header: "/img/header/spiral-books.jpg"
 headerClass: "large"
 ---
