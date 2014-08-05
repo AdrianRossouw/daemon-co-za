@@ -9,11 +9,11 @@ recently.
 To make it a little bit more interesting, I used browserify to build the slides themselves. I then used browserify to pull in the
 code that it built back into the slides to use it's own code for the examples!
 
-You can find the [browserify slides](https://vertice.github.io/browserify-slides),
-and the [code used to generate them](https://github.com/Vertice/browserify-slides) on [my github account](https://github.com/Vertice).
+You can find the [browserify slides](https://adrianrossouw.github.io/browserify-slides),
+and the [code used to generate them](https://github.com/AdrianRossouw/browserify-slides) on [my github account](https://github.com/AdrianRossouw).
 
 <div class='img-wrapper'>
-   <a href='http://vertice.github.io/browserify-slides'><img alt='browserify introduction slides' src='/img/browserify.png' /></a>
+   <a href='http://adrianrossouw.github.io/browserify-slides'><img alt='browserify introduction slides' src='/img/browserify.png' /></a>
 </div>
 
 #### Build Tools
@@ -27,7 +27,7 @@ If I were to do it over today, I would definitely be using [gulp](http://gulpjs.
 #### Other Tools
 
 [Disc](https://github.com/hughsk/disc)
-is a tool that visualizes the module tree of the bundle generated, allowing you to catch files that might have been included in error, and it is definitely my [favorite slide in the deck](http://vertice.github.io/browserify-slides/#/disco).
+is a tool that visualizes the module tree of the bundle generated, allowing you to catch files that might have been included in error, and it is definitely my [favorite slide in the deck](http://adrianrossouw.github.io/browserify-slides/#/disco).
 
 I used [Impress.js](http://bartaz.github.io/impress.js/) and a couple of other libraries to make it look nice. Impress was especially fun to mess about with, as it presents you with a css3d virtual space to distribute your slides on while it zooms between them.
 
