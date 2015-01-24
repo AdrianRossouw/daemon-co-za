@@ -12,11 +12,13 @@ Instead of building a single application, why not build many applications that c
 
 While they do have a lot of promise of being much more developer friendly, flexible and scaleable, there is no such thing as a silver bullet, and every benefit comes with some drawbacks.
 
+__This is the slide deck for a recent presentation I gave on the topic.__  
+__Arrow keys or space navigates between the slides.__  
+
 <div class='img-wrapper'>
    <a href='http://adrianrossouw.github.io/rise-of-microservices'><img alt='rise of microservices slides' src='/img/rise-microservices.png' /></a>
 </div>
-Use the arrows or space keys to navigate between the slides.  
 
-Originally built for the [Node.js Cape Town user group](http://www.meetup.com/nodecpt/events/199313432/), but I have done the presentation a few times since. The [microservice slides](https://adrianrossouw.github.io/rise-of-microservices), and [source code](https://github.com/AdrianRossouw/rise-of-microservices) are available on [my github account](https://github.com/AdrianRossouw).
+_Originally built for the [Node.js Cape Town user group](http://www.meetup.com/nodecpt/events/199313432/), but I have presented these a couple of times since. The [microservice slides](https://adrianrossouw.github.io/rise-of-microservices), and [source code](https://github.com/AdrianRossouw/rise-of-microservices) are available on [my github account](https://github.com/AdrianRossouw)._
 
 <!--break-->
