@@ -4,7 +4,7 @@ category: post
 layout: post
 ---
 
-[Microservices](http://martinfowler.com/articles/microservices.html) are a very old idea that has picked up a new head of steam, and are becoming a very popular approach to building applications with node.js.  
+[Microservices](http://martinfowler.com/articles/microservices.html) are a very old idea that have picked up a new head of steam, and they are becoming a very popular approach to building applications with node.js.  
 
 I have [written about them in the past](http://daemon.co.za/2014/04/monkeys-and-microservices), but I have many months of experience migrating a monolithic app to a set of services now, so it was a good time to bundle everything up and share the knowledge.
 
