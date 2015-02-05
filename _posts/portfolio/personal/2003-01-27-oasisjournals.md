@@ -15,7 +15,9 @@ tags:
  - css
  - gimp
  - inkscape
-ongoing: true
+end_date: "2014-12-01"
+print: false
+published: false
 ---
 I rescued an online community for queer and questioning youth I had been involved with as a teenager from complete collapse, after the commercial CMS used for the site suffered a catastrophic meltdown.
 

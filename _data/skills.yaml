@@ -1,24 +1,26 @@
 - Javascript
 - Node.js
-- CouchDb
-- ElasticSearch
+- Microservices
+- Websockets
+- Real-time
+- Docker
+- React.js
 - Backbone.js
 - Marionette.js
 - Angular.js
-- Coffeescript
-- Bootstrap
 - D3.js
-- Socket.io
-- Less
-- Jade
-- Responsive Design
-- Jekyll
-- GeoData
-- Continuous Integration
-- Drupal
-- PHP
-- Cordova
-- MySQL
+- Famo.us
+- CouchDb
+- ElasticSearch
+- MongoDB
 - PostgreSQL
+- MySQL
 - Python
-- SVG
+- PHP
+- Coffeescript
+- Less
+- Sass
+- Jade
+- GeoData
+- Responsive Design
+- Continuous Integration
