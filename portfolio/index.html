@@ -72,7 +72,9 @@ layout: default
     <section class='col-md-7 col-md-pull-5 projects'>
       <h2>Selected Projects</h2>
       {% for project in site.categories.project %}
-        {% include project.html %}
+        {% unless job.hide %}
+          {% include project.html %}
+        {% endunless %}
       {% endfor %}
     </section>
 
