@@ -14,6 +14,7 @@ tags:
   - continuous-integration
 print: true
 ---
-Responsible for the design and implementation of a distinctive knowledge sharing tool oriented around building narrative around lists of links.
-
-Lead our team of five full-stack developers in the process of migrating to a microservice based architecture, with a brand new front-end written in React.js. The devops side was handled by a custom Docker based tool that we used to deploy all our services.
+1. **Knowledge Sharing Tool Creation:** Conceptualized and executed a unique tool focused on crafting narratives around link lists, augmenting knowledge sharing capabilities within the team.
+2. **Front-End Overhaul:** Transitioned from an inefficacious Ember front-end to a more streamlined React-based front-end, while simultaneously shifting from monolithic architecture to microservices on the back-end.
+3. **Microservice Management:** Pioneered a custom Docker-based tool designed specifically for efficient microservice deployments.
+4. **Leadership & Agile Adoption:** Directed a team of five full-stack developers, proficiently managing sprints and successfully incorporating agile development methodologies.
